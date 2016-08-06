@@ -1,0 +1,31 @@
+---
+layout: post
+image:
+  feature: https://ciscodude.net/images/snow-dust.jpg
+  credit: Theo Baschak
+  creditlink: https://www.flickr.com/photos/theodorebaschak/
+title: "ESXi 6up2"
+date: 2016-05-22 01:55:49 -0500
+comments: false
+share: true
+description: "I recently installed VMware ESXi 6.0 Update 02 aka VMware vSphere Hypervisor on a server, and using the new VMware Host Client at https://hostip/ui/ was able to fully set up a Debian 8/Jessie guest using only the trial license. The HTML console was quite functional, and the OSX Remote Console application also launched and connected correctly and quickly."
+categories:
+- Nerd Projects
+- CLI
+- Security
+- Virtualization
+- System Administration
+---
+I recently installed VMware ESXi 6.0 Update 02 aka [VMware vSphere Hypervisor](https://www.vmware.com/products/vsphere-hypervisor) on a server, and using the new VMware Host Client at `https://<hostip>/ui/` was able to fully set up a Debian 8/Jessie guest using only the trial license. The HTML console was quite functional, and the OSX Remote Console application also launched and connected correctly and quickly.
+
+## Mac Admin Friendly
+
+I now no longer have a need to run a Windows VM just to run the vSphere client to administer servers, in fact that way is now deprecated.
+
+One of the things which excites me greatly was the fixing of launching the OSX VMware Remote Console application and connecting to the right console session. This functionality was broken in previous versions that I'd run, and I had to execute console sessions by running `open vmrc://user@ip/?moid=3` where the `moid` was the number obtained from the status bar when mousing over a VM. That could be as much related to me upgrading Remote Console to 8.0.1 as upgrading ESXi/Host Client. 
+
+## No Flash!
+
+I haven't seen the use of flash yet! Creating a VM, uploading a Debian netinstall ISO to the datastore, installing the VM, accessing the console via the in-browser method. All have not required the use of flash at all in my observation!
+
+

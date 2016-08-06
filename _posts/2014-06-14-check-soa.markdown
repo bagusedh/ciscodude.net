@@ -1,0 +1,45 @@
+---
+layout: post
+title: "check-soa"
+date: 2014-06-14 14:42:09 -0500
+comments: false
+categories:
+- Networking
+- Nerd Projects
+- Network Monitoring
+- CLI
+- IPv6
+- Programming
+- System Administration
+image:
+  feature: https://ciscodude.net/images/snow-dust.jpg
+  credit: Theo Baschak
+  creditlink: https://www.flickr.com/photos/theodorebaschak/
+share: true
+---
+check-soa is a CLI tool written in go which lets a DNS name server administrator easily verify that all servers listed as authoritative are in sync and serving the same zone by verifying the SOA record. I use this tool nearly every day at work to verify that changes have propagated to all slave nameservers.
+
+As you can see, it supports ipv4/ipv6:
+
+{% highlight text %}
+$ check-soa -i ciscodude.net
+ns0.ciscodude.net.
+	2604:4280:d000:11::6: OK: 2014061301 (0 ms)
+	199.202.21.6: OK: 2014061301 (0 ms)
+ns2.henchman21.net.
+	107.170.63.61: OK: 2014061301 (44 ms)
+ns3.hcdn.pw.
+	206.220.199.250: OK: 2014061301 (1 ms)
+$ check-soa -i 21.202.199.in-addr.arpa
+ns0.ciscodude.net.
+	199.202.21.6: OK: 2014061401 (0 ms)
+	2604:4280:d000:11::6: OK: 2014061401 (0 ms)
+ns2.henchman21.net.
+	107.170.63.61: OK: 2014061401 (43 ms)
+ns3.hcdn.pw.
+	206.220.199.250: OK: 2014061401 (0 ms)
+{% endhighlight %}
+
+The project is [hosted at github.com/bortzmeyer/check-soa](https://github.com/bortzmeyer/check-soa).
+
+I've found that it doesn't build with the bundled version of golang in Debian wheezy, I had to install the latest stable binary package to resolve hash/tsig related errors.

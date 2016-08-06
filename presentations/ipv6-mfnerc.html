@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Theo Baschak" />
+  <title>MFNERC Needs IPv6</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://ciscodude.net/vendor/reveal.js.old/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="https://ciscodude.net/vendor/reveal.js.old/css/theme/simple.css" id="theme">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://ciscodude.net/vendor/reveal.js.old/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+    <!--[if lt IE 9]>
+    <script src="https://ciscodude.net/vendor/reveal.js.old/lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">MFNERC Needs IPv6</h1>
+    <h2 class="author">Theo Baschak</h2>
+    <h3 class="date">Infrastructure Group</h3>
+</section>
+
+<section id="overview" class="slide level1">
+<h1>Overview</h1>
+<ul>
+<li>The Internet is Critical to MFNERC daily operations.</li>
+<li>The Looming Problem: IPv4 Exhaustion</li>
+<li>Implications of IPv4 Exhaustion to MFNERC</li>
+<li>IPv6: The solution</li>
+<li>Risks Involved</li>
+<li>What will deploying IPv6 cost?</li>
+<li>Conclusion and Call for Action</li>
+</ul>
+</section>
+<section id="internet-criticality" class="slide level1">
+<h1>Internet Criticality</h1>
+<ul>
+<li>MFNERC is a Service Provider:
+<ul>
+<li>School Information System</li>
+<li>Wapaskwa Virtual Collegiate</li>
+<li>MFNEDU.org school email</li>
+<li>Video Conferencing services</li>
+</ul></li>
+<li>Internet issues and outages now affect many internal and external staff, and students.</li>
+<li>E-mail communications also very important to the organization.
+<ul>
+<li>Example: Spam blacklisting noticed immmediately.</li>
+</ul></li>
+</ul>
+</section>
+<section id="ipv4-exhaustion" class="slide level1">
+<h1>IPv4 Exhaustion</h1>
+<ul>
+<li>IPv4 Exhaustion has been a topic for many years.
+<ul>
+<li>Already a reality in Europe and Asian IP networks.</li>
+<li>ARIN hit 1x aggregate /8 left April 23.</li>
+<li>ARIN was at 2x /8 when we started BGP process in Sept 2013.</li>
+</ul></li>
+<li>There will be a point very soon when no more IPv4 addresses are available.
+<ul>
+<li>Expected to be 2014 or 2015.</li>
+</ul></li>
+<li>IPv6 Planned, Tested, and Ready to roll much better place to be than caught with pants down
+<ul>
+<li>Big Bang implementations risky and costly</li>
+</ul></li>
+</ul>
+</section>
+<section id="org-ip-needs" class="slide level1">
+<h1>Org IP Needs</h1>
+<ul>
+<li>MFNERC has 1x /24 allocated to it from ARIN.
+<ul>
+<li>256 IP addresses (minus subnetting overhead)</li>
+</ul></li>
+<li>Currently using roughly 40 IP Addresses between Shaw, Commstream, and our BGP.</li>
+<li>More IP Addresses will be needed for VC Units, and other new MFNERC Services.
+<ul>
+<li>These all require Public IPs.</li>
+</ul></li>
+</ul>
+</section>
+<section id="solution-ipv6" class="slide level1">
+<h1>Solution: IPv6</h1>
+<ul>
+<li>Base IPv6 specs defined in 1998, 15+ years ago now.</li>
+<li>Much larger address space:
+<ul>
+<li>IP version 4:
+<ul>
+<li>32 bits</li>
+<li>ex: 206.220.195.237</li>
+<li>Smallest ARIN allocation: /24</li>
+<li>LAN Subnet Size: /24</li>
+</ul></li>
+<li>IP version 6:
+<ul>
+<li>128 bits</li>
+<li>ex: 2604:4280:d00d:202:8d45:516d:c5e0:ec67</li>
+<li>Smallest ARIN allocation: /48</li>
+<li>Enough for 65536 /64 Networks</li>
+<li>LAN Subnet Size: /64</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="risks" class="slide level1">
+<h1>Risks</h1>
+<ul>
+<li>Risks of Inaction:
+<ul>
+<li>Inability to connect to new IPv6 subscribers (students) and content</li>
+<li>Optics: Falling behind the curve</li>
+<li>Increased MFNERC network complexity with more NAT</li>
+</ul></li>
+<li>Risks of Action:
+<ul>
+<li>New unknown security risks with new unknown transport protocol</li>
+<li>Introducing new protocol to network</li>
+<li>v4/v6 feature parity not entirely there, some things won’t be possible at this time</li>
+</ul></li>
+</ul>
+</section>
+<section id="deployment-costs" class="slide level1">
+<h1>Deployment Costs</h1>
+<ul>
+<li>Switches: IPv6 ready</li>
+<li>BGP Routers: IPv6 ready</li>
+<li>Firewalls: Cisco ASA: IPv6 ready, Watchguard: IPv6 ready</li>
+<li>OSs:
+<ul>
+<li>Windows 2008 R2: IPv6 ready</li>
+<li>Windows 2012: IPv6 ready</li>
+<li>Windows 7 SP1: IPv6 ready</li>
+<li>Windows 8: IPv6 ready</li>
+<li>Win XP: Being phased out rapidly within MFNERC already</li>
+</ul></li>
+<li>PBX: NOT IPv6 ready</li>
+<li>Phones: NOT IPv6 ready</li>
+<li>Address Space: $500 one time to ARIN, $100/yr to maintain</li>
+</ul>
+</section>
+<section id="conclusion" class="slide level1">
+<h1>Conclusion</h1>
+<ul>
+<li><p>I strongly encourage MFNERC to pursue IPv6 in 2014.</p></li>
+<li><p>Presentation source/download available at <a href="https://github.com/tbaschak/ipv6-mfnerc">github</a></p></li>
+</ul>
+</section>
+    </div>
+  </div>
+
+
+  <script src="https://ciscodude.net/vendor/reveal.js.old/lib/js/head.min.js"></script>
+  <script src="https://ciscodude.net/vendor/reveal.js.old/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: 'default', // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'https://ciscodude.net/vendor/reveal.js.old/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https://ciscodude.net/vendor/reveal.js.old/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'https://ciscodude.net/vendor/reveal.js.old/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'https://ciscodude.net/vendor/reveal.js.old/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'https://ciscodude.net/vendor/reveal.js.old/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+    </body>
+</html>

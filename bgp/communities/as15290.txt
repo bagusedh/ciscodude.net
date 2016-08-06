@@ -1,0 +1,50 @@
+CUSTOMER COMMUNITIES:
+
+MTS Allstream customers may choose to affect our
+local preference from their routers by setting their
+routes with the following BGP communities:
+
+    Community  Definition Description
+    ---------  ---------- -----------
+    (default)  Local preference = 100  customer
+    15290:100  Local preference = 100  customer primary
+    15290:90   Local preference = 90  customer back-up
+    15290:30   Local preference = 30  customer fall-back
+
+If a multi-homed customer sets the community to
+15290:30,  MTS Allstream will prefer an announcement
+from a peer over directly connected customer
+
+
+Customers may also choose to control their advertisements
+by setting thier routes with following BGP communities:
+
+    15290:333 Don't send to Transit (default)
+    15290:333 15290:100 Don't send to Transit LP=100
+    15290:333 15290:90  Don't send to Transit LP=90
+    15290:444 Send only to BGP downstream (default)
+    15290:444 15290:100 Send only to BGP downstream LP=100
+    15290:444 15290:90  Send only to BGP downstream LP=90
+
+
+PUBLIC/PRIVATE PEERS:
+
+    None (Default) Local pref=80
+    15290:80 Set local pref=80 on AS15290
+    15290:75 Set local pref=75 on AS15290
+
+
+FILTERING POLICIES:
+- We acknowledge MEDs from any:
+    - Public Peer
+- We do not acknowledge MEDs from any:
+    - Private Peer
+    - Downstream Customer
+- MTS Allstream filters RFC1918 and other such
+advertisements with prefixes longer than /24
+- Peering requests/infos should be sent to:
+peering@mtsallstream.com
+- Public Route-Servers are:
+route-server.east.mtsallstream.com
+route-server.central.mtsallstream.com
+route-server.west.mtsallstream.com

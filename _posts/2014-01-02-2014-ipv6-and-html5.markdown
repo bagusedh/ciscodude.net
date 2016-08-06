@@ -1,0 +1,24 @@
+---
+layout: post
+image:
+  feature: https://ciscodude.net/images/snow-dust.jpg
+  credit: Theo Baschak
+  creditlink: https://www.flickr.com/photos/theodorebaschak/
+title: "2014: IPv6 and HTML5"
+date: 2014-01-02 00:05:11 -0600
+comments: false
+categories:
+- Networking
+- IPv6
+---
+I've switched to using a new site/blog engine, [Octopress](http://octopress.org/). It uses markdown, which is my new favourite way of writing things. It lets you focus on writing text, and uses simple wiki-like formatting. It also allows you to intersperse HTML where needed.
+
+{% gist 8223804 %}
+
+<!--more-->
+
+Coming soon, a more in depth article about how to setup a VM for OpenBSD running OpenBGPD as a BGP looking glass, then after that, the same thing with Bird running on FreeBSD or Linux. After that, more IPv6! I think 2014 will turn out to be rather important for IPv6.
+
+I have been very busy this winter on infrastructure related projects. I've [presented](https://github.com/tbaschak/bsideswpg2013-ISPInfoSec) at [BSidesWpg](http://bsideswpg.ca) (a local security conference), turned up several new AS numbers on the internet, moved a giant learning management system from Saskatchewan to Manitoba, and been busy designing big network things. I have also been looking at [BigPlg](https://github.com/ahebert/BigPlg), which looks very interesting indeed.
+
+This new blogging engine makes it super easy to embed a GitHub Gist too!

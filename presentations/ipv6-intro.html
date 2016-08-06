@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Theo Baschak" />
+  <title>IPv6 Introduction</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://ciscodude.net/vendor/reveal.js.old/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="https://ciscodude.net/vendor/reveal.js.old/css/theme/simple.css" id="theme">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://ciscodude.net/vendor/reveal.js.old/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+    <!--[if lt IE 9]>
+    <script src="https://ciscodude.net/vendor/reveal.js.old/lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">IPv6 Introduction</h1>
+    <h2 class="author">Theo Baschak</h2>
+    <h3 class="date">SkullSpace Hackathon</h3>
+</section>
+
+<section id="online-html5-slides" class="slide level1">
+<h1>Online HTML5 Slides</h1>
+<p>Presentation source/download available at <a href="https://github.com/tbaschak/ipv6-intro-presentation">github.com/tbaschak/ipv6-intro-presentation</a></p>
+</section>
+<section id="who-i-am" class="slide level1">
+<h1>Who I Am</h1>
+<ul>
+<li>Primary Network Administrator of VOI Network Solutions – Winnipeg-based commercial Internet Service Provider and carrier.</li>
+<li>Involved with both Internet Exchanges in Winnipeg.
+<ul>
+<li>Elected member on the Board of Directors for MBIX.</li>
+<li>Also involved with the creation and technical operations of WpgIX.</li>
+</ul></li>
+<li>Avid opensource software user/fanatic, and recently, contributor.</li>
+</ul>
+</section>
+<section id="my-life-with-ipv6" class="slide level1">
+<h1>My Life with IPv6</h1>
+<ul>
+<li>Running IPv6 since ~2004.
+<ul>
+<li>Over tunnels for many, many years.</li>
+<li>Native IPv6 since December 2012, via Voi Networks BGP address space.</li>
+</ul></li>
+<li>My own network currently runs IPv6/OSPFv3 routing protocol.
+<ul>
+<li>2604:4280:d00d::/48</li>
+<li>Most ciscodude.net/henchman21.net services are IPv4/IPv6 enabled.</li>
+</ul></li>
+</ul>
+</section>
+<section id="nat-is-stupid" class="slide level1">
+<h1>NAT IS STUPID</h1>
+<ul>
+<li>From a network admin’s perspective at least.</li>
+<li>NAT is NOT a firewall, it rewrites/masquerades source addresses in IP headers, and keeps track of those translations.</li>
+<li>Issues that arise from breaken end-to-end connectivity from NAT:
+<ul>
+<li>Accepting direct Inbound connections of any sort.
+<ul>
+<li>Direct Audio / Video Conferencing.</li>
+<li>P2P Applications (Online Games, Skype, Torrents, etc).</li>
+</ul></li>
+<li>Accountability - Logs/Monitoring outside a NAT lose valuable source details.</li>
+</ul></li>
+</ul>
+</section>
+<section id="ipv6-address-basics" class="slide level1">
+<h1>IPv6 Address Basics</h1>
+<ul>
+<li>The IPv6 address space is 128-bits (2^128) in size, containing 340,282,366,920,938,463,463,374,607,431,768,211,456 IPv6 addresses.</li>
+<li>Like IPv4, Network and Host bits.
+<ul>
+<li>Unlike IPv4, Network and Host bits are usually equal.</li>
+</ul></li>
+<li>1 or more 0 blocks can be shortened/replaced with ::
+<ul>
+<li>Only once per address though.</li>
+</ul></li>
+<li>Leading zero’s can be dropped.</li>
+</ul>
+</section>
+<section id="rfc4291-addressing" class="slide level1">
+<h1>rfc4291: Addressing</h1>
+<ul>
+<li>Valid Host Addresses
+<ul>
+<li>2001:0DB8:0:0:8:0800:200C:417A = 2001:DB8::8:800:200C:417A</li>
+<li>2604:4280:d00d::443 = 2604:4280:d00d:0:0:0:0:443</li>
+<li>2604:4280:14:866::225:2 = 2604:4280:14:866:0:0:225:2</li>
+<li>::1 (loopback) = 0:0:0:0:0:0:0:1</li>
+<li>:: = 0:0:0:0:0:0:0:0</li>
+</ul></li>
+</ul>
+</section>
+<section id="ipv6-address-sample" class="slide level1">
+<h1>IPv6 Address Sample</h1>
+<ul>
+<li>My IPv6 privacy address at the time of writing: 2604:4280:d00d:202:1986:feb8:ccb0:78e1</li>
+<li>Lets break that down:
+<ul>
+<li>Prefix: 2604:4280:d00d</li>
+<li>Network: $PREFIX:202</li>
+<li>Host: 1986:feb8:ccb0:78e1</li>
+</ul></li>
+</ul>
+</section>
+<section id="rfc4291-cont" class="slide level1">
+<h1>rfc4291: (cont)</h1>
+<ul>
+<li>Valid Network Addresses
+<ul>
+<li>2001:0DB8:0000:CD30:0000:0000:0000:0000/60</li>
+<li>2001:0DB8::CD30:0:0:0:0/60</li>
+<li>2001:0DB8:0:CD30::/60</li>
+<li>::/0</li>
+</ul></li>
+</ul>
+</section>
+<section id="rfc4861-arp---nd" class="slide level1">
+<h1>rfc4861: ARP -&gt; ND</h1>
+<ul>
+<li>Uses link-layer multicast instead of broadcast.</li>
+<li>Subcomponents include
+<ul>
+<li>Address Resolution</li>
+<li>Duplicated Address Detection</li>
+<li>Neighbor Unreachability Detection</li>
+</ul></li>
+<li>Makes use of a number of predefined multicast addresses (much like routing protocols)
+<ul>
+<li>all-nodes (FF02::1)</li>
+<li>all-routers (FF02::2)</li>
+</ul></li>
+<li>Many components require use of /64 subnet size.</li>
+</ul>
+</section>
+<section id="slaac-dhcpv6" class="slide level1">
+<h1>SLAAC / DHCPv6</h1>
+<ul>
+<li>DHCP for autoconfiguration has been replaced with SLAAC, and/or DHCPv6.</li>
+<li>SLAAC uses Neighbor Discovery, ICMPv6 RA discovery, to autoconfigure addresses.</li>
+<li>DHCPv6 does not currently send a default gateway, so SLAAC/RA is still required.</li>
+<li>IPv4 untrusted layer 2 issues have followed to IPv6.
+<ul>
+<li>Rogue DHCP -&gt; Rogue RA &amp; Rogue DHCPv6.</li>
+<li>DHCP Snooping -&gt; RA Guard in switches to mitigate.</li>
+</ul></li>
+</ul>
+</section>
+<section id="v4-vs-v6-subnets" class="slide level1">
+<h1>v4 vs v6 Subnets</h1>
+<ul>
+<li>Where a /24 is often used on LANs with IPv4, /64’s are strongly encouraged with IPv6.</li>
+<li>Recommended Site Prefix: /48 allows 64k /64’s.</li>
+<li>Residential providers often using DHCP6pd to allocate /60’s to Customer routers (Including Xplornet).</li>
+<li>Not using a /64 subnet prefix length will break many features of IPv6, including Neighbor Discovery, Secure Neighbor Discovery <a href="http://tools.ietf.org/html/rfc3971">[RFC3971]</a>, privacy extensions <a href="http://tools.ietf.org/html/rfc4941">[RFC4941]</a>, and Site Multihoming by IPv6 Intermediation [SHIM6], among others.</li>
+</ul>
+</section>
+<section id="subnet-example" class="slide level1">
+<h1>Subnet Example</h1>
+<pre><code>2001:db8:c0d0::/44  Example Multisite Company
+    2001:db8:c0d0::/48  Primary Office - Site 1
+        2001:db8:c0d0:10::/64   VLAN10 Servers
+        2001:db8:c0d0:20::/64   VLAN20 Users
+        2001:db8:c0d0:25::/64   VLAN25 Users Wireless
+        2001:db8:c0d0:30::/64   VLAN30 Phones
+        2001:db8:c0d0:300::/64  VLAN300 Guest
+    2001:db8:c0da::/48  Branch Office - Site 11
+        2001:db8:c0da:20::/64   VLAN20 Users
+        2001:db8:c0da:25::/64   VLAN25 Users Wireless
+        2001:db8:c0da:30::/64   VLAN30 Phones
+        2001:db8:c0da:300::/64  VLAN300 Guest
+    2001:db8:c0de::/48  Server Colo - Site 15
+        2001:db8:c0de:10::/64   VLAN10 Servers
+            2001:db8:c0de:10::1     Redundant Default Gateway 1
+            2001:db8:c0de:10::2     Redundant Default Gateway 2
+            2001:db8:c0de:10::25    SMTP Server
+            2001:db8:c0de:10::1:53  Auth DNS 1
+            2001:db8:c0de:10::2:53  Auth DNS 2
+            2001:db8:c0de:10::3:53  Caching DNS 1
+            2001:db8:c0de:10::4:53  Caching DNS 2
+            2001:db8:c0de:10::80    Webserver
+            2001:db8:c0de:10::110   POP3 Server</code></pre>
+</section>
+<section id="privacy-addresses-rfc4941" class="slide level1">
+<h1>Privacy Addresses (rfc4941)</h1>
+<ul>
+<li>Extension to SLAAC.</li>
+<li>New random secondary privacy addresses regenerated periodically.</li>
+<li>Can cause havok for Session based applications which tie the session to your IP (which is often recommended to prevent session hijacking).</li>
+</ul>
+</section>
+<section id="ula-rfc4193" class="slide level1">
+<h1>ULA (rfc4193)</h1>
+<ul>
+<li>Stands for Unique Local IPv6 Unicast Addresses.</li>
+<li>Similar to RFC1918 addresses, for use within LANs and/or isolated/non-connected networks.</li>
+<li>Supposed to be generated using a specific algorithm, they are guaranteed of being somewhat globally unique as well.
+<ul>
+<li><a href="https://www.sixxs.net/tools/grh/ula/">SiXXs ULA Generator</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="transition-mechanisms" class="slide level1">
+<h1>Transition Mechanisms</h1>
+<ul>
+<li>Many methods of translating/tunneling V4 over V6 and vice versa:
+<ul>
+<li>Teredo (v6, over v4 UDP/3544)</li>
+<li>NAT64/DNS64 (v4, over v6)</li>
+<li>Stateless IP/ICMP Translation/SIIT (::ffff:0:a.b.c.d)</li>
+<li>6rd (v6, over v4)</li>
+</ul></li>
+</ul>
+</section>
+<section id="freebsd-server" class="slide level1">
+<h1>FreeBSD Server</h1>
+<ul>
+<li><p><code>/etc/rc.conf</code> snippet</p>
+<pre><code>ifconfig_em0_ipv6=&quot;inet6 2001:db8:c0de:10::443/64&quot;
+ipv6_defaultrouter=&quot;2001:db8:c0de:10::1&quot;</code></pre></li>
+<li>In FreeBSD <code>ipv6_enable=“yes”</code> is required to enable SLAAC.</li>
+<li><p>SLAAC addresses can cause issues for mail and other servers where outbound traffic is expected to originate from a specific address.</p></li>
+</ul>
+</section>
+<section id="debian-server" class="slide level1">
+<h1>Debian Server</h1>
+<ul>
+<li><p><code>/etc/network/interfaces</code> snippet</p>
+<pre><code>iface eth0 inet6 static
+address 2001:db8:c0de:10::78
+gateway 2001:db8:c0de:10::1
+netmask 64
+pre-up echo 0 &gt; /proc/sys/net/ipv6/conf/$IFACE/autoconf</code></pre></li>
+<li><p>The pre-up command disables SLAAC (where required).</p></li>
+</ul>
+</section>
+<section id="resources" class="slide level1">
+<h1>Resources</h1>
+<ul>
+<li><a href="https://ipv6.he.net/certification/">ipv6.he.net/certification/</a></li>
+<li><a href="https://www.sixxs.net/tools/grh/ula/">www.sixxs.net/tools/grh/ula/</a></li>
+<li><a href="https://code.google.com/p/ipvfoo/">ipvfoo chrome extension</a></li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/ipvfox/">ipvfox firefox extension</a></li>
+</ul>
+</section>
+<section id="useful-ipv6-rfcs" class="slide level1">
+<h1>Useful IPv6 RFCs</h1>
+<ul>
+<li><a href="http://tools.ietf.org/html/rfc2460">RFC2460: IPv6 Specification</a></li>
+<li><a href="http://tools.ietf.org/html/rfc6434">RFC6434: IPv6 Node Requirements</a></li>
+<li><a href="http://tools.ietf.org/html/rfc4291">RFC4291: IPv6 Addressing Architecture</a></li>
+<li><a href="http://tools.ietf.org/html/rfc3484">RFC3484: Default Address Selection</a></li>
+<li><a href="http://tools.ietf.org/html/rfc4193">RFC4193: Unique Local IPv6 Unicast Addresses (ULA)</a></li>
+<li><a href="http://tools.ietf.org/html/rfc4443">RFC4443: ICMPv6</a></li>
+<li><a href="http://tools.ietf.org/html/rfc3315">RFC3315: DHCPv6 client</a></li>
+<li><a href="http://tools.ietf.org/html/rfc4862">RFC4862: SLAAC</a></li>
+<li><a href="http://tools.ietf.org/html/rfc4861">RFC4861: Neighbor Discovery</a></li>
+<li><a href="http://tools.ietf.org/html/rfc6177">RFC6177: IPv6 Address Assignment to End Sites</a></li>
+</ul>
+</section>
+<section id="even-more-ipv6-rfcs" class="slide level1">
+<h1>Even More IPv6 RFCs</h1>
+<ul>
+<li><a href="http://tools.ietf.org/html/rfc1981">RFC1981: Path MTU Discovery</a></li>
+<li><a href="http://tools.ietf.org/html/rfc4213">RFC4213: Basic Transition Mechanisms for IPv6 Hosts and Routers</a></li>
+<li><a href="http://tools.ietf.org/html/rfc3596">RFC3596: DNS protocol extensions for incorporating IPv6 DNS resource records</a></li>
+<li><a href="http://tools.ietf.org/html/rfc2671">RFC2671: DNS message extension mechanism</a></li>
+<li><a href="http://tools.ietf.org/html/rfc3226">RFC3226: DNS message size requirements</a></li>
+<li><a href="http://tools.ietf.org/html/rfc5095">RFC5095: Deprecation of Type 0 Routing Headers in IPv6</a></li>
+<li>More info at: http://www.ripe.net/ripe/docs/ripe-554</li>
+<li>BIG GIANT list at: http://ipv6now.com.au/RFC.php</li>
+</ul>
+</section>
+<section id="questions-end" class="slide level1">
+<h1>Questions / End</h1>
+<ul>
+<li>Question &amp; Answer period as time permits.</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Presentation source/download available at <a href="https://github.com/tbaschak/ipv6-intro-presentation">github</a></li>
+</ul>
+</div>
+</section>
+    </div>
+  </div>
+
+
+  <script src="https://ciscodude.net/vendor/reveal.js.old/lib/js/head.min.js"></script>
+  <script src="https://ciscodude.net/vendor/reveal.js.old/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: 'sky', // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'https://ciscodude.net/vendor/reveal.js.old/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https://ciscodude.net/vendor/reveal.js.old/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'https://ciscodude.net/vendor/reveal.js.old/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'https://ciscodude.net/vendor/reveal.js.old/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'https://ciscodude.net/vendor/reveal.js.old/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+    </body>
+</html>

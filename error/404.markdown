@@ -1,0 +1,16 @@
+---
+image:
+  feature: https://ciscodude.net/images/snow-dust.jpg
+  credit: Theo Baschak
+  creditlink: https://www.flickr.com/photos/theodorebaschak/
+layout: page
+title: "404 Not Found"
+comments: false
+sharing: false
+footer: false
+---
+Either you clicked on a bad link, or typed in something that doesn't correspond
+with a page or image on the CiscoDude.net server. 
+
+Perhaps its URL has changed. You can try looking in the [All Posts](/), [Categories](/categories/) or using the sitemap search to locate what you were looking for.
+

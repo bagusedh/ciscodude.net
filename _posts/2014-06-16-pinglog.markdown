@@ -1,0 +1,50 @@
+---
+layout: post
+title: "pinglog"
+date: 2014-06-16 00:12:17 -0500
+comments: false
+categories:
+- Networking
+- Nerd Projects
+- Network Monitoring
+- CLI
+- IPv6
+- Programming
+- ISP
+- System Administration
+image:
+  feature: https://ciscodude.net/images/snow-dust.jpg
+  credit: Theo Baschak
+  creditlink: https://www.flickr.com/photos/theodorebaschak/
+share: true
+---
+I've often wished for a way of logging pings when troubleshooting connectivity problems. Tonight I wrote a few shell scripts to help with this. The first set pings a host (ipv4 or ipv6) and runs date when ping fails to respond within 1 second. This can be handy to show connectivity loss periods.
+
+This is the IPv4 version of the script:
+
+{% gist 20c216f03844de26a68d %}
+
+The other set of scripts simply prepends date: on the beginning of the output piped from ping. Here is the IPv6 version of that script.
+
+{% gist a60842eb3838926186c3 %}
+
+Output from the timestamp prepender:
+
+{% highlight text %}
+| => ./pingtimestamp.bash www.google.ca
+Mon 16 Jun 2014 00:24:43 CDT: PING www.google.ca (74.125.70.94): 56 data bytes
+Mon 16 Jun 2014 00:24:43 CDT: 64 bytes from 74.125.70.94: icmp_seq=0 ttl=39 time=45.593 ms
+Mon 16 Jun 2014 00:24:44 CDT: 64 bytes from 74.125.70.94: icmp_seq=1 ttl=39 time=46.633 ms
+Mon 16 Jun 2014 00:24:45 CDT: 64 bytes from 74.125.70.94: icmp_seq=2 ttl=39 time=46.760 ms
+Mon 16 Jun 2014 00:24:46 CDT: 64 bytes from 74.125.70.94: icmp_seq=3 ttl=39 time=45.417 ms
+Mon 16 Jun 2014 00:24:47 CDT: 64 bytes from 74.125.70.94: icmp_seq=4 ttl=39 time=47.271 ms
+Mon 16 Jun 2014 00:24:48 CDT: 64 bytes from 74.125.70.94: icmp_seq=5 ttl=39 time=44.297 ms
+Mon 16 Jun 2014 00:24:49 CDT: 64 bytes from 74.125.70.94: icmp_seq=6 ttl=39 time=46.806 ms
+Mon 16 Jun 2014 00:24:50 CDT: 64 bytes from 74.125.70.94: icmp_seq=7 ttl=39 time=46.765 ms
+Mon 16 Jun 2014 00:24:51 CDT: 64 bytes from 74.125.70.94: icmp_seq=8 ttl=39 time=48.634 ms
+Mon 16 Jun 2014 00:24:52 CDT: 64 bytes from 74.125.70.94: icmp_seq=9 ttl=39 time=43.894 ms
+Mon 16 Jun 2014 00:24:53 CDT: 64 bytes from 74.125.70.94: icmp_seq=10 ttl=39 time=45.460 ms
+Mon 16 Jun 2014 00:24:54 CDT: 64 bytes from 74.125.70.94: icmp_seq=11 ttl=39 time=44.406 ms
+Mon 16 Jun 2014 00:24:55 CDT: 64 bytes from 74.125.70.94: icmp_seq=12 ttl=39 time=44.899 ms
+^C
+{% endhighlight %}

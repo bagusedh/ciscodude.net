@@ -1,0 +1,25 @@
+---
+layout: post
+title: "IP Quail"
+date: 2014-01-19 02:13:29 -0600
+comments: false
+categories: 
+- Anycast
+- BGP
+- IPv6
+- ISP
+- Nerd Projects
+- Networking
+image:
+  feature: https://ciscodude.net/images/snow-dust.jpg
+  credit: Theo Baschak
+  creditlink: https://www.flickr.com/photos/theodorebaschak/
+external_url: http://ipquail.com/
+---
+I've long been a fan of [IP Chicken](http://www.ipchicken.com/), however it isn't anycasted, and it doesn't support IPv6. I've had a non-anycasted IPv4/IPv6 capable version called [ipfowl](https://github.com/tbaschak/ipfowl) which I run at http://ip.henchman21.net/
+
+Enter my new creation: [IP Quail](http://ipquail.com)
+
+I set out to create my own service which I could host at [HenchCDN](http://henchcdn.com), a local CDN which aims to anycast content via several internet exchanges to be nearer to end users. I purchased [ipquail.com](http://ipquail.com/) and set it up on my two HenchCDN nodes, and after several revisions, I had a web service up and running.
+
+Instead of using PHP, since it only needs to display the REMOTE_ADDR, I changed to using simple SSI. This ensures much higher performance. I'm using [Bootstrap](http://getbootstrap.com) for simplicity, cross platform responsiveness, and to grid and style the page elements. 

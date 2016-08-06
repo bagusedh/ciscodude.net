@@ -1,42 +1,26 @@
 [
 	{
-		"slug": "cool-project",
-		"name": "Cool project 1",
+		"slug": "hextet-api",
+		"name": "Hextet BGP API",
 		"image": "placeholder.jpg",
-		"url": "https://www.google.com",
-		"date": "Jan 2014",
-		"tags": ["Angular JS","API"]
+		"url": "https://github.com/HextetSystems/api-bgp",
+		"date": "June 2016",
+		"tags": ["PHP","CLI","API","BGP"]
 	},
 	{
-		"name": "Cool project 2",
+		"slug": "exabgp-logger",
+		"name": "exabgp logger",
 		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "May 2014",
-		"tags": ["Python","Django"]
+		"url": "https://github.com/tbaschak/exabgp-logger",
+		"date": "Oct 2015",
+		"tags": ["Shell","CLI","BGP"]
 	},
 	{
-		"name": "Cool project 3",
+		"slug": "ipaddr",
+		"name": "ipaddr.ca",
 		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "June 2014",
-		"tags": ["HTML","JQuery","Django"]
-	},
-	{
-		"name": "Cool project 4",
-		"image": "placeholder.jpg",
-		"date": "Oct 2016",
-		"tags": ["Python","nodejs"]
-	},
-	{
-		"name": "Cool project 5",
-		"image": "placeholder.jpg",
-		"date": "Oct 2016",
-		"tags": ["Python","nodejs"]
-	},
-	{
-		"name": "Cool project 6",
-		"image": "placeholder.jpg",
-		"date": "Oct 2016",
-		"tags": ["Python","nodejs"]
+		"url": "https://github.com/tbaschak/ipquail-go",
+		"date": "Dec 2015",
+		"tags": ["Go","CLI","JS","HTML","API"]
 	}
 ]

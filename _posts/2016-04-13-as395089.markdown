@@ -1,0 +1,31 @@
+---
+layout: post
+image:
+  feature: https://ciscodude.net/images/datacenter-overhead-cables.jpg
+  credit: Theo Baschak
+  creditlink: https://www.flickr.com/photos/theodorebaschak/
+title: "AS395089"
+date: 2016-04-13 11:00:01 -0500
+comments: false
+share: true
+description: "Yesterday morning the company I own, Hextet Systems, was assigned AS 395089 from ARIN's pool of ASNs. By mid-afternoon I had turned up BGP with my first uptream for IPv6, and was advertising a /44. By 11PM I had finished setting up IPv4 BGP as well and was advertising my /24."
+categories: 
+---
+Yesterday morning the company I own, Hextet Systems, was assigned AS 395089 from ARIN's pool of ASNs. By mid-afternoon I had turned up BGP with my first uptream for IPv6, and was advertising a /44. By 11PM I had finished setting up IPv4 BGP as well and was advertising my /24. I had succeeded in turning up an ASN fully on the very first day.
+
+I've had the fun of setting up several accounts related to having an ASN.
+
+*	[PeeringDB](https://www.peeringdb.com/asn/395089)
+*	BGPmon
+
+And setting up new IRR records:
+
+*	aut-num
+*	route and route6 objects
+*	[as-set AS-HEXTET](http://irrexplorer.nlnog.net/search/AS-HEXTET)
+*	[IRR explorer](http://irrexplorer.nlnog.net/search/395089)
+
+And purchasing a new domain name to use for technical info and reverse DNS on the edge for traceroutes.
+
+*	[as395089.net](http://as395089.net)
+

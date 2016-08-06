@@ -1,0 +1,28 @@
+---
+layout: post
+title: "VM Moves"
+date: 2014-06-08 13:45:34 -0500
+comments: false
+categories:
+- Networking
+- IPv6
+- Nerd Projects
+- Network Monitoring
+- Virtualization
+- System Administration
+image:
+  feature: https://ciscodude.net/images/snow-dust.jpg
+  credit: Theo Baschak
+  creditlink: https://www.flickr.com/photos/theodorebaschak/
+share: true
+---
+I've been planning to move my website out of my basement for quite a while, and over the last week I've finally executed on the plan. My plan was to setup an edge router running OpenBSD, route 199.202.21.0/24 and 2604:4280:d000::/44 to it, then run VMware ESXi free to run all the various services I want to.
+
+I've setup the following in a half cabinet downtown:
+
+*  1U Dell PE860, running OpenBSD 5.5
+*  2U Dell R510, running VMware ESXi free 5.5u1
+*  1U Cisco 3550-24 (layer2 only)
+*  2U APC SmartUPS 750 w/ network management
+
+This is a proof of concept, but even at this stage it allows me to move some services out of my basement. So far I've migrated ciscodude.net (by creating a new VM), gitlab.henchman21.net  and nagios.henchman21.net (by moving the VM files). I've also setup a new dev.henchman21.net VM to replace dev.ciscodude.net, and ns0.ciscodude.net to be my primary nameserver.

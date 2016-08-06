@@ -1,0 +1,14 @@
+---
+image:
+  feature: https://ciscodude.net/images/snow-dust.jpg
+  credit: Theo Baschak
+  creditlink: https://www.flickr.com/photos/theodorebaschak/
+layout: page
+title: "401 Unauthorized"
+comments: false
+sharing: false
+footer: false
+---
+You are not authorized to view this page.
+
+You can try looking in the [All Posts](/), [Categories](/categories/) or using the sitemap search to locate what you were looking for.

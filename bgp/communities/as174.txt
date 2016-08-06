@@ -1,0 +1,41 @@
+Community Support Definitions for Customers
+
+1. Communities controlling Cogent's internal use of
+customer routes by means of local preference:
+
+    All customer routes announced to Cogent will
+    receive a default local preference of 130.
+
+    Community Effect
+    174:10 set local pref to 10 - least prefered
+    174:70 set local pref to 70 - below peers
+    174:120 set local pref to 120 - below customer default
+    174:125 set local pref to 125 - below customer default
+    174:130 set local pref to 130 - customer default
+    174:135 set local pref to 135 - above customer default
+    174:140 set local pref to 140 - above customer default
+
+2. Communities controlling Cogent's further distribution
+and announcement of customer routes:
+
+    Community Effect
+    174:990 do not send route to BGP customers or peers
+    174:991 do not send route to peers
+
+3. Communities controlling Cogent's AS path prepending
+for customer routes on egress:
+
+    Community Effect
+    174:3000 do not announce
+    174:3001 prepend 174 1 time
+    174:3002 prepend 174 2 times
+    174:3003 prepend 174 3 times
+
+4. Communities tagging the source of routes
+
+    Community Description
+    174:21000 peer route learned in NA
+    174:21001 internal or customer route learned in NA
+    174:21100 peer route learned in EU
+    174:21101 internal or customer route learned in EU
+

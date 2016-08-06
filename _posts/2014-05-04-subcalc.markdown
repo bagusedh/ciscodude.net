@@ -1,0 +1,78 @@
+---
+layout: post
+title: "subcalc"
+date: 2014-05-04 22:53:48 -0500
+comments: false
+categories: 
+- Networking
+- IPv6
+- Nerd Projects
+- Programming
+- CLI
+- System Administration
+image:
+  feature: https://ciscodude.net/images/snow-dust.jpg
+  credit: Theo Baschak
+  creditlink: https://www.flickr.com/photos/theodorebaschak/
+---
+One of the many tasks that I do quite often is subnetting. Sometimes when I am allocating subnets by hand, I get distracted by requests/email/calls/etc, and I occasionally make subnetting errors. This is annoying, embarassing, and I prefer to just avoid mistakes if at all possible. One of the ways I do this is by using [[net-mgmt/subcalc]](http://freshports.org/net-mgmt/subcalc/), a CLI subnet calculator which uses identical syntax to ifconfig, so no new learning is required. I compile this utility on my Mac for every day use.
+
+subcalc is very easy to use, supports IPv4/IPv6 subnetting, as well as generating old and new style (int6 and arpa6) IPv6 reverse DNS, and converting back and forth 6to4 addresses. It also turns out it was written by a friend of mine as well. 
+
+Usage:
+
+{% highlight text %}
+$ subcalc
+usage: subcalc [family] [address] print
+       subcalc [family] [address] netmask [mask] print
+       subcalc [family] [address] prefixlen [bits] print
+       subcalc [family] hosts [number]
+       subcalc int6 [address] [hostname]
+       subcalc arpa6 [address] [hostname]
+       subcalc stf [family] [address]
+{% endhighlight %}
+
+Some examples:
+
+{% highlight text %}
+$ subcalc inet 192.0.2.0/29 print
+; range:       192.0.2.0 > 192.0.2.7
+; range b10:   3221225984 > 3221225991
+; range b16:   0xc0000200 > 0xc0000207
+; hosts:       8
+; prefixlen:   29
+; mask:        255.255.255.248
+192.0.2.0
+192.0.2.1
+192.0.2.2
+192.0.2.3
+192.0.2.4
+192.0.2.5
+192.0.2.6
+192.0.2.7
+{% endhighlight %}
+
+{% highlight text %}
+$ subcalc inet6 2604:4280:14:866::1000:0/112
+range:       2604:4280:14:866::1000:0 > 2604:4280:14:866::1000:ffff
+hosts:       65536
+prefixlen:   112
+mask:        ffff:ffff:ffff:ffff:ffff:ffff:ffff::
+{% endhighlight %}
+
+{% highlight text %}
+$ subcalc stf inet 192.0.2.1
+6to4 network:        2002:c000:0201::/48
+ip version 4 parent: 192.0.2.1
+
+$ subcalc stf inet6 2002:c000:0201::/48
+6to4 network:        2002:c000:0201::/48
+ip version 4 parent: 192.0.2.1
+{% endhighlight %}
+
+It even includes a handy reverse DNS generator, to save some sanity!
+
+{% highlight text %}
+$ subcalc arpa6 2604:4280:d00d::443 ciscodude.net.
+3.4.4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.d.0.0.d.0.8.2.4.4.0.6.2.ip6.arpa.	IN	PTR	ciscodude.net.
+{% endhighlight %}

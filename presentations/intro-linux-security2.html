@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Jared Bater &amp; Theo Baschak" />
+  <title>Introduction to Linux Security 2</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://ciscodude.net/vendor/reveal.js.old/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <style type="text/css">
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; }
+code > span.dt { color: #902000; }
+code > span.dv { color: #40a070; }
+code > span.bn { color: #40a070; }
+code > span.fl { color: #40a070; }
+code > span.ch { color: #4070a0; }
+code > span.st { color: #4070a0; }
+code > span.co { color: #60a0b0; font-style: italic; }
+code > span.ot { color: #007020; }
+code > span.al { color: #ff0000; font-weight: bold; }
+code > span.fu { color: #06287e; }
+code > span.er { color: #ff0000; font-weight: bold; }
+    </style>
+    <link rel="stylesheet" href="https://ciscodude.net/vendor/reveal.js.old/css/theme/simple.css" id="theme">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://ciscodude.net/vendor/reveal.js.old/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+    <!--[if lt IE 9]>
+    <script src="https://ciscodude.net/vendor/reveal.js.old/lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Introduction to Linux Security 2</h1>
+    <h2 class="author">Jared Bater &amp; Theo Baschak</h2>
+    <h3 class="date">CDC Prep January 25, 2014</h3>
+</section>
+
+<section id="online-html5-slides" class="slide level1">
+<h1>Online HTML5 Slides</h1>
+<p>Presentation source/download available at <a href="https://github.com/tbaschak/intro-linux-security">github.com/tbaschak/intro-linux-security</a></p>
+</section>
+<section id="introductions" class="slide level1">
+<h1>Introductions</h1>
+</section>
+<section id="funny-joke" class="slide level1">
+<h1>Funny Joke</h1>
+<ul>
+<li>You have been infected by the UNIX version of the I LOVE YOU virus.</li>
+<li>This virus operates on the honor system.</li>
+<li>Please delete a few hundred random files from your hard drive and forward this message to everyone you know.</li>
+</ul>
+</section>
+<section id="topics-to-be-covered" class="slide level1">
+<h1>Topics to be covered</h1>
+<ul>
+<li><pre><code>Good Practices</code></pre></li>
+<li><pre><code>Passwords</code></pre></li>
+<li><pre><code>File System Integrity</code></pre></li>
+<li><pre><code>Processes and sockets (ps and netstat)</code></pre></li>
+<li><pre><code>Boot process</code></pre></li>
+<li><pre><code>Run levels</code></pre></li>
+<li><pre><code>Services</code></pre></li>
+<li><pre><code>iptables</code></pre></li>
+<li><pre><code>Logs</code></pre></li>
+<li><pre><code>SE Linux</code></pre></li>
+<li><pre><code>Updating (APT / Yum, etc)</code></pre></li>
+</ul>
+</section>
+<section id="good-practices" class="slide level1">
+<h1>Good Practices</h1>
+<ul>
+<li><pre><code>Check signatures on packages/sources (GPG, MD5, SHA)</code></pre></li>
+<li><pre><code>Use sudo instead of su, or logging in as root</code></pre></li>
+<li><pre><code>Don&#39;t use/offer plaintext authenticated services</code></pre></li>
+<li><pre><code>Don&#39;t add . to root&#39;s $PATH</code></pre></li>
+</ul>
+</section>
+<section id="passwords" class="slide level1">
+<h1>Passwords</h1>
+<ul>
+<li><pre><code>Define minimum password lengths, complexity, and validity period</code></pre></li>
+<li><pre><code>Passwords should always be stored salted and hashed</code></pre></li>
+<li><pre><code>Low-length passwords can be cracked programmatically in surprisingly low time</code></pre></li>
+<li><pre><code>Local authentication can give access to other services (SMTP credentials)</code></pre></li>
+</ul>
+</section>
+<section id="file-system-integrity" class="slide level1">
+<h1>File System Integrity</h1>
+<ul>
+<li><pre><code>We want to know if critical files change on our filesystems</code></pre></li>
+<li><pre><code>Various tools to compare file checksums:</code></pre>
+<ul>
+<li>Tripwire (Commercial)</li>
+<li>OSSEC (Open Source)</li>
+<li>AIDE (Open Source)</li>
+<li>Distribution built-in <code>(rpm -Va)</code></li>
+</ul></li>
+</ul>
+</section>
+<section id="processes-sockets" class="slide level1">
+<h1>Processes &amp; Sockets</h1>
+<ul>
+<li>A process is a program running on a Linux system
+<ul>
+<li>Identifed by its Process Identifier or PID</li>
+<li>Can be listed using <code>ps</code></li>
+</ul></li>
+<li>An IPC or Unix Domain socket is a special type of file for exchanging data between processes</li>
+<li>Sockets, and which PIDs own them can be monitored using <code>lsof</code></li>
+</ul>
+</section>
+<section id="boot-process" class="slide level1">
+<h1>Boot Process</h1>
+<ul>
+<li>Boot loader: LILO / Grub</li>
+<li>1st Stage: Master Boot Loader</li>
+<li>2nd Stage: Kernel loader</li>
+<li>Kernel initializes and manages hardware resources</li>
+<li>Initial process (init) - parent of all processes (PID 1)</li>
+<li>RC scripts (Run Condition) executes scripts for appropriate run level</li>
+</ul>
+</section>
+<section id="run-levels" class="slide level1">
+<h1>Run Levels</h1>
+<ul>
+<li>0 -&gt; Halt, 1 -&gt; Single User, 2 -&gt; Multi User (without NFS), 3 -&gt; Multi User 4 -&gt; Unused, 5 -&gt; Multi User (graphical login), 6 -&gt; Reboot</li>
+<li>Can be changed using <code>telinit</code></li>
+<li>Servers usually run at 3, Desktops at 5</li>
+</ul>
+</section>
+<section id="services" class="slide level1">
+<h1>Services</h1>
+<ul>
+<li><pre><code>If you don&#39;t need it, turn it off</code></pre></li>
+<li><pre><code>Patch a disabled service? (Hint: Yes)</code></pre></li>
+<li><pre><code>The ```service``` command stops/starts services (System V init scripts)</code></pre></li>
+<li><pre><code>the ```chkconfig``` command sets services to start at boot</code></pre></li>
+<li><pre><code>Some newer distros use ```systemd(1)``` to manage services and systems</code></pre></li>
+</ul>
+</section>
+<section id="iptables-firewalls" class="slide level1">
+<h1>iptables (Firewalls)</h1>
+<ul>
+<li><pre><code>Default Allow (or can be configred to default deny)</code></pre></li>
+<li><pre><code>Various chains (INPUT, OUTPUT, FORWARD by default)</code></pre></li>
+<li><pre><code>Can create other chains chains for custom rulesets</code></pre></li>
+<li><pre><code>Can interact with iptables directly or use a front end such as ufw, Shorewall, FirewallD, others</code></pre></li>
+</ul>
+</section>
+<section id="block-all-inbound" class="slide level1">
+<h1>Block All Inbound</h1>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">/sbin/iptables</span> -P INPUT DROP
+<span class="kw">/sbin/iptables</span> -P FORWARD DROP
+<span class="kw">/sbin/iptables</span> -P OUTPUT ACCEPT
+<span class="kw">/sbin/iptables</span> -A INPUT -m state --state NEW,ESTABLISHED -j ACCEPT
+<span class="kw">/sbin/iptables</span> -L -v -n</code></pre>
+</section>
+<section id="logs" class="slide level1">
+<h1>Logs</h1>
+<ul>
+<li>Most logs live in <code>/var/log/</code></li>
+<li>Most logs are plain text, but some are binary (wtmpx, utmpx, lastlog)</li>
+<li><code>/var/log/messages</code> : major events, failed logins, SU to root</li>
+<li><code>/var/log/secure</code> : failed logins, added / deleted users</li>
+<li><code>/var/log/maillog</code> : mail system logs</li>
+<li><code>/var/log/wtmpx</code> : Who is currently logged in and from where. Use the <code>w</code> command</li>
+<li><code>/var/log/utmpx</code> : History of logins and reboots of the system. Use the <code>last</code> command</li>
+<li>Logs should be reviewed or watched by another process such as OSSEC</li>
+</ul>
+</section>
+<section id="selinux-security-enhanced-linux" class="slide level1">
+<h1>SELinux (Security-Enhanced Linux)</h1>
+<ul>
+<li>Mandatory Access Control (MAC vs. DAC)</li>
+<li>Fine-grained control over processes, files, sockets, etc</li>
+<li>Enhances existing security in Linux</li>
+<li>http://stopdisablingselinux.com</li>
+<li>See also AppArmor (“Application Armor”)</li>
+</ul>
+</section>
+<section id="updating" class="slide level1">
+<h1>Updating</h1>
+<ul>
+<li><pre><code>Small updates usually easier than large updates</code></pre></li>
+<li><pre><code>Redhat/Centos =&gt; ```yum update```</code></pre></li>
+<li><pre><code>Debian/Ubuntu =&gt; ```apt-get update; apt-get upgrade```</code></pre></li>
+<li><pre><code>Most distros have automatic update mechanism.  This may or may not be appropriate</code></pre></li>
+</ul>
+</section>
+<section id="questions-end" class="slide level1">
+<h1>Questions / End</h1>
+<ul>
+<li><pre><code>Question &amp; Answer period as time permits.</code></pre></li>
+</ul>
+<div class="fragment">
+<ul>
+<li><pre><code>Presentation source/download available at [github](https://github.com/tbaschak/intro-linux-security)</code></pre></li>
+</ul>
+</div>
+</section>
+    </div>
+  </div>
+
+
+  <script src="https://ciscodude.net/vendor/reveal.js.old/lib/js/head.min.js"></script>
+  <script src="https://ciscodude.net/vendor/reveal.js.old/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: 'default', // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'https://ciscodude.net/vendor/reveal.js.old/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https://ciscodude.net/vendor/reveal.js.old/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'https://ciscodude.net/vendor/reveal.js.old/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'https://ciscodude.net/vendor/reveal.js.old/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'https://ciscodude.net/vendor/reveal.js.old/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+    </body>
+</html>

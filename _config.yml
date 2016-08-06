@@ -1,9 +1,9 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I am freelance developer. Currently doing more in backend, actually in Python and Django.
-disqus_shortname: stackproblems
+title: CiscoDude.net
+description: "A tech blog by Theo Baschak. Often updates on topics like: Internet, BGP, Networking, Security, and personal projects."
+author: Theodore Baschak
+github: https://github.com/tbaschak
+about: "Founder of Hextet Systems. BOFH. Network Architect for AS55101. Also run my own ASN, AS395089. Open Source Guru."
+#disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
 
 enableTags: true
@@ -15,37 +15,57 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-skype
-      link: "#"
+    - icon: fa-github
+      link: "https://github.com/tbaschak"
     - icon: fa-twitter
-      link: "https://twitter.com/agusmakmun6"
+      link: "https://twitter.com/TheodoreBaschak"
     - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "https://ca.linkedin.com/in/theodore-baschak-70442960"
+    - icon: fa-flickr
+      link: "https://www.flickr.com/photos/theodorebaschak"
+    - icon: fa-instagram
+      link: "https://www.instagram.com/theodorebaschak/"
 
 share:
-  twitter_username: agusmakmun6
+  twitter_username: TheodoreBaschak
   fb_appid: 1749788565247320
 
 urls:
     - text: About Me
       url: /about/
-    - text: Projects
-      url: /projects/
-    - text: Github
-      url: https://github.com/agusmakmun
-    - text: XML Feed
-      url: /feed.xml
+    - text: MB BGP Status
+      url: /bgp/mb/
+    - text: SK BGP Status
+      url: /bgp/sk/
+    - text: Portfolio
+      url: "https://theodorebaschak.com/"
+    - text: CheatSheets
+      url: "https://cheatsheets.ciscodude.net/"
+    - text: Presentations
+      url: /presentations/
+    - text: Contact
+      url: /contact/
 
-url: "https://agusmakmun.github.io"
+
+url: "https://ciscodude.net"
 baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page:num/"
+paginate: 30
+per_page: 30
+paginate_path: "/page/:num/"
 markdown: kramdown
 gems:
   - jekyll-paginate
-  - jekyll-gist
+#  - jekyll-gist
+  - octopress-gist
+  - jekyll-twitter-plugin
+
+
+exclude: [vendor]
+
+permalink: /:year/:month/:day/:title/
+
+twitter:
+  consumer_key: BXmupxKyPRRKYR7E2oDd3BM5W
+  consumer_secret: DulWBWQ2u1L7m3brqcOUuOLIRazGuZft9uiCGQVbVbvwcpden8
+  access_token: 371307426-TxZbhCShYNZ0Z0fhbzajd9CvIuWrfgrRb8pZEXun
+  access_token_secret: hVeZw8l20nQlNKTNvYOxWVsPHiJ9YQIsIaPvBM8vzeH7P

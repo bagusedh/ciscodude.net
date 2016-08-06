@@ -1,0 +1,22 @@
+---
+layout: post
+title: "GeoDNS"
+date: 2014-06-02 19:54:44 -0500
+comments: false
+categories:
+- Networking
+- Nerd Projects
+- CLI
+- IPv6
+- Anycast
+- Network Monitoring
+image:
+  feature: https://ciscodude.net/images/snow-dust.jpg
+  credit: Theo Baschak
+  creditlink: https://www.flickr.com/photos/theodorebaschak/
+---
+I've been wanting to play with GeoDNS to direct clients to servers with content nearer to them for a long time. It seems that I've got two different options to explore, [Bind GeoIP patches](https://code.google.com/p/bind-geoip/) and [abh/geodns](https://github.com/abh/geodns) a GeoDNS server written in Go.
+
+One of the things which I noticed while patching for Heartbleed, was that my FreeBSD systems with ports took much longer to patch than my Debian systems. The Debian systems were simply `apt-get update; apt-get upgrade` with a reboot after. The Bind GeoIP patches aren't available as an a build option in FreeBSD. This means that I will need to maintain a custom build environment for this, and lose the ability to use the built in packaging benefits/speed.
+
+I think in the long term, if abh/geodns does what I want it to, I will likely end up using it specifically for GeoDNS. I will probably keep using Bind for general DNS though, and perhaps fire up a MyDNS-ng server and start writing the web API I've been wanting to to manage DNS records in it.

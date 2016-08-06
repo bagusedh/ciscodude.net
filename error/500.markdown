@@ -1,0 +1,15 @@
+---
+image:
+  feature: https://ciscodude.net/images/snow-dust.jpg
+  credit: Theo Baschak
+  creditlink: https://www.flickr.com/photos/theodorebaschak/
+layout: page
+title: "500 Internal Server Error"
+comments: false
+sharing: false
+footer: false
+---
+An Internal Server Error has occured handling your request.
+
+Meanwhile, you can try looking in the [All Posts](/), [Categories](/categories/) or using the sitemap search to locate what you were looking for.
+

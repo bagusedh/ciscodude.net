@@ -1,0 +1,62 @@
+---
+layout: post
+title: "iperf UDP"
+date: 2014-03-09 22:57:37 -0500
+comments: false
+categories: 
+- Nerd Projects
+- Networking
+- IPv6
+- CLI
+- System Administration
+image:
+  feature: https://ciscodude.net/images/snow-dust.jpg
+  credit: Theo Baschak
+  creditlink: https://www.flickr.com/photos/theodorebaschak/
+---
+A colleague of mine was looking for a way to isolate a VOIP problem by testing UDP performance/jitter/packet loss and I suggested iperf. I figured I should look into how its run, and the options available in case he asked for testing specifics.
+
+I set out to test the connection between my house and my development workstation, using VOIP-like settings, and IPv6, just to say I'd done it.
+
+client side:
+
+{% highlight text %}
+$ iperf -c dev.ciscodude.net -V -u -b 64k -l 160
+------------------------------------------------------------
+Client connecting to dev.ciscodude.net, UDP port 5001
+Sending 160 byte datagrams
+UDP buffer size:  160 KByte (default)
+------------------------------------------------------------
+[  3] local 2604:4280:d00d::229 port 36638 connected with 2604:4280:2:34::68 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  78.3 KBytes  64.0 Kbits/sec
+[  3] Sent 501 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  78.3 KBytes  64.0 Kbits/sec   0.734 ms    0/  501 (0%)
+$ 
+{% endhighlight %}
+
+server side:
+
+{% highlight text %}
+$ iperf -su -i 1 -V
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  224 KByte (default)
+------------------------------------------------------------
+[  3] local 2604:4280:2:34::68 port 5001 connected with 2604:4280:d00d::229 port 36638
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0- 1.0 sec  7.19 KBytes  58.9 Kbits/sec   0.879 ms    0/   46 (0%)
+[  3]  1.0- 2.0 sec  8.44 KBytes  69.1 Kbits/sec   1.445 ms    0/   54 (0%)
+[  3]  2.0- 3.0 sec  7.81 KBytes  64.0 Kbits/sec   0.850 ms    0/   50 (0%)
+[  3]  3.0- 4.0 sec  7.81 KBytes  64.0 Kbits/sec   0.697 ms    0/   50 (0%)
+[  3]  4.0- 5.0 sec  7.81 KBytes  64.0 Kbits/sec   0.688 ms    0/   50 (0%)
+[  3]  5.0- 6.0 sec  7.81 KBytes  64.0 Kbits/sec   0.659 ms    0/   50 (0%)
+[  3]  6.0- 7.0 sec  7.81 KBytes  64.0 Kbits/sec   1.879 ms    0/   50 (0%)
+[  3]  7.0- 8.0 sec  7.81 KBytes  64.0 Kbits/sec   0.795 ms    0/   50 (0%)
+[  3]  8.0- 9.0 sec  7.81 KBytes  64.0 Kbits/sec   1.541 ms    0/   50 (0%)
+[  3]  9.0-10.0 sec  7.81 KBytes  64.0 Kbits/sec   0.683 ms    0/   50 (0%)
+[  3]  0.0-10.0 sec  78.3 KBytes  64.0 Kbits/sec   0.735 ms    0/  501 (0%)
+$ 
+{% endhighlight %}

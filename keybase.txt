@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/tbaschak
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ciscodude.net
+  * I am tbaschak (https://keybase.io/tbaschak) on keybase.
+  * I have a public key with fingerprint 8BB1 79F2 7ABB 1AFC F711  9E2A 2A0E 8675 EF4D 4F80
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012d662aea2b80af3e85495200dd0c74eb826b2bd2ccd9409026b044541cee10670a",
+            "fingerprint": "8bb179f27abb1afcf7119e2a2a0e8675ef4d4f80",
+            "host": "keybase.io",
+            "key_id": "2a0e8675ef4d4f80",
+            "kid": "01012d662aea2b80af3e85495200dd0c74eb826b2bd2ccd9409026b044541cee10670a",
+            "uid": "f48a53f6f342ccc47db39b094f2abf00",
+            "username": "tbaschak"
+        },
+        "service": {
+            "hostname": "ciscodude.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1461482726,
+    "expire_in": 157680000,
+    "prev": "079b1c2e835229d2999d82568d986b47e7686ab16a79f46506d93b7128dd015d",
+    "seqno": 59,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUm1QVFUYXlCQL3EHk0CWoS4Gg7NL9569nwTY2IBFEBpjMlSz3I9z4fKxu+ze
+BRUXCRnMMR0zB6UYkw+NMIbEYTSjKQNaB0cciQgwqgHXRiwcE0ladTqXsX/97Pw5
+533P8zzv877nHFq5TBfitz68wXUnJ7fW7/ItQbfNoM5VY4JN2oGlVGOlcGmDZRJ0
+qpZSRcJSMJzACSDRNOAhDwQW52UzZCmSowCOSxIuMiQUWEALQJCAKEociXM4CnGS
+pEhChJDAaQbnMSMmK9Yi6LA7FKuKZFlBIBhOBgyPDrwsygxBcBDwgMchSzMUlEmJ
+lFkcEYttTo2BzAm8EyYrNpRDgWXJ3n/g/2ffriU5mWR5yizTsplEcJFkJMHMCThH
+yoAXZFyr63JCh5UvhwitIqdiMV+KuY0YylYqItQGq3XyBCEqTtEmuSSYbIUqItsd
+NtUm2srQVbGq2p0pGlXdYdewVVCwPFGxCIpVQoNEjErocCo2K5ZCIKSoKposQdIE
+yQIG0EYMbrcrDmhRNATF0CyOllYHVmrTYTiBEAsAZM0UAJwEOI6TWEDRrMSxtEAy
+EDFoXiBoHr0SSVM4LXFmgSEAi4ZHUBKmNVZhtWEpFIeM8kVI1KkUWXnV5YCYO2Sf
+v2G5zi9EFxjgr/0xXUiw/t+P17hBr7um7P0q3Nt8qD1pe0us/GX08/G7Tus3/pb7
+Vp3vVPzD/D2D+feiHgSuXpH180rsnQuvfFt+b6c7BFvXlmWYnc79MKBGcqd9PRRz
++6+dsZdiXD32JoNH7Fp7dyz3Ql4Q55uqT/I0TiT1DLSbKipPfdqrH45Y87e7/90g
+05Z9I1E/jVYPJ86vq3VFnolYlCbH/kgo97HlVnXw1W09q75I2PTSg5vRT/XpV/CP
+D5guOWfGIy9PDscbzOPXdv840m12vXdVfdg51Bp3MlB4+yY50DFP/ZpReP/gxR/O
+ZCRmtbGdwU+nZiyrWvjg0fwbzJTVlN0yS994LJiCUseSzuY/U2/sSj+Xlv56zvEX
+h/uf9bSNHtxT52suaO0HhW0BTcaP7X5hvsnphhPU0Qy8tvmT+1uu+PINLXu5+rTr
+W3/xvN/rvThI5GDe2O/DyiISBqIjJ0oi+hdaq0auvrx5ty65VVme/VpR3NBs6JFm
+r6fTb9F28kTfYTxoA96SkJnpKVMXzn1U0Ls2W59/9njP+OHf3d89OnAn1JjVmDid
+3btx9FbRWI7phuN6E7k41d7xWYm6Pt2/aWZw00Ko90jd/rHbx7pLJoa603q3vnlX
+qVgT/ydx+nzfaHiG4Impidz8XHpN3guZUdNz35TvysybySscB8Wruwaa40rzrqQm
+dnSFBXvluezPz69qSNfZHf8A
+=O76P
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tbaschak
+
+==================================================================
+

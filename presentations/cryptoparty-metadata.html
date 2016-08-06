@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Theo Baschak" />
+  <title>Metadata</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://ciscodude.net/vendor/reveal.js.old/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="https://ciscodude.net/vendor/reveal.js.old/css/theme/simple.css" id="theme">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://ciscodude.net/vendor/reveal.js.old/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+    <!--[if lt IE 9]>
+    <script src="https://ciscodude.net/vendor/reveal.js.old/lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Metadata</h1>
+    <h2 class="author">Theo Baschak</h2>
+    <h3 class="date">CryptoParty</h3>
+</section>
+
+<section id="online-html5-slides" class="slide level1">
+<h1>Online HTML5 Slides</h1>
+<p>Presentation source/download available at <a href="https://github.com/tbaschak/cryptoparty-metadata">github.com/tbaschak/cryptoparty-metadata</a></p>
+</section>
+<section id="who-i-am" class="slide level1">
+<h1>Who I Am</h1>
+<ul>
+<li>Primary Network Administrator of VOI Network Solutions – Winnipeg-based commercial Internet Service Provider and carrier.</li>
+<li>Involved with both Internet Exchanges in Winnipeg.
+<ul>
+<li>Elected member on the Board of Directors for MBIX.</li>
+<li>Also involved with the creation and technical operations of WpgIX.</li>
+</ul></li>
+<li>Avid opensource software user/fanatic, and recently, contributor.</li>
+</ul>
+</section>
+<section id="section" class="slide level1">
+<h1>00 00 00 00</h1>
+<ul>
+<li>“Due to recent revelations…” / NSA / Global Surveillance / etc</li>
+<li>Will be talking tonight about:
+<ul>
+<li>Metadata</li>
+<li>Your traffic, on the wire</li>
+<li>Encrypting your data in transit</li>
+</ul></li>
+</ul>
+</section>
+<section id="section-1" class="slide level1">
+<h1>00 00 00 01</h1>
+<ul>
+<li>Expectations of data privacy are no longer absolute
+<ul>
+<li>DO NOT TRUST PLAINTEXT, be wary of weak crypto</li>
+</ul></li>
+<li>Many previously “only theoretical” privileged access attacks now widespread
+<ul>
+<li>MITM attacks very real</li>
+<li>And profitable too</li>
+</ul></li>
+</ul>
+</section>
+<section id="section-2" class="slide level1">
+<h1>00 00 00 10</h1>
+<ul>
+<li>Metadata
+<ul>
+<li>More sources closer to users gives better information</li>
+<li>Traditionally 5-tupple
+<ul>
+<li>ip_proto, src_ip, src_port, dst_ip, dst_port</li>
+<li>along with timestamp</li>
+<li>can be combined with DNS/Geo/BGP information</li>
+<li>Provides information for troubleshooting and network planning</li>
+</ul></li>
+<li>Detail Time Limited</li>
+<li>Usage Graphs</li>
+</ul></li>
+</ul>
+</section>
+<section id="section-3" class="slide level1">
+<h1>00 00 00 11</h1>
+<ul>
+<li>So What Can Your ISP See?</li>
+<li>Last CryptoParty Traffic - All SSL Ports, that was all</li>
+<li>Is this a concern?</li>
+</ul>
+</section>
+<section id="section-4" class="slide level1">
+<h1>00 00 01 00</h1>
+<ul>
+<li>Routing Attacks
+<ul>
+<li>Accidental</li>
+<li>On Purpose</li>
+</ul></li>
+<li>Implications of routing diversions
+<ul>
+<li>Plaintext can be considered compromised</li>
+</ul></li>
+<li>LinkedIn ‘Intro’ Email Proxying (2013-10-23 - 2014-03-07)</li>
+</ul>
+</section>
+<section id="section-5" class="slide level1">
+<h1>00 00 01 01</h1>
+<ul>
+<li>Encryption
+<ul>
+<li>Always if you want your data to be private</li>
+<li>When configuring SSL, check the ciphers, there are valid options which are silly</li>
+</ul></li>
+</ul>
+</section>
+<section id="section-6" class="slide level1">
+<h1>00 00 01 11</h1>
+<ul>
+<li></li>
+</ul>
+</section>
+<section id="questions-end" class="slide level1">
+<h1>Questions / End</h1>
+<ul>
+<li>Question &amp; Answer period as time permits.</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Presentation source/download available at <a href="https://github.com/tbaschak/cryptoparty-metadata">github.com/tbaschak/cryptoparty-metadata</a></li>
+</ul>
+</div>
+</section>
+    </div>
+  </div>
+
+
+  <script src="https://ciscodude.net/vendor/reveal.js.old/lib/js/head.min.js"></script>
+  <script src="https://ciscodude.net/vendor/reveal.js.old/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: 'default', // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'https://ciscodude.net/vendor/reveal.js.old/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https://ciscodude.net/vendor/reveal.js.old/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'https://ciscodude.net/vendor/reveal.js.old/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'https://ciscodude.net/vendor/reveal.js.old/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'https://ciscodude.net/vendor/reveal.js.old/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+    </body>
+</html>

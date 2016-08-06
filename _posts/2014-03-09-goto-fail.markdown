@@ -1,0 +1,17 @@
+---
+layout: post
+title: "goto fail"
+date: 2014-03-09 09:51:22 -0500
+comments: false
+categories: 
+- Security
+- Programming
+- SSL
+image:
+  feature: https://ciscodude.net/images/snow-dust.jpg
+  credit: Theo Baschak
+  creditlink: https://www.flickr.com/photos/theodorebaschak/
+---
+When learning programming, beginners are always taught that goto's are dangerous. They are dangerous because of their syntax. A missed colon or semi colon can mean a vastly different program flow. This has come up twice in the last month, one in [Apple](https://www.imperialviolet.org/2014/02/22/applebug.html)'s SSL/TLS signature verification (extra goto), and one in [GnuTLS](https://rhn.redhat.com/errata/RHSA-2014-0247.html)'s signature verification (missing goto). 
+
+Both are public, and patched now, but the ramifications of both are HUGE. Given that not everyone patches immediately or even automatically within a few days, there will be a large number of users affected by both of these bugs for years to come yet. Just like the unpatched Windows XP systems, there are also Linux and Mac users out there who avoid all patches, disable the automatic updates, and generally make themselves very vulnerable. 
