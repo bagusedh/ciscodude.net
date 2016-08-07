@@ -3,7 +3,7 @@
 */
 .project-outer {
     display: inline-block;
-    width: 250px;
+    width: 230px;
     vertical-align: top;
     margin: 0 10px;
 }
@@ -44,7 +44,7 @@ span.tags:last-child{ margin-right: 0; }
     display: block;
 }
 .project-img {
-    width: 250px;
+    width: 230px;
     height: 200px;
     display: block;
     background-size: cover;
