@@ -1,3 +1,8 @@
 _site*
 .sass-cache
+.gist-cache
+.tweet-cache
 .jekyll-metadata
+vendor
+.bundle
+
