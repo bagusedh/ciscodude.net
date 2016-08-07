@@ -43,6 +43,8 @@ urls:
       url: "https://cheatsheets.ciscodude.net/"
     - text: Presentations
       url: /presentations/
+    - text: Projects
+      url: /projects/
     - text: Contact
       url: /contact/
 
