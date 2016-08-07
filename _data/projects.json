@@ -36,7 +36,7 @@
 	{
 		"slug": "ipv6-intro",
 		"name": "IPv6 Introduction",
-		"image": "placeholder.jpg",
+		"image": "ipv6-intro.png",
 		"url": "https://ciscodude.net/presentations/ipv6-intro",
 		"url_github": "https://github.com/tbaschak/ipv6-intro-presentation",
 		"date": "Never",
@@ -46,7 +46,7 @@
 	{
 		"slug": "intro-linux-security2",
 		"name": "Intro Linux Security 2",
-		"image": "placeholder.jpg",
+		"image": "intro-linux-security2.png",
 		"url": "https://ciscodude.net/presentations/intro-linux-security2",
 		"url_pdf": "https://ciscodude.net/presentations/intro-linux-security2.pdf",
 		"url_github": "https://github.com/tbaschak/intro-linux-security",
@@ -57,7 +57,7 @@
 	{
 		"slug": "bsideswpg2013-infosecfromisp",
 		"name": "InfoSec from an ISP’s Perspective",
-		"image": "placeholder.jpg",
+		"image": "bsideswpg2013-infosecfromisp.png",
 		"url": "https://ciscodude.net/presentations/bsideswpg2013-infosecfromisp",
 		"url_pdf": "https://ciscodude.net/presentations/bsideswpg2013-infosecfromisp.pdf",
 		"url_youtube": "http://youtu.be/qvall1kyNIg",
@@ -69,7 +69,7 @@
 	{
 		"slug": "hextet-api",
 		"name": "Hextet BGP API",
-		"image": "placeholder.jpg",
+		"image": "hextet-api.png",
 		"url_github": "https://github.com/HextetSystems/api-bgp",
 		"date": "June 2016",
 		"desc": "An API to expose BGP information given an IP address",
@@ -87,7 +87,7 @@
 	{
 		"slug": "ipaddr",
 		"name": "ipaddr.ca",
-		"image": "placeholder.jpg",
+		"image": "ipaddr.png",
 		"url": "http://ipaddr.ca/",
 		"url_github": "https://github.com/tbaschak/ipquail-go",
 		"date": "Dec 2015",
