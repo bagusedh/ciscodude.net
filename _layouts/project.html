@@ -37,6 +37,12 @@ layout: default
     			<h3 class="project-headlines">{{ i.name }}</h3>
     			{% if p_url %} </a> {% endif %}
     			<div class="project-content">
+    				{% if i.desc %} 
+    				<div class="tag-holder">
+    					<span class="time">{{ i.desc }}</span>
+    				</div>
+    				{% endif %}
+
     				<div class="tag-holder">
     				{% if i.tags %} 
     					{% for j in i.tags %}
@@ -48,7 +54,16 @@ layout: default
     			</div>
     			<div class="project-footer"> 
     				{% if i.url %} 
-    				<a href="{{ i.url }}" class="project-link" target="_blank"><i class="fa fa-globe"></i> View</a>
+    				<a href="{{ i.url }}" class="project-link" target="_blank"><i class="fa fa-globe"></i> View &nbsp;</a>
+    				{% endif %}
+    				{% if i.url_pdf %} 
+    				<a href="{{ i.url_pdf }}" class="project-link" target="_blank"><i class="fa fa-file-pdf-o"></i>&nbsp;&nbsp;</a>
+    				{% endif %}
+    				{% if i.url_youtube %} 
+    				<a href="{{ i.url_youtube }}" class="project-link" target="_blank"><i class="fa fa-youtube"></i>&nbsp;&nbsp;</a>
+    				{% endif %}
+    				{% if i.url_github %} 
+    				<a href="{{ i.url_github }}" class="project-link" target="_blank"><i class="fa fa-github"></i>&nbsp;</a>
     				{% endif %}
     				<span class="project-timeline">{{ i.date }}</span>
     			</div>

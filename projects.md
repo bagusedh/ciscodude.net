@@ -1,7 +1,9 @@
 ---
 layout: project
-title: Projects
+title: Projects and Presentations
 permalink: /projects/
 ---
 
-Few of my code projects. 
+A gallery of a few of my code projects and talks given to user groups and conferences. 
+
+
