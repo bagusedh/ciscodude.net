@@ -37,8 +37,6 @@ urls:
       url: /bgp/mb/
     - text: SK BGP Status
       url: /bgp/sk/
-    - text: Portfolio
-      url: "https://theodorebaschak.com/"
     - text: CheatSheets
       url: "https://cheatsheets.ciscodude.net/"
     - text: Presentations
