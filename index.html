@@ -3,9 +3,17 @@ layout: default
 ---
 
 <div id="home">
-    <h1>CiscoDude.Net</h1>
+    <h1>{{ site.title }}</h1>
     <hr />
 
+<p>You have reached the technical blog and ramblings of Theodore Baschak. Theodore is an experienced senior network architect with nearly 20 years experience running Internet facing services, and operating large networks.
+
+<p>You will find artices on topics ranging from networking and BGP, to Linux and virtualization -- the full stack. Basically, everything from layer 1 thru 7.
+
+<p>This site goes by many domains, ciscodude.net, theodorebaschak.com, and most recently nerdzone.ca once again. 
+
+
+    <hr />
     <ul class="posts">
     {% for post in paginator.posts %}
       <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
