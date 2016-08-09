@@ -1,5 +1,6 @@
 ---
 layout: post
+noindex: true
 title: "SSL Ciphers"
 date: 2014-01-12 23:44:23 -0600
 comments: false
@@ -23,3 +24,6 @@ ssl_ciphers    ECDH+AESGCM:DH+AESGCM:ECDH+AES256:DH+AES256:ECDH+AES128:DH+AES:EC
 {% endhighlight %}
 
 This is also useful (different config value names) in things like dovecot.conf and also apache's SSL vhost configs.
+
+** This page is outdated. Please use the [Mozilla SSL Configuration Generator
+](https://mozilla.github.io/server-side-tls/ssl-config-generator/) to generate a secure configuration. **

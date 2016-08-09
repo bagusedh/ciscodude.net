@@ -1,5 +1,6 @@
 ---
 layout: post
+noindex: true
 image:
   feature: https://ciscodude.net/images/snow-dust.jpg
   credit: Theo Baschak
