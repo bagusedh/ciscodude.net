@@ -1,5 +1,6 @@
 ---
 layout: post
+noindex: true
 title: "CVE-2014-6271 - ShellShock"
 date: 2014-09-24 20:30:33 -0500
 comments: false

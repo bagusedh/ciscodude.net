@@ -17,6 +17,8 @@ image:
 ---
 One of the many tasks that I do quite often is subnetting. Sometimes when I am allocating subnets by hand, I get distracted by requests/email/calls/etc, and I occasionally make subnetting errors. This is annoying, embarassing, and I prefer to just avoid mistakes if at all possible. One of the ways I do this is by using [[net-mgmt/subcalc]](http://freshports.org/net-mgmt/subcalc/), a CLI subnet calculator which uses identical syntax to ifconfig, so no new learning is required. I compile this utility on my Mac for every day use.
 
+**This project is now [maintained on Github](https://github.com/csjayp/subcalc), and is much more cross-platform friendly, supporting Linux, Mac and FreeBSD.**
+
 subcalc is very easy to use, supports IPv4/IPv6 subnetting, as well as generating old and new style (int6 and arpa6) IPv6 reverse DNS, and converting back and forth 6to4 addresses. It also turns out it was written by a friend of mine as well. 
 
 Usage:
@@ -76,3 +78,4 @@ It even includes a handy reverse DNS generator, to save some sanity!
 $ subcalc arpa6 2604:4280:d00d::443 ciscodude.net.
 3.4.4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.d.0.0.d.0.8.2.4.4.0.6.2.ip6.arpa.	IN	PTR	ciscodude.net.
 {% endhighlight %}
+

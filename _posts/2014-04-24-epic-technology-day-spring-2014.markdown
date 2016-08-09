@@ -1,5 +1,6 @@
 ---
 layout: post
+noindex: true
 title: "Epic Technology Day Spring 2014"
 date: 2014-04-24 19:10:00 -0500
 comments: false

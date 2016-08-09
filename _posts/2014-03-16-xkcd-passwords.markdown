@@ -1,5 +1,6 @@
 ---
 layout: post
+noindex: true
 title: "XKCD Passwords"
 date: 2014-03-16 16:08:33 -0500
 comments: false

@@ -1,5 +1,6 @@
 ---
 layout: post
+noindex: true
 title: "Manitoban ASN IPv6 Status"
 date: 2014-04-19 02:41:01 -0500
 comments: false

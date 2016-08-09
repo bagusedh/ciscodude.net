@@ -1,5 +1,6 @@
 ---
 layout: post
+noindex: true
 title: "New Looking Glass"
 date: 2014-11-24 01:50:35 -0600
 comments: false

@@ -1,5 +1,6 @@
 ---
 layout: post
+noindex: true
 title: "Atom.io"
 date: 2014-05-10 20:21:47 -0500
 comments: false

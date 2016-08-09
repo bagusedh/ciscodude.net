@@ -1,5 +1,6 @@
 ---
 layout: post
+noindex: true
 title: "exabgp: first lab"
 date: 2014-04-27 11:45:46 -0500
 comments: false

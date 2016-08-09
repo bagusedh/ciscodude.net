@@ -1,5 +1,6 @@
 ---
 layout: post
+noindex: true
 title: "goto fail"
 date: 2014-03-09 09:51:22 -0500
 comments: false

@@ -1,5 +1,6 @@
 ---
 layout: post
+noindex: true
 title: "VM Moves"
 date: 2014-06-08 13:45:34 -0500
 comments: false

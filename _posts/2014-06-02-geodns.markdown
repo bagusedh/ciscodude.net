@@ -1,5 +1,6 @@
 ---
 layout: post
+noindex: true
 title: "GeoDNS"
 date: 2014-06-02 19:54:44 -0500
 comments: false
