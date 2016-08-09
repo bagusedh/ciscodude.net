@@ -71,3 +71,155 @@ View my publicly-auditable identity here: https://keybase.io/tbaschak
 
 ==================================================================
 
+==================================================================
+https://keybase.io/tbaschak
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://theodorebaschak.com
+  * I am tbaschak (https://keybase.io/tbaschak) on keybase.
+  * I have a public key with fingerprint 8BB1 79F2 7ABB 1AFC F711  9E2A 2A0E 8675 EF4D 4F80
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012d662aea2b80af3e85495200dd0c74eb826b2bd2ccd9409026b044541cee10670a",
+            "fingerprint": "8bb179f27abb1afcf7119e2a2a0e8675ef4d4f80",
+            "host": "keybase.io",
+            "key_id": "2a0e8675ef4d4f80",
+            "kid": "01012d662aea2b80af3e85495200dd0c74eb826b2bd2ccd9409026b044541cee10670a",
+            "uid": "f48a53f6f342ccc47db39b094f2abf00",
+            "username": "tbaschak"
+        },
+        "revoke": {
+            "sig_ids": [
+                "a1fa718a5406608d34a6698037b6fd8777ccf2fcb24632d81e2e890135fb3c460f"
+            ]
+        },
+        "service": {
+            "hostname": "theodorebaschak.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1470716469,
+    "expire_in": 157680000,
+    "prev": "5535f732c01f4b0f00e31dd43a9d8d300c16352bb9a092be40efab0adb559dd3",
+    "seqno": 67,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkm1QVFUcxhcwmjZBpNwoyOCOLRXEnPt+7yo0qIwyQVBrJQhs99x7LtyAvdu+
+8CKBgGmAhjgNhY2FiQ3bB8mYGMEhacZAQGIM7UVDGEcSbBYNZxxNGOgso9/62Ply
+Xub5/57n/M9pCgkyGANeCt3ruZWeUR1w7gY0vP119voKAupKOWGpIArR8oSKFORy
+2wo1hbAQgAQkpXAcJSGJggKQVBoJLCOyFACKAmSeQVCgOEhBhZJlRWSACPAWMAzL
+kDJCJOB4IBHxhKrZ85HT4dTsbowVICR5UaV4CS8kVVZ5khQRJVESQALHs0hlFEYV
+AC4s0F3+ChwOSi6UoOn4DG9sy/H+Q/8/5/Ys41RGkFha5VSawXKZ4RVIixCIjEpJ
+UAV+X48LOe1SMcJqN04qF0iFRGU84UQleiHy99Wl5ePQLsKyg5BIVeJJjGQAxwFB
+oRmJ40QB0DzkVEXgeV6WVUqVIcVwNKUIJKKQIAKSZlVIywwHVCIXs7FjiSYvw/1d
+euhegHRFd6IHIRJkvRjHczh1ty7rRVhQ4HY7XBaisjeecJc7/CWlCNoewGxQsyv4
+rXBJCXK6NN1OWEjsJbs1P51keMCTHMOJ8QQqc2hOZNP8CpbnBICH3wiVYCTL4rA8
+TcmAVBkIcI8QTSoKQ0uigi8MgExyNEtBKEpApCBiAFIlCCQFsqyoKDThv957dp2w
+cDzOKeVjJu6gXXJ7nIioNNYHRq0wBBgNwY8E+n+xwfhY2MOvfebFMMPIwtRVz2R5
+2IE/o1/X8saT8hxvDd1bWugMHPgiK/6H1tqJsUQ7YDrMyBzbFdp+6XDPxy33a6u9
+cVmJ1cnbvCORQZadanmGOe/ZjdkR+oWh+TdLhmd/Xxnz8g7tam7eoYrG6bVL3JjA
+Lg61f9DaUbzvr8ZxKvubrasPNebU9228MtVsLT0bY31y9mhEanJs0qnes7v75nI6
+fzxiTOf7A3Y1h9W9cCMQ8HUNv0abJzYcDoyO3TlwOWUq0Xq9d25wqWuD7c7fB7Kq
+tIgANVHpsqWM+GC2Zfi0N6omtz24tbvc526MGUvVFte1Jd7io6/fPbgl6NiauMyB
+PcUXQubC13nqRpuy9NWFSb1d6HTNqcybAjkx8wlwzM8HDSY+k5bgO1q1h3ui58ub
+lg+L2rzTTyV/7l3VsrC/J/yfslLbpYzcY+WWyY5fzjXTyTXVn4ZHeoomB02pj/+2
+orOvwv506Zhp1Uc/90eZo46HfOf6tjsmY3Tt88/9dOV8XNDxhqqZen6ftcdqNXkM
+rzXZvMYpPSUjxXi7N/Wz4N3m+0e6t9KFr6Y1vPH+mosRd/q3zGxuySw7r5rgbO12
+8d3LI6ZHX1m6/VVSseKLu2fam7ZeO+lKb00bORhpmulRrq0ssgalubaPb5o+UXGC
+yQltyclM/T4PRlz740ybZWnbOxd9i8O+orsnd5lH92/+Fw==
+=I9c7
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tbaschak
+
+==================================================================
+
+==================================================================
+https://keybase.io/tbaschak
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nerdzone.ca
+  * I am tbaschak (https://keybase.io/tbaschak) on keybase.
+  * I have a public key with fingerprint 8BB1 79F2 7ABB 1AFC F711  9E2A 2A0E 8675 EF4D 4F80
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012d662aea2b80af3e85495200dd0c74eb826b2bd2ccd9409026b044541cee10670a",
+            "fingerprint": "8bb179f27abb1afcf7119e2a2a0e8675ef4d4f80",
+            "host": "keybase.io",
+            "key_id": "2a0e8675ef4d4f80",
+            "kid": "01012d662aea2b80af3e85495200dd0c74eb826b2bd2ccd9409026b044541cee10670a",
+            "uid": "f48a53f6f342ccc47db39b094f2abf00",
+            "username": "tbaschak"
+        },
+        "service": {
+            "hostname": "nerdzone.ca",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1470716578,
+    "expire_in": 157680000,
+    "prev": "d1a247a66c16b72f6cf767e218a879172960f7071663811d2f63856889c193c5",
+    "seqno": 68,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUm1QVFUYXj4nIBScMoWQuq58KMG9d+/nokwBzZQTEmAQItD9OHe5sdy77V52
+UQZDjbXAqdjAiFIhrLSNFAzHbEqkcYgBKgkZKRCnGSUkISyLkqRzGfvXz86fc973
+PO/zPO877+uhfoZgn/XL3OWzGZnVPv1TvCHv2Lb3KxFeFXcg5kqkFCxdwCoCh1Zc
+KouIGUExFMNFisI5wOE8g3KSCTAkwZI4iooiKtAE4Bmc4nFexAVBZAmURWGIEgRJ
+YAIAGErRKIckIJKsWIDdZpcVDdIyPI/RrITTHHxwkiDRGMYCnMM5FDAUTQKJEAmJ
+QWFhierQK6A5nnOARFmFORgUL9n7D/z/7Lt8iU4iGI40SZRkIiBcIGiRN7E8yhIS
+zvESquuWO4Bd4coARGvQqVDClSJVCQjMOmUB6IPVO7mLUIBd3KkqIFHQNWx2VVMF
+1Qo/SjTN5jDrhdoOm450Ab74LkcxLysiHCOscAK7Q1YVxIxBpKDJOilG0CiNUSTN
+JCCgwibbQbGsI0iaYlB4dB3ghJQixuEEzVHPUgJG8TQuUXD+FA1wjOEYmsVonKVQ
+aYmMMjEYJkKEiSEphmEFjDUJJKK39YKiImYKammcBZI6ZIvCaeV2gFQFv+L7oL/B
+J9gQGOCrb5ghOCjs37Xb1Ld8sSAkAIn2W9c9OjgwN+JMS/m26q34R72LnYfeaT0u
+JT1z9JEn+qPKJvHxKbSzuSt8LP1I6/aAS780zTsOxhWdzJjwG/JkkyusjW0vN05X
+nzUUtt0/d9ZvNmtPzI2I43LTlrzpwQ3T+HnPYz4fpaXvXiX1ZP34wNcVJ75jPvvk
+dGAs+WmZnys3IfLgLsJb4Gmi4y8GSvuvjXj6k6/8GZi+v6S5vXFksqGiRcveusmV
+tDwyPp+PqP5p5oegpORey4VVYxFrHgrJsYTVGXu8/r/mJUex9Ss6JgrvPP/BzZqB
+KuGCcrq2lKw1vvhl+obcorIb9Wr3+Dd7Lt9TGmA69t4yd8fCYtzaynNdD2ffijXm
+h/Rttgq+KXsvja0eWj9zefJMz7AvHHiT97XwNXVswxfGTu7t3wzrhNzwYc549VRc
+kTbUPjB81U0mKHEDyseDMT8v7J5FMkbvTY1szvE5ZN340t7Gyb9Xbna6ThVO/P5k
+z5mstfLklfrRrfYYbDX9eDfo2nbg3PfX+4w1bYUnMrOv8y3ugYvGXdd2bnmqfybd
+aHFubAUtwVOuNz3ZUQWh54PC3J/v2/dHWn9qb05stDZki/YWzdtTP+xtad+ekthw
+5GbzVzWd7zo86viM79FbtWUdoQtTSqF5ri4t/I2Vt3OQkx351f707VfvAO3wc7NP
+e/jD3ZkH5q2Gv+77Bw==
+=piJ3
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tbaschak
+
+==================================================================
+
