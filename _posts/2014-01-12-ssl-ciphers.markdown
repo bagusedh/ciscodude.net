@@ -13,8 +13,10 @@ image:
   credit: Theo Baschak
   creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
-The SSL/TLS Protocol versions, and Ciphers have never really been an item which people configured very tightly. Lately though, there are very valid reasons to ensure that SSL, where applied, has the best methods available to protect confidentiality/integrity. Sites such as [ssllabs.com](https://www.ssllabs.com/ssltest/analyze.html?d=ciscodude.net) can help test your web servers configurations. Weak ciphers give a false sense of security. There are attacks against SSL/TLS.
+**This page is outdated. Please use the [Mozilla SSL Configuration Generator
+](https://mozilla.github.io/server-side-tls/ssl-config-generator/) to generate a secure configuration.**
 
+The SSL/TLS Protocol versions, and Ciphers have never really been an item which people configured very tightly. Lately though, there are very valid reasons to ensure that SSL, where applied, has the best methods available to protect confidentiality/integrity. Sites such as [ssllabs.com](https://www.ssllabs.com/ssltest/analyze.html?d=ciscodude.net) can help test your web servers configurations. Weak ciphers give a false sense of security. There are attacks against SSL/TLS.
 
 The following is the set I use for this site (at the time of publishing):
 
@@ -24,7 +26,3 @@ ssl_ciphers    ECDH+AESGCM:DH+AESGCM:ECDH+AES256:DH+AES256:ECDH+AES128:DH+AES:EC
 {% endhighlight %}
 
 This is also useful (different config value names) in things like dovecot.conf and also apache's SSL vhost configs.
-
-**This page is outdated. Please use the [Mozilla SSL Configuration Generator
-](https://mozilla.github.io/server-side-tls/ssl-config-generator/) to generate a secure configuration.**
-
