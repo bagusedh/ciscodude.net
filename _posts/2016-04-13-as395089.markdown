@@ -1,7 +1,7 @@
 ---
 layout: post
 image:
-  feature: https://ciscodude.net/images/datacenter-overhead-cables.jpg
+  feature: https://ciscodude.net/static/blog-img/datacenter-overhead-cables.jpg
   credit: Theo Baschak
   creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "AS395089"

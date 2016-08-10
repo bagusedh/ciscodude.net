@@ -1,7 +1,7 @@
 ---
 layout: post
 image:
-  feature: https://ciscodude.net/images/foggy-morning.jpg
+  feature: https://ciscodude.net/static/blog-img/foggy-morning.jpg
   credit: Theo Baschak
   creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "Latency and Effects on TCP Performance"

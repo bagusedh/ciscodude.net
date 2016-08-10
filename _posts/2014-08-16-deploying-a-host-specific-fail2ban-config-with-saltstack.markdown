@@ -12,7 +12,7 @@ categories:
 - SaltStack
 - System Administration
 image:
-  feature: https://ciscodude.net/images/snow-dust.jpg
+  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
   credit: Theo Baschak
   creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
