@@ -1,0 +1,13 @@
+#!/bin/bash
+
+/etc/init.d/gogs stop
+
+sudo su - git
+cd ~git
+go get -u -tags "sqlite redis memcache" github.com/gogits/gogs
+cd $GOPATH/src/github.com/gogits/gogs
+mv gogs gogs.$(date +%Y-%m-%d).old
+go build -tags "sqlite redis memcache"
+
+# exit to root
+/etc/init.d/gogs start

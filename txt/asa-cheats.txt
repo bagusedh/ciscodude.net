@@ -1,0 +1,7 @@
+
+# Enable SSH (needs keys generated)
+
+show crypto key mypubkey rsa
+- make sure the "Default-RSA-Key" is present. If not create the rsa key-pair with the command:
+cry key generate rsa modulus 1024
+

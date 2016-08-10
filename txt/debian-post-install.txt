@@ -1,0 +1,52 @@
+# ensure we have curl sudo vim-nox
+apt-get -y install curl sudo vim-nox
+
+# always use vim.nox
+update-alternatives --set editor /usr/bin/vim.nox
+update-alternatives --set vi /usr/bin/vim.nox
+update-alternatives --set vim /usr/bin/vim.nox
+
+## optionally add dotdeb keys and repo
+wget -O- http://www.dotdeb.org/dotdeb.gpg|apt-key add -
+curl -s https://ciscodude.net/txt/dotdeb.list.txt > /etc/apt/sources.list.d/dotdeb.list
+
+## tor
+gpg --keyserver keys.gnupg.net --recv 886DDD89
+gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
+curl -s https://ciscodude.net/txt/tor.list.txt > /etc/apt/sources.list.d/tor.list
+apt-get update
+apt-get install -y tor deb.torproject.org-keyring
+
+## salt
+## add salt key & install salt-minion
+wget -O - https://repo.saltstack.com/apt/debian/latest/SALTSTACK-GPG-KEY.pub | sudo apt-key add -
+curl -s https://ciscodude.net/txt/saltstack.list.txt > /etc/apt/sources.list.d/saltstack.list
+apt-get update
+mkdir -p /etc/salt/minion.d
+echo 'master: salt.ciscodude.net' > /etc/salt/minion.d/master.conf
+
+# create and edit the grains
+cat <<EOM > /etc/salt/grains
+roles:
+- anycast
+- aptcache
+- development
+- dns
+- fileserver
+- ftpserver
+- monitoring
+- primaryns
+- slavens
+- webserver
+- xmpp
+- etc
+deployment: do.xxx
+apt: true
+owner: theo
+EOM
+vi /etc/salt/grains
+
+# Install Salt
+apt-get -y install salt-minion
+service salt-minion restart
+

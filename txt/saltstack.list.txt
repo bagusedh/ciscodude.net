@@ -1,0 +1,2 @@
+# Saltstack
+deb http://repo.saltstack.com/apt/debian/latest jessie main

@@ -1,0 +1,8 @@
+git clone --no-hardlinks file:///SOURCE /tmp/blubb
+cd blubb
+git filter-branch --subdirectory-filter ./PATH_TO_EXTRACT  --prune-empty --tag-name-filter cat -- --all
+git clone file:///tmp/blubb/ /tmp/blooh
+cd /tmp/blooh
+git reflog expire --expire=now --all
+git repack -ad
+git gc --prune=now

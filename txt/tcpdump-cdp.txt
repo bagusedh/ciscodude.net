@@ -1,0 +1,6 @@
+# CDP
+tcpdump -nn -v -i en0 -s 1500 -c 1 'ether[20:2] == 0x2000'
+# LLDP
+tcpdump -nn -v -i en0 -s 1500 -XX -c 1 'ether proto 0x88cc'
+# LLDP & CDP
+tcpdump -nn -v -i en0 -s 1500 -c 1 '(ether[12:2]=0x88cc or ether[20:2]=0x2000)'

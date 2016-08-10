@@ -1,0 +1,18 @@
+cd /opt
+wget http://ftp.otrs.org/pub/otrs/otrs-3.3.9.tar.gz
+tar xzf otrs-3.3.9.tar.gz 
+/etc/init.d/cron stop
+/etc/init.d/apache2 stop
+cd /opt/otrs
+/opt/otrs/scripts/backup.pl -d /backup
+cd ../otrs-3.3.9
+cp -r * ../otrs/
+cd ../otrs
+/opt/otrs/bin/otrs.CheckModules.pl
+/opt/otrs/bin/otrs.CheckDB.pl
+/opt/otrs/bin/otrs.RebuildConfig.pl
+/opt/otrs/bin/otrs.DeleteCache.pl
+/opt/otrs/bin/otrs.SetPermissions.pl --otrs-user=otrs --otrs-group=otrs --web-user=www-data --web-group=www-data  /opt/otrs
+/etc/init.d/cron start
+/etc/init.d/apache2 start
+

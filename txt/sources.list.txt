@@ -1,0 +1,24 @@
+# Main
+deb http://muug.ca/mirror/debian/ jessie main contrib
+deb-src http://muug.ca/mirror/debian/ jessie main contrib
+
+deb http://ftp.ca.debian.org/debian/ jessie main contrib
+deb-src http://ftp.ca.debian.org/debian/ jessie main contrib
+
+# Security
+deb http://security.debian.org/ jessie/updates main
+deb-src http://security.debian.org/ jessie/updates main
+
+
+# dotdeb
+#deb http://packages.dotdeb.org jessie all
+#deb-src http://packages.dotdeb.org jessie all
+
+# prosody
+#deb http://packages.prosody.im/debian jessie main
+
+#backports
+#deb http://http.debian.net/debian jessie-backports main
+
+#saltstack
+#deb http://debian.saltstack.com/debian jessie-saltstack main

@@ -1,0 +1,59 @@
+{
+   "_id": "004571954778a7f2007cb11786095a89",
+   "_rev": "1-0203feb134a715920c1fed1f11254103",
+   "exabgp": "3.4.8",
+   "time": 1446840412,
+   "host": "theoBGP64bit",
+   "pid": "21942",
+   "ppid": "1",
+   "counter": 1780876,
+   "type": "update",
+   "neighbor": {
+       "ip": "216.73.79.3",
+       "address": {
+           "local": "216.73.73.229",
+           "peer": "216.73.79.3"
+       },
+       "asn": {
+           "local": "65179",
+           "peer": "16796"
+       },
+       "message": {
+           "update": {
+               "attribute": {
+                   "origin": "igp",
+                   "as-path": [
+                       16796,
+                       7122,
+                       15290,
+                       6453,
+                       209,
+                       721,
+                       27064,
+                       5953
+                   ],
+                   "confederation-path": [
+                   ],
+                   "atomic-aggregate": true,
+                   "aggregator": "65037:144.104.74.1"
+               },
+               "announce": {
+                   "ipv4 unicast": {
+                       "216.73.79.3": {
+                           "143.74.200.0/22": {
+                           }
+                       }
+                   }
+               },
+               "withdraw": {
+                   "ipv4 unicast": {
+                       "124.125.83.0/24": {
+                       },
+                       "204.112.6.247/32": {
+                       }
+                   }
+               }
+           }
+       }
+   }
+}
