@@ -22,7 +22,7 @@ I've [previously written about](/2014/10/09/firewall-log-stats/) my OpenBSD PF f
 
 ## Tcpdump To The Rescue
 
-I started to tcpdump on the internal interface, to establish exactly which ICMPv6 types were needed for regular operation. I was using `tcpdump -i vlanXX ip6`, which was WAY too verbose. I eventually found [this really helpful blog post](http://note-to-self.baker.com/2013/01/01/tcpdump-of-icmpv6-router-advertisments/) which suggested using the following to troubleshoot NDP issues.
+I started to tcpdump on the internal interface, to establish exactly which ICMPv6 types were needed for regular operation. I was using `tcpdump -i vlanXX ip6`, which was WAY too verbose. I eventually found [this really helpful blog post (now dead)](http://note-to-self.baker.com/2013/01/01/tcpdump-of-icmpv6-router-advertisments/) [web.archive.org link of the blog](https://web.archive.org/web/20140501050744/http://note-to-self.baker.com/2013/01/01/tcpdump-of-icmpv6-router-advertisments/) which suggested using the following to troubleshoot NDP issues.
 
 {% highlight bash %}
 tcpdump -i eth0 'ip6 && icmp6 && (ip6[40] == 133 || ip6[40] == 134 || ip6[40] == 135 || ip6[40] == 136)'
