@@ -2,6 +2,7 @@ _site*
 .sass-cache
 .gist-cache
 .tweet-cache
+.code-highlighter-cache
 .jekyll-metadata
 vendor
 .bundle
