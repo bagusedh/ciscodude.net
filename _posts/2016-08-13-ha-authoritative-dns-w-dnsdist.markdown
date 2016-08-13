@@ -5,10 +5,10 @@ image:
   credit: Theo Baschak
   creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "HA Authoritative DNS w/ dnsdist"
-date: 2016-08-01 20:30:38 -0500
+date: 2016-08-13 02:10:38 -0500
 comments: false
 share: true
-description: ""
+description: "I ran into an obscure limitation in PowerDNS 4.0 authoritative server recently. I have one nameserver which also acts as a slave to two other sets of zones with are transfered using AXFR. Some of those zones are DNSSEC enabled, and PowerDNS is only able to handle DNSSEC on the first backend loaded. This was causing several forward and reverse zones to fail to serve the DNSSEC records along with the queried records, and DNSSEC validation to partially fail."
 categories: 
 - Networking
 - Nerd Projects
