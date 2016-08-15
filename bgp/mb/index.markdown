@@ -114,10 +114,10 @@ ASN | Name | v4 / v6 | BGP
 [AS394467](https://stat.ripe.net/AS394467) | Iders Incorporated |  | inactive
 [AS394522](https://stat.ripe.net/AS394522) | Assiniboine Community College | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | active
 [AS394989](https://stat.ripe.net/AS394989) | Gene's Telecom | {% img /static/blog-img/v4.png %} | active
-[AS395089](https://stat.ripe.net/AS395089) | Hextet Systems | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | active
+[AS395089](https://stat.ripe.net/AS395089) &nbsp; | Hextet Systems | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | active
 [AS395248](https://stat.ripe.net/AS395248) | Loewen |  | inactive
 [AS395295](https://stat.ripe.net/AS395295) | The Wawanesa Mutual Insurance Company |  | inactive
-[AS395338](https://stat.ripe.net/AS395338) &nbsp; | RBC Convention Centre Winnipeg | {% img /static/blog-img/nov4.png %} | inactive
+[AS395338](https://stat.ripe.net/AS395338) | RBC Convention Centre Winnipeg | {% img /static/blog-img/nov4.png %} | inactive
 
 
 ### Statistics
