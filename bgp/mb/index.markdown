@@ -117,7 +117,7 @@ ASN | Name | v4 / v6 | BGP
 [AS395089](https://stat.ripe.net/AS395089) | Hextet Systems | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | active
 [AS395248](https://stat.ripe.net/AS395248) | Loewen |  | inactive
 [AS395295](https://stat.ripe.net/AS395295) | The Wawanesa Mutual Insurance Company |  | inactive
-[AS395338](https://stat.ripe.net/AS395338) | RBC Convention Centre Winnipeg | {% img /static/blog-img/nov4.png %} | inactive
+[AS395338](https://stat.ripe.net/AS395338) &nbsp; | RBC Convention Centre Winnipeg | {% img /static/blog-img/nov4.png %} | inactive
 
 
 ### Statistics
