@@ -10,6 +10,12 @@ comments: false
 share: true
 description: "Yesterday morning the company I own, Hextet Systems, was assigned AS 395089 from ARIN's pool of ASNs. By mid-afternoon I had turned up BGP with my first uptream for IPv6, and was advertising a /44. By 11PM I had finished setting up IPv4 BGP as well and was advertising my /24."
 categories: 
+- Networking
+- ISP
+- BGP
+- System Administration
+- Troubleshooting
+- CLI
 ---
 Yesterday morning the company I own, Hextet Systems, was assigned AS 395089 from ARIN's pool of ASNs. By mid-afternoon I had turned up BGP with my first uptream for IPv6, and was advertising a /44. By 11PM I had finished setting up IPv4 BGP as well and was advertising my /24. I had succeeded in turning up an ASN fully on the very first day.
 
