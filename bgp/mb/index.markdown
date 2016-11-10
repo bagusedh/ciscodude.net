@@ -114,22 +114,30 @@ ASN | Name | v4 / v6 | BGP
 [AS394467](https://stat.ripe.net/AS394467) | Iders Incorporated |  | inactive
 [AS394522](https://stat.ripe.net/AS394522) | Assiniboine Community College | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | active
 [AS394989](https://stat.ripe.net/AS394989) | Gene's Telecom | {% img /static/blog-img/v4.png %} | active
-[AS395089](https://stat.ripe.net/AS395089) &nbsp; | Hextet Systems | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | active
+[AS395089](https://stat.ripe.net/AS395089) | Hextet Systems | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | active
 [AS395248](https://stat.ripe.net/AS395248) | Loewen |  | inactive
 [AS395295](https://stat.ripe.net/AS395295) | The Wawanesa Mutual Insurance Company |  | inactive
-[AS395338](https://stat.ripe.net/AS395338) | RBC Convention Centre Winnipeg | {% img /static/blog-img/nov4.png %} | inactive
+[AS395338](https://stat.ripe.net/AS395338) | RBC Convention Centre Winnipeg | {% img /static/blog-img/v4.png %} | active
+[AS395588](https://stat.ripe.net/AS395588) | Zirro | {% img /static/blog-img/nov4.png %} | inactive
+[AS395653](https://stat.ripe.net/AS395653) | Princess Auto Ltd |  | inactive
 
 
 ### Statistics
 
-* Total ASNs: 76
-  * IPv4 only: 35 or 46% 
+* Total ASNs: 78
+  * IPv4 only: 36 or 46% 
   * IPv6 Allocation: 36 or 47%
   * IPv6 Allocation Advertised: 33 or 43%
 
 I have created a [graph showing the growth of Manitoban ASNs](/bgp/mb/asns/), using chart.js.
 
 ### Update History
+
+**2016-11-06:** Added new ASN: AS395653
+
+**2016-10-14:** Added new ASN: AS395588
+
+**2016-09-20:** AS395388 advertising own IPv4 now.
 
 **2016-07-27:** Removed AS21876 (formerly HED Insurance and Risk Services)
 
