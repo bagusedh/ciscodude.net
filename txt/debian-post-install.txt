@@ -19,7 +19,7 @@ apt-get install -y tor deb.torproject.org-keyring
 
 ## salt
 ## add salt key & install salt-minion
-wget -O - https://repo.saltstack.com/apt/debian/latest/SALTSTACK-GPG-KEY.pub | sudo apt-key add -
+wget -O - https://repo.saltstack.com/apt/debian/8/amd64/latest/SALTSTACK-GPG-KEY.pub | sudo apt-key add -
 curl -s https://ciscodude.net/txt/saltstack.list.txt > /etc/apt/sources.list.d/saltstack.list
 apt-get update
 mkdir -p /etc/salt/minion.d

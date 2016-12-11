@@ -4,10 +4,14 @@
 
 sudo su - git
 cd ~git
-go get -u -tags "sqlite redis memcache" github.com/gogits/gogs
-cd $GOPATH/src/github.com/gogits/gogs
+#go get -u -tags "sqlite redis memcache" github.com/gogits/gogs
+go get -u -tags "sqlite redis memcache" code.gitea.io/gitea
+
+#cd $GOPATH/src/github.com/gogits/gogs
+cd /home/git/go/src/code.gitea.io/gitea/
 mv gogs gogs.$(date +%Y-%m-%d).old
 go build -tags "sqlite redis memcache"
 
 # exit to root
 /etc/init.d/gogs start
+
