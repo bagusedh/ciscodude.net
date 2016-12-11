@@ -120,6 +120,7 @@ ASN | Name | v4 / v6 | BGP
 [AS395338](https://stat.ripe.net/AS395338) | RBC Convention Centre Winnipeg | {% img /static/blog-img/v4.png %} | active
 [AS395588](https://stat.ripe.net/AS395588) | Zirro | {% img /static/blog-img/nov4.png %} | inactive
 [AS395653](https://stat.ripe.net/AS395653) | Princess Auto Ltd |  | inactive
+[AS395755](https://stat.ripe.net/AS395755) | Valley Internet Service Provider, LTD |  | inactive
 
 
 ### Statistics
@@ -132,6 +133,8 @@ ASN | Name | v4 / v6 | BGP
 I have created a [graph showing the growth of Manitoban ASNs](/bgp/mb/asns/), using chart.js.
 
 ### Update History
+
+**2016-12-01:** Added new ASN: AS395755
 
 **2016-11-06:** Added new ASN: AS395653
 
