@@ -223,3 +223,149 @@ View my publicly-auditable identity here: https://keybase.io/tbaschak
 
 ==================================================================
 
+==================================================================
+https://keybase.io/tbaschak
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bgp.guru
+  * I am tbaschak (https://keybase.io/tbaschak) on keybase.
+  * I have a public key with fingerprint 8BB1 79F2 7ABB 1AFC F711  9E2A 2A0E 8675 EF4D 4F80
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012d662aea2b80af3e85495200dd0c74eb826b2bd2ccd9409026b044541cee10670a",
+            "fingerprint": "8bb179f27abb1afcf7119e2a2a0e8675ef4d4f80",
+            "host": "keybase.io",
+            "key_id": "2a0e8675ef4d4f80",
+            "kid": "01012d662aea2b80af3e85495200dd0c74eb826b2bd2ccd9409026b044541cee10670a",
+            "uid": "f48a53f6f342ccc47db39b094f2abf00",
+            "username": "tbaschak"
+        },
+        "service": {
+            "hostname": "bgp.guru",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1481685962,
+    "expire_in": 157680000,
+    "prev": "e521e5800362c6b165d2942919b70bc05f1cd13161ae791c8d18b9bb455c2348",
+    "seqno": 76,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUm1QVFUYXhDBIBAwAoEJuaSNgHTO3fu5BWNTJg6D0iKCUxNzz73nLneAveve
+3UVEir4smsodGxontd1GkkG+I1Y+1jFRRNNMA6dpyJxB+iAIx2EaoqS6l7F//ez8
+Oed95nme93nfOd7oFabIkMyYA+47hTsaQi5PI1NZ0dD1OgKpUi1hqSMq8fKFqySs
+ucorFYmwEAACSEoMQwpYIBEHBNmMOZriaRIASQIiS2HEkQwikUSKosRTgAd6CSiK
+pqCIMQQMCwQim5AVuw07HU7F7tJtOYQgy8skK+gPQRZlFkIekwIpAMwxLI1lSqJk
+DujCClUzFHo4JGg4R1F1TC/Kl+P9B/9/zu1etpMpTqDNMiObKZ0uUqyEzDwCPCWT
+ApKB0detYaddqMY626UnFSuESqI+m9BRjyJiY7HGJPcZyObIsbmdbl3ncKouVVSr
+dLTC5XJoFkPlqnUYtBqMyu8blCPFLuk71BUe7NQU1U5YoM4UXYrhCCkOMhzNM2Q2
+gfc6FCcuVwwGzTIc0I/RB3t0S0yTENM6ZmZKSJFBkKElkqdIHvKIBUgEtAxFCZoh
+AwXM8lDkJMghHiGKpkXSTHGEMdMeu0pYWEYPKth0U02x2QWX24mJ+sjG0NQwU0ik
+KXxlqPG9TJEPxP775+oHYk0dqz+qGapKH8r2bCsdpgm09mYCSB1J29FR09TTMNG5
+Bez5PaK/9Ws+S0sqhbvFT6cWDllx3/n0ffHtpvzmq9WDdefI7hjPyRIv03c4b9fd
+sLanLgYOg8CpoIWNwzc9CfxjQ79UX+ymPveNphwMjp4pLWoj2/j2qcBD1s/mfo7O
+CgodadTt1/tGA/Fa4qzfUhKzRY1rTd74ncDOT12ztfRMhxVc9Q2+uaHT4reWPD8y
+c2xy8CRE4zZbbjHcu7SQmM0MxB/cHg5xsTd8Blgz6lK+aeAeORu1buyV5FV45SV6
+6/jiG+9eK/2qouWTudKkZm/jWO4z39/zn5jtDaROTJxdt5hbGJsWurlrIuKlV/10
+/8CFsie3Hw179PHGfVbPofWW7kmO3xw3WrWx661TH/y1NX+pcMwXXJN/rP1tdv6c
+cyTnuNZzoGHSdEVFcy9qf2yyD7wfUfPjjciy9oSygubXWn778MjwpQ3bkpyu/flH
+M8K7v7hlifb2vpwh1nV0dUc9G++dG39CLU6Z+ft6faiDytwt01Vy54lE75nkj3f6
+5oWZ0z9NNc2Otn17ZL8wGBW84uhNl32Xp1ft/OH8wxWLDRn9mV++MNuTt7AUfC9v
+9nbxpoLgvdow33rhwQtE0Y1bq59u8s/HvfNr5p/H155e89zd4RW7htzewbT+MWtI
+XuedLKb1Hw==
+=6csb
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tbaschak
+
+==================================================================
+
+==================================================================
+https://keybase.io/tbaschak
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://theodorebaschak.ca
+  * I am tbaschak (https://keybase.io/tbaschak) on keybase.
+  * I have a public key with fingerprint 8BB1 79F2 7ABB 1AFC F711  9E2A 2A0E 8675 EF4D 4F80
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012d662aea2b80af3e85495200dd0c74eb826b2bd2ccd9409026b044541cee10670a",
+            "fingerprint": "8bb179f27abb1afcf7119e2a2a0e8675ef4d4f80",
+            "host": "keybase.io",
+            "key_id": "2a0e8675ef4d4f80",
+            "kid": "01012d662aea2b80af3e85495200dd0c74eb826b2bd2ccd9409026b044541cee10670a",
+            "uid": "f48a53f6f342ccc47db39b094f2abf00",
+            "username": "tbaschak"
+        },
+        "service": {
+            "hostname": "theodorebaschak.ca",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1481686352,
+    "expire_in": 157680000,
+    "prev": "69139e2fafde67a0dd55bee29477e76fceb4dc5d75ba885597baff3ecc71f8fc",
+    "seqno": 80,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUm1QVFUYXkBg2CnwAyepBoY7kF+L3Hv3fq6VQiJf8jUTQzONLvfcey57hXbX
+uxdwXSkT2wrxowCHiYAtECIixonSNGosQ2XDKSknNcQxJ4lCLdmAUaFzGf3Xz86f
+c973PM/zvu8z78FHQwzGoFWR3vJbOXm7gvy/A8ML+f3PezDgkNyYxYOVwvkLlknQ
+pVlLFQmzYDiBE6TEMKQABRJwuCCbIUdTPE3iuCThIktBwJEMIIFEiqLEUziPoxCn
+KJoiRAgJnGFxATNhsmIvgapTVewakuUAIFheJlkBPQRZlFmC4CEpkAIOOYaloUxJ
+lMzhiGhzuHQGag4ILrhGcaAcCqzz7f0H/n/uu3xeTqY4gTbLjGymEFykWAmYeYDz
+lEwKQMb1uuUuqNqFlyBCa6hT0SaUYlUmDGUrFBHqxuqTPETYoENyqPABcI2ol3Kq
+Ds0hOsrQv03TnC6LztfcTp1QCYH1gZQVKHYJuYkYFVB1KQ47ZiEQUtQUXZugOILh
+GDNNmjC43amo0KroCJplOBwdvQ6sQJKMlSfMyHRZkCXIsALyhaYBhCRPsSxkGVmE
+gJJEWmJpIHAcTfMsEGTkoyiyhMzJIqZPt83uwCwcUtWEEiTqUkrsglauQqzK+Gbw
+kwsMQUZDWGiwvmgGY8TCh9vXv32h4azX4s9yxb6Wvjv+9sql+0qO19cXy9XTS1sH
+i8dzGjOyZkNCZrduqttwjFeSCz8aSdhx9PpnBStfiTmQVPSqvzduPC07RdKmh+or
+ffnZi75xr9N27x2qHvUPZW37xMvcODhe5713JG+15/LW2rmBX044n7m4OaumJzR4
+OPfW3v6m91N2xbxMJX59BD95PKSnLfmdmOKG0WhnKpda/UPAXts5FRfWX1W2aHLq
+L1/2ncbRD9ujP2499u7RpnCB7E1snHHupK7seeTAsscAFdU7GW9bEWE3vhd+bUtp
+pNICzkzGTiQG2s63sc6bIX8GpcyNNN9rm+laB4o2u2ZHm39rMKVfdXUdLux7Y/Tu
++qLm2v6+w3UfnMoaezbs7ITb/63S4juXpHweObx2ubWuJn9sceWXgROZ/1zasbpK
+bdy5iebGv3oxdlXXybRTSQHP4kPqhYT684Pd13x+46Hk2wwo/KN+Q8VgACopcVWp
+3ksJeftKGl6vMVS23t1TdLHQVbzfnZJ75+ehgucGljVlTPi8GTMb19aaknsGfvwu
+2hLYMpWqVn7/q88U3F0RuDrAj/QsyTQE9fw0nNktTi+YC3ie4C43qjc73rr/dvv6
+GJ7LdRd8cfrxjfLTbTdW3L9iuh6lfDp8Ok1KX17UET0Y/nd7x7kl1qdsY6yvJcwT
+dSY00zfdGd8JLuQ0RPT9Cw==
+=SVXg
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tbaschak
+
+==================================================================
+
