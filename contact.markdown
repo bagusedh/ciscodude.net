@@ -11,7 +11,7 @@ sharing: true
 footer: false
 navbar: Contact
 ---
-Theo uses GPG to sign and encrypt emails. He also uses OTR to do the same for IM. Below are his key fingerprints for verification. Some of his email addresses are available by <a href="http://pgp.mit.edu:11371/pks/lookup?search=0xC1ACA463B519C47E&op=vindex" target="_blank">viewing his GPG key</a> @ pgp.mit.edu. He currently has 3 addresses attached to this key.
+Theo uses GPG to sign and encrypt emails. He also uses OTR to do the same for IM. Below are his key fingerprints for verification. Contact email addresses are available [here](https://gist.github.com/tbaschak/d4fa7e4cfb5e809d477a).
 
 Keybase
 -------
