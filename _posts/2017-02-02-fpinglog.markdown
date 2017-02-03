@@ -1,0 +1,65 @@
+---
+layout: post
+title: "fpinglog"
+date: 2017-02-02 17:12:17 -0500
+comments: false
+categories:
+- Networking
+- Nerd Projects
+- Network Monitoring
+- CLI
+- IPv6
+- Programming
+- ISP
+- System Administration
+image:
+  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
+  credit: Theo Baschak
+  creditlink: https://www.flickr.com/photos/theodorebaschak/
+share: true
+description: "I've often wished for a way of logging pings when troubleshooting connectivity problems. Today I revisited the problem using fping."
+---
+I've often wished for a way of logging pings when troubleshooting connectivity problems. Today I revisited the problem using fping.
+
+`fping` and `fping6` both have options to run a continuous ping (`-l`), and when combined with `-D` to insert the unix timestamp, can log the latency and loss to a destination in 1s increments.
+
+When working with unix timestamps, the following one-liner is handy:
+
+`perl -pe 's/(\d+)/localtime($1)/e'`
+
+{% highlight text %}
+$ fping -D -l www | tee www-pings 
+[1486087249.709072] www : [0], 84 bytes, 0.38 ms (0.38 avg, 0% loss)
+[1486087250.709110] www : [1], 84 bytes, 0.32 ms (0.35 avg, 0% loss)
+[1486087251.709555] www : [2], 84 bytes, 0.38 ms (0.36 avg, 0% loss)
+[1486087252.710094] www : [3], 84 bytes, 0.54 ms (0.40 avg, 0% loss)
+[1486087253.710228] www : [4], 84 bytes, 0.30 ms (0.38 avg, 0% loss)
+[1486087254.711275] www : [5], 84 bytes, 0.31 ms (0.37 avg, 0% loss)
+[1486087255.712327] www : [6], 84 bytes, 0.32 ms (0.36 avg, 0% loss)
+[1486087256.713359] www : [7], 84 bytes, 0.32 ms (0.35 avg, 0% loss)
+[1486087257.713911] www : [8], 84 bytes, 0.38 ms (0.36 avg, 0% loss)
+[1486087258.714303] www : [9], 84 bytes, 0.29 ms (0.35 avg, 0% loss)
+[1486087259.714810] www : [10], 84 bytes, 0.32 ms (0.35 avg, 0% loss)
+[1486087260.715870] www : [11], 84 bytes, 0.33 ms (0.34 avg, 0% loss)
+^C
+www : xmt/rcv/%loss = 12/12/0%, min/avg/max = 0.29/0.34/0.54
+
+{% endhighlight %}
+
+This also logs the output to a file named www-pings.
+
+The above commands can also all be combined onto one (modified to handle the precision of the unix timestamp)
+
+{% highlight text %}
+$ fping -D -l www | tee www-pings | perl -pe 's/(\d+\.\d+)/localtime($1)/e'
+[Thu Feb  2 20:02:41 2017] www : [0], 84 bytes, 2.05 ms (2.05 avg, 0% loss)
+[Thu Feb  2 20:02:42 2017] www : [1], 84 bytes, 0.26 ms (1.15 avg, 0% loss)
+[Thu Feb  2 20:02:43 2017] www : [2], 84 bytes, 0.29 ms (0.86 avg, 0% loss)
+[Thu Feb  2 20:02:44 2017] www : [3], 84 bytes, 0.36 ms (0.74 avg, 0% loss)
+[Thu Feb  2 20:02:45 2017] www : [4], 84 bytes, 0.30 ms (0.65 avg, 0% loss)
+[Thu Feb  2 20:02:46 2017] www : [5], 84 bytes, 0.27 ms (0.58 avg, 0% loss)
+^C
+www : xmt/rcv/%loss = 6/6/0%, min/avg/max = 0.26/0.58/2.05
+
+{% endhighlight %}
+
