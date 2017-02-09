@@ -33,7 +33,7 @@ layout: default
 			{% endif %}
 
 			<ul class="posts">
-				<li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
+				<li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_rfc822 }}</span></i></li>
 			</ul>
 
 			{% if forloop.last %}
