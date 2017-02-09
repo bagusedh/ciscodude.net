@@ -5,6 +5,7 @@ github: https://github.com/tbaschak
 about: "Founder of Hextet Systems. BOFH. Network Architect for AS55101. Also run my own ASN, AS395089. Open Source Guru."
 #disqus_shortname: stackproblems
 google_analytics: UA-46747597-1
+avatar_url: /static/img/avatar.png
 
 enableTags: true
 tagarray: []
