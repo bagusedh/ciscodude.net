@@ -69,3 +69,8 @@ twitter:
   consumer_secret: DulWBWQ2u1L7m3brqcOUuOLIRazGuZft9uiCGQVbVbvwcpden8
   access_token: 371307426-TxZbhCShYNZ0Z0fhbzajd9CvIuWrfgrRb8pZEXun
   access_token_secret: hVeZw8l20nQlNKTNvYOxWVsPHiJ9YQIsIaPvBM8vzeH7P
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
