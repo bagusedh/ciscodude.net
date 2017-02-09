@@ -1,9 +1,5 @@
 ---
 permalink: /bgp/mb/test/
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 layout: bgppage
 title: "MB BGP/ASN Status"
 comments: false

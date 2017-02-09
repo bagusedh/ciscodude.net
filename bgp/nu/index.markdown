@@ -1,8 +1,4 @@
 ---
-image:
-  feature: https://ciscodude.net/images/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 layout: page
 title: "NU BGP/ASN Status"
 comments: false
