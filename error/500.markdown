@@ -7,5 +7,5 @@ footer: false
 ---
 An Internal Server Error has occured handling your request.
 
-Meanwhile, you can try looking in the [All Posts](/), [Categories](/categories/) or using the sitemap search to locate what you were looking for.
+Meanwhile, you can try looking in the [All Posts](/), [Categories](/category/) or using the sitemap search to locate what you were looking for.
 

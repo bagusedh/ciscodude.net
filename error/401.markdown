@@ -7,4 +7,4 @@ footer: false
 ---
 You are not authorized to view this page.
 
-You can try looking in the [All Posts](/), [Categories](/categories/) or using the sitemap search to locate what you were looking for.
+You can try looking in the [All Posts](/), [Categories](/category/) or using the sitemap search to locate what you were looking for.
