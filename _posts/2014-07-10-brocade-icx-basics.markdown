@@ -9,10 +9,6 @@ categories:
 - Networking
 - Nerd Projects
 - CLI
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 I've been exposed to several different models of Brocade ICX switches lately, both the ICX6430 and the ICX6610. The ICX6430 is a low end gigabit-only, stackable layer2 access switch platform. While the ICX6610 is a feature rich gigabit/10gigabit stackable layer3 distribution/core switch platform (depending on the size of your network).

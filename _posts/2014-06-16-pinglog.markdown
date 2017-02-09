@@ -12,10 +12,6 @@ categories:
 - Programming
 - ISP
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 I've often wished for a way of logging pings when troubleshooting connectivity problems. Tonight I wrote a few shell scripts to help with this. The first set pings a host (ipv4 or ipv6) and runs date when ping fails to respond within 1 second. This can be handy to show connectivity loss periods.

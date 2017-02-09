@@ -12,10 +12,6 @@ categories:
 - IPv6
 - Programming
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 While I've been supporting making requests to ipquail.com with useragent curl and responding with only plaintext, I don't have a formal API for the site. Being inspired by the recent [Arin on the Road](/2014/09/12/arin-on-the-road/) talks on their Whois-RWS and Reg-RWS systems, I set out to start to write an API for ipquail.com. 

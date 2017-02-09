@@ -9,10 +9,6 @@ categories:
 - Network Monitoring
 - CLI
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 This week I noticed my traceroute from one AS I run to another had changed, it appeared that TeraGo was leaking one or more routes.
 

@@ -10,10 +10,6 @@ categories:
 - Brocade
 - IPv6
 - Virtualization
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 I attended [Epic Technology Day](http://techday.ca/) (Wednesday, April 23, 2014) for the first time this year. I've often wanted to go, but not been sure of my schedule. This year I opted to register and see what came along. I was able to attend the full day in the end, and I had a great time and learned a lot as well. I was hoping that Brocade would be giving away one of their VDX switches as a door prize, but that wasn't the case. :-) The door prizes given away were pretty decent though, including several vendor's AP products.
 

@@ -1,9 +1,5 @@
 ---
 layout: post
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "Implementing BCP38"
 date: 2013-03-29 21:41:00 -0600
 comments: false

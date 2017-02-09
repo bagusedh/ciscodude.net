@@ -1,9 +1,5 @@
 ---
 layout: post
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "Where Old Code Goes...."
 date: 2013-07-30 21:57:36 -0600
 comments: false

@@ -1,9 +1,5 @@
 ---
 layout: post
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "An MX Record, Finally!"
 date: 2013-01-11 10:32:00 -0600
 comments: false

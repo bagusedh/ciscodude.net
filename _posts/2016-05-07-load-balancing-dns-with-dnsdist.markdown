@@ -1,10 +1,5 @@
 ---
 layout: post
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
-  title: "Load Balancing DNS with dnsdist"
 date: 2016-05-07 15:25:22 -0500
 comments: false
 share: true

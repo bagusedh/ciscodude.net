@@ -1,9 +1,5 @@
 ---
 layout: post
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "Building an OpenBSD BGP Looking Glass"
 date: 2013-01-27 23:03:00 -0600
 comments: false

@@ -1,9 +1,5 @@
 ---
 layout: post
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "HA Authoritative DNS w/ dnsdist"
 date: 2016-08-13 02:10:38 -0500
 comments: false

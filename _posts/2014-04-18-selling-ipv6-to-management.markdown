@@ -7,10 +7,6 @@ categories:
 - Networking
 - IPv6
 - Nerd Projects
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 Why do we need IPv6? This is one of the first questions I am often asked when bringing up IPv6. The perception is often that since no functionality appears to be missing, that IPv6 isn't needed, at least not right now. 
 

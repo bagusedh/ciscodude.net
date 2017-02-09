@@ -1,9 +1,5 @@
 ---
 layout: post
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "Gracefully Shutting Down An IXP"
 author: Jonathan Stewart
 author_site: http://www.mbix.ca/

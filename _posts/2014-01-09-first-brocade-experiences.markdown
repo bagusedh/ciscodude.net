@@ -1,8 +1,4 @@
 ---
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 layout: post
 title: "First Brocade CLI Experiences"
 date: 2014-01-09 18:57:33 -0600

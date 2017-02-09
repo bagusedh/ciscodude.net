@@ -1,9 +1,5 @@
 ---
 layout: post
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "RFC3021: 31-Bit Prefixes on PtP Links"
 date: 2013-10-22 10:26:37 -0600
 comments: false

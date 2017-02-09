@@ -7,10 +7,6 @@ categories:
 - Networking
 - IPv6
 - Nerd Projects
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 I've joined forces with a group of local IPv6 experts at local Hackerspace, [SkullSpace](http://skullspace.ca/), to form an IPv6 Task Force. This is a really fantastic group of dedicated, well rounded individuals, all working together for a common goal -- to raise awareness about IPv6. 
 

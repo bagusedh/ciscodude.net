@@ -1,9 +1,5 @@
 ---
 layout: post
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "BGP 101: Failover by Splitting Advertisements"
 date: 2013-08-09 10:57:26 -0600
 comments: false

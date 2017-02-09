@@ -6,10 +6,6 @@ comments: false
 categories:
 - Nerd Projects
 - Programming
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 I've heard a lot about python, its certainly a very popular language on [Github](http://github.com/), and I've been wanting to learn it for quite a while. This week ran though a quick 2-hour ["Up and Running with Python"](http://www.lynda.com/Python-tutorials/Up-Running-Python/122467-2.html) on Lynda.com. I've got some code experience, mostly from PHP and Perl scripts I've hacked to make sysadmin tasks easier, simple interfaces to databases, etc, but I'm certainly not a professional programmer.
 

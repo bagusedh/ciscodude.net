@@ -12,10 +12,6 @@ categories:
 - SaltStack
 - System Administration
 - Networking
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 With the deployment of a new nameserver at [DigitalOcean](https://www.digitalocean.com/?refcode=f6432a6e1354) NYC3 yesterday (to replace one at NYC2, which doesn't have IPv6), I have hit a fairly significant personal milestone -- All of my public facing services are now fully IPv6 enabled. 

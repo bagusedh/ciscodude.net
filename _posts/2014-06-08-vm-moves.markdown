@@ -11,10 +11,6 @@ categories:
 - Network Monitoring
 - Virtualization
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 I've been planning to move my website out of my basement for quite a while, and over the last week I've finally executed on the plan. My plan was to setup an edge router running OpenBSD, route 199.202.21.0/24 and 2604:4280:d000::/44 to it, then run VMware ESXi free to run all the various services I want to.

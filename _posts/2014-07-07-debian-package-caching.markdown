@@ -10,10 +10,6 @@ categories:
 - Virtualization
 - SaltStack
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 By starting to use SaltStack to administrate my Debian VMs I've saved myself a lot of time logging into each machine, running `apt-get update; apt-get upgrade`. I've used proxies in the past, mostly on satellite links where bandwidth to the Internet was sparse, and needed to be used as efficiently as possible, when possible. I've also run proxies for groups of many systems grabbing the same updates. This time instead of just using squid, or nginx, I checked if there was an apt specific proxy available. There was two "before the fold" options, apt-cache and apt-cacher-ng. I chose NG, as it sounded newer. :-)

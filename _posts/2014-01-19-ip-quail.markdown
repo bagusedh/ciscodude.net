@@ -10,10 +10,6 @@ categories:
 - ISP
 - Nerd Projects
 - Networking
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 external_url: http://ipquail.com/
 ---
 I've long been a fan of [IP Chicken](http://www.ipchicken.com/), however it isn't anycasted, and it doesn't support IPv6. I've had a non-anycasted IPv4/IPv6 capable version called [ipfowl](https://github.com/tbaschak/ipfowl) which I run at http://ip.henchman21.net/

@@ -10,10 +10,6 @@ categories:
 - Virtualization
 - System Administration
 external_url: http://www.v-front.de/2014/04/openssl-heartbleed-patches-for-esxi-55.html
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 I've been running the free version of ESXi in my basement for years, and have been well served by it. One of the things that is always somewhat of a pain is patching. I was always under the impression that to patch the free version of ESXi you needed to download the patches, and transfer them to a VMFS volume, then patch that bundle. A great blog [VMware Front Experience](http://www.v-front.de/) posted an [article about manually patching your ESXi 5.5 host](http://www.v-front.de/2014/04/openssl-heartbleed-patches-for-esxi-55.html) which is just fantastic.

@@ -11,10 +11,6 @@ categories:
 - Security
 - Network Monitoring
 - Virtualization
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 Today various sources announced CVE-2014-6271: "bash: specially-crafted environment variables can be used to inject shell commands". This is a serious risk on many Unix-like systems, as bash is a very popular shell, and included by default on many systems. It is used by both interactive users, as well as many wrapper scripts used in daily system operations. This bug is being referred to as "ShellShock" by many sources now, initially it was being referred to by some as "BashBleed". 

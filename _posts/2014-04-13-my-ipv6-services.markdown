@@ -10,10 +10,6 @@ categories:
 - Nerd Projects
 - Virtualization
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 I've had CiscoDude.net and its associated services IPv6 enabled over native IPv6 for the past year. Before that some services were IPv6 enabled over a HE.net tunnel.
 

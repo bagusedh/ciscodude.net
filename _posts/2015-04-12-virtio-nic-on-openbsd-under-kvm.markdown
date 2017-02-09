@@ -12,10 +12,6 @@ categories:
 - Nerd Projects
 - Network Monitoring
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 I've been running ciscodude.net at a new location for about a month now. My setup is a little different than it was previously. Instead of a 2nd physical server in front of my VM host as firewall/ACLs, I've now got a virtual machine doing the same thing. The setup is the same other than that, OpenBSD firewall in front of Linux service VMs. 
 

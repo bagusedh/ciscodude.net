@@ -12,10 +12,6 @@ categories:
 - Programming
 - System Administration
 - Network Monitoring
-image:
-  feature: https://ciscodude.net/static/blog-img/foggy-morning.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 In response to the recent [POODLE](https://www.openssl.org/~bodo/ssl-poodle.pdf) vulnerability in SSLv3, I have disabled SSLv3 support in anything of mine which speaks SSL/TLS. All connections are running TLSv1.0, TLSv1.1, or TLSv1.2 now. I have also reviewed the [list of ciphers](https://wiki.mozilla.org/Security/Server_Side_TLS) in the mozilla wiki, and updated mine as needed.

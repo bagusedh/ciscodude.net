@@ -13,10 +13,6 @@ categories:
 - Network Monitoring
 - System Administration
 - Troubleshooting
-image:
-  feature: https://ciscodude.net/static/blog-img/foggy-morning.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 This is a write up of an issue which I experienced on one of my networks. It is in response to [When Good NICs Do Bad Things: A Blast of IPv6 Multicast Listener Discovery Queries](http://packetpushers.net/good-nics-bad-things-blast-ipv6-multicast-listener-discovery-queries/) posted on [packetpushers.net](http://packetpushers.net/).

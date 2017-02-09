@@ -6,10 +6,6 @@ comments: false
 categories: 
 - Nerd Projects
 - Programming
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 I've moved up in time/history to the 1980's with Python -- INI files!
 

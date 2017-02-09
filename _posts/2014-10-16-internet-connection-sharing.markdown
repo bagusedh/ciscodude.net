@@ -11,10 +11,6 @@ categories:
 - Network Monitoring
 - System Administration
 - Troubleshooting
-image:
-  feature: https://ciscodude.net/static/blog-img/foggy-morning.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 I should start this off by saying that I contemplated much longer titles for this article, but kept it short for URL uniformity. The longer/longest version was: Internet Connection Sharing, Tracking Down Rogue DHCP Servers, and why DHCP Snooping should always be enabled on a network.

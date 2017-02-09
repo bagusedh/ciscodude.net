@@ -10,10 +10,6 @@ categories:
 - Brocade
 - Cisco
 - Network Monitoring
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 This past weekend a colleague and I executed a successful core network change, from stacked Cisco 3750G's to Brocade ICX6610's. We have been planning this upgrade for the past six months, and the extensive planning and testing before hand paid off -- only three small things were missed, none of which were show stoppers.

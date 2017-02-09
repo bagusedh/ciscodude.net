@@ -10,10 +10,6 @@ categories:
 - Nerd Projects
 - Network Monitoring
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 What are IPv6 Unique Local Addresses (ULA)? Why would you ever want to use NAT with IPv6? These two questions are directly related. If you were running services with ULAs, you would want to translate those addresses into public addresses. This is where NAT66 comes in.
 

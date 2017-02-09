@@ -1,9 +1,5 @@
 ---
 layout: post
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "HTML Email with Nagios"
 external_url: http://engineering.voxer.com/2014/02/24/nagios-html-email-templates/
 date: 2016-02-07 02:36:50 -0600

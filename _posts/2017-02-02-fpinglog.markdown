@@ -12,10 +12,6 @@ categories:
 - Programming
 - ISP
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 description: "I've often wished for a way of logging pings when troubleshooting connectivity problems. Today I revisited the problem using fping."
 ---

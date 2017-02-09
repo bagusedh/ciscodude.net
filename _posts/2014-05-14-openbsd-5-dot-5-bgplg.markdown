@@ -11,10 +11,6 @@ categories:
 - Nerd Projects
 - Network Monitoring
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 I've written about OpenBSD and BGP Looking Glasses [before](/2013/01/27/building-an-openbsd-bgp-looking-glass/). OpenBSD has since [removed apache from base](http://undeadly.org/cgi?action=article&sid=20140314080734&mode=flat), and replaced it with nginx. This is OK with me since I prefer the simplicity and raw performance of nginx (and its ability to proxy!). This is an update which applies to OpenBSD after nginx removal (applies to 5.5 and later). This article has also been independently verified to work using OpenBSD 5.6 as well.
 

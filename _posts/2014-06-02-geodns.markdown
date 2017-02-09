@@ -11,10 +11,6 @@ categories:
 - IPv6
 - Anycast
 - Network Monitoring
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 I've been wanting to play with GeoDNS to direct clients to servers with content nearer to them for a long time. It seems that I've got two different options to explore, [Bind GeoIP patches](https://code.google.com/p/bind-geoip/) and [abh/geodns](https://github.com/abh/geodns) a GeoDNS server written in Go.
 

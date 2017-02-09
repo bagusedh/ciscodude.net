@@ -8,10 +8,6 @@ categories:
 - SSL
 - Networking
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 **This page is outdated. Please use the [Mozilla SSL Configuration Generator
 ](https://mozilla.github.io/server-side-tls/ssl-config-generator/) to generate a secure configuration.**

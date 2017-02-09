@@ -14,10 +14,6 @@ categories:
 - ISP
 - CLI
 - Programming
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 I've forked [GIXLG](https://github.com/dpiekacz/GIXLG) on Github, and I intend to spend my spare time hacking at it. Eventually, once I get my own ASN, I will peer with both local Internet Exchanges, and gather Winnipeg based BGP stats.

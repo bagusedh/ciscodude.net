@@ -13,10 +13,6 @@ categories:
 - Virtualization
 - SaltStack
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 One of the most exciting new features to me in SaltStack 2014.7 is the [nagios module](http://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.nagios.html). This module supports remote execution of nagios-plugins on your minions. It can also execute pre-defined lists of checks and targets defined (and targeted) in a Pillar. Jinja templating and Grains can of course be used as well, making for an extremely versatile monitoring and testing solution.

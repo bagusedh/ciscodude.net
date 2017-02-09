@@ -12,10 +12,6 @@ categories:
 - ISP
 - CLI
 - Programming
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 As part of maintaining my list of [Manitoban ASNs and their IPv6 status](/bgp/mb/), I need to determine new Canadian, and specifically, Manitoban ASNs issued by ARIN. I had been doing this manually by reading through [bgp.he.net/country/CA](http://bgp.he.net/country/CA), but this was very time consuming, and very prone to error/being banned.

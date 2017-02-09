@@ -11,10 +11,6 @@ categories:
 - Programming
 - SaltStack
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 I've always liked how the site [ifconfig.me](http://ifconfig.me) (down today it seems) returns JUST the IP address from command line when accessed via CURL. Unfortunately it is not IPv6 enabled. This morning I set out to CLI-enable [ipquail.com](http://ipquail.com). The journey is documented in this short [commit history](https://github.com/henchman21/ipquail/compare/9a6d878dcf7a441911d16923c518afe033a421f7...c963a9efe970444109e44e71ffdbf479ed7a63cb).

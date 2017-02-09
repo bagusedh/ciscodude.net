@@ -1,10 +1,6 @@
 ---
 layout: post
 noindex: true
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "These are some of my favourite things"
 date: 2014-01-02 16:01:53 -0600
 comments: false

@@ -1,9 +1,5 @@
 ---
 layout: post
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "\"My Traffic Is Not Reaching The Destination\""
 date: 2013-07-26 12:49:00 -0600
 comments: false

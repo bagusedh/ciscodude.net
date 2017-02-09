@@ -14,10 +14,6 @@ categories:
 - Programming
 - API
 - Troubleshooting
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 Does everything still work? This is a question often asked after changes in your environment.

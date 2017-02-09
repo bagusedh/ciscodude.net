@@ -12,10 +12,6 @@ categories:
 - SaltStack
 - CLI
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 I've been playing with SaltStack for a week or so now, and while I still haven't even scratched the surface of what it is capable of yet, I am certainly saving a pile of time using it already. I am now using it to maintain web directories on my anycast nodes (which I was already doing through git, this is just further automated now).

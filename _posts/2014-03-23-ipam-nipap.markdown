@@ -10,10 +10,6 @@ categories:
 - IPv6
 - CLI
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 While I [wrote about IPAM](/2013/01/07/ipam-ip-address-management/) last January, I never finished setting up everything in subnetsmngr. It was difficult to allocate a custom subnet, requiring going into the database to actually insert the prefix, and then rebuild the remaining subnets around the hole created. The discussion has come up on NANOG again, and someone suggested [NIPAP](http://spritelink.github.io/NIPAP/index.html). NIPAP is also based on postgres (its built in support for IP addresses makes it much easier than MySQL).
 

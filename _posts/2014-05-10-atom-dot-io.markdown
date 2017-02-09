@@ -8,10 +8,6 @@ categories:
 - Nerd Projects
 - Programming
 - CLI
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 I've been a big fan of [Sublime Text](http://www.sublimetext.com/) for quite some time now, to the point where I've almost considered purchasing a license for it. Today I discovered [Atom](https://atom.io/), an open sourced editor by Github. Atom is visually quite similar to Sublime Text, from its file layout on the left, its command pallet, and its tabbed interface. I think Atom will replace Sublime Text as my regular text editor.
 

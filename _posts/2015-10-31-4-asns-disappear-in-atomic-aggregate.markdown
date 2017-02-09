@@ -1,9 +1,5 @@
 ---
 layout: post
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "4 ASNs Disappear in Atomic Aggregate"
 date: 2015-10-31 12:31:44 -0500
 comments: false

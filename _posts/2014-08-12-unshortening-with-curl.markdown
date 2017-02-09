@@ -9,10 +9,6 @@ categories:
 - CLI
 - System Administration
 - Network Monitoring
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 Sometimes you get a short URL for something and would like to know where it goes before clicking on it. cURL can help you determine this. This can be done with the following one-liner.

@@ -10,10 +10,6 @@ categories:
 - CLI
 - Raspberry Pi
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 I've been meaning to colocate most of my basement servers for some time, and some major power problems today have only given me further drive to get that accomplished this week. It may seem strange to use a server for DHCP, but I like the ability to be able to integrate DNS updates in with DHCP. Its the "enterprise" way to do it.
 

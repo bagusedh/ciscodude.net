@@ -1,9 +1,5 @@
 ---
 layout: post
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 external_url: http://engineering.riotgames.com/news/fixing-internet-real-time-applications-part-ii
 title: "BGP and Game Performance"
 date: 2016-02-19 14:23:45 -0600

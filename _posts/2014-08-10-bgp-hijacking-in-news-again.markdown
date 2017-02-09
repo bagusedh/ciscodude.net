@@ -11,10 +11,6 @@ categories:
 - BGP
 - System Administration
 external_url: http://www.secureworks.com/cyber-threat-intelligence/threats/bgp-hijacking-for-cryptocurrency-profit/
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 Its been 4 months since I last [wrote about global BGP hijacking](/2014/04/03/as4761-april-2-2014-prefix-origination-event/), when Indosat advertised 320k prefixes. This time The Dell SecureWorks Counter Threat Unit [has documented 51 hijacked more specific prefixes](http://www.secureworks.com/cyber-threat-intelligence/threats/bgp-hijacking-for-cryptocurrency-profit/) which were used along with overly trusting network code decisions in cryptocoin mining pool software (no TLS) to redirect miners to an alternate mining server running on a bogon route @ 206.223.224.225. 

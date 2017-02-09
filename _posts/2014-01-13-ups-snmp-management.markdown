@@ -10,10 +10,6 @@ categories:
 - Nerd Projects
 - CLI
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 Having put an IP address on the management card of a APC Symmetra RM 12000 recently, I set out to setting up Nagios to monitor it today. I found a plugin called [check_apc.pl](http://exchange.nagios.org/directory/Plugins/Hardware/UPS/APC/check_apc-2Epl/details) which seemed to work fairly well. It was also quite nicely supported in Observium.
 

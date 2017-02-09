@@ -12,10 +12,6 @@ categories:
 - Virtualization
 - SaltStack
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 One of the realities of having public facing SSH is the continual brute force attempts. I have 3 droplets at [DigitalOcean](https://www.digitalocean.com/?refcode=f6432a6e1354), SGP1 and NYC2 get hit much more often than LON1. I thought about deploying SSH ACLs through SaltStack, but because all my systems are keys only, instead I deployed fail2ban with a custom configuration file to watch the bots get banned and laugh maniacally.

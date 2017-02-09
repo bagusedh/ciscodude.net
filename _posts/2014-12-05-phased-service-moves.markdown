@@ -8,10 +8,6 @@ categories:
 - Networking
 - System Administration
 - BGP
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 This evening I successfully moved a second set of services from service provider IP space to BGP IP space. The first phase of this project began over a year ago -- I turned up AS62758 in early December 2013 prior to the migration of a Learning Management System. With this second phase now complete, most externally offered services are now running on BGP IP addresses. I have two more remaining phases, to move the access NAT network, and to move a Student Information System. These remaining two phases will be happening over the next two weekends.

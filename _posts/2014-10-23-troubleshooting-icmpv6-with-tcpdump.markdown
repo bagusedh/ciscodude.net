@@ -12,10 +12,6 @@ categories:
 - Network Monitoring
 - System Administration
 - Troubleshooting
-image:
-  feature: https://ciscodude.net/static/blog-img/foggy-morning.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 I've [previously written about](/2014/10/09/firewall-log-stats/) my OpenBSD PF firewall in front of my VM server at my colo. I had a firewall rule which used the following variable: `icmp6_types="{ 2, 128 }"`. This wasn't working properly on the LAN side, and I had to disable the ICMPv6 restrictions to get things back to working. I wanted to fix this permanently, the right way, by determining what needed to be allowed and what could be denied without breaking things.

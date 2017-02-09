@@ -12,10 +12,6 @@ categories:
 - Networking
 - CLI
 - Programming
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 I've often wished for a more customizable Looking Glass to run, which doesn't necessarily need to include BGP output. I found this recently in [LookingGlass](http://github.com/telephone/LookingGlass) which I have set up on [lg.hextet.net](http://lg.hextet.net/).

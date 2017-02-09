@@ -8,10 +8,6 @@ categories:
 - Security
 - Programming
 - SSL
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 When learning programming, beginners are always taught that goto's are dangerous. They are dangerous because of their syntax. A missed colon or semi colon can mean a vastly different program flow. This has come up twice in the last month, one in [Apple](https://www.imperialviolet.org/2014/02/22/applebug.html)'s SSL/TLS signature verification (extra goto), and one in [GnuTLS](https://rhn.redhat.com/errata/RHSA-2014-0247.html)'s signature verification (missing goto). 
 

@@ -11,10 +11,6 @@ categories:
 - Network Monitoring
 - Nerd Projects
 - Networking
-image:
-  feature: https://ciscodude.net/static/blog-img/foggy-morning.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 I run an OpenBSD system as a packet filter in front of my various virtual machines at my colo. I've got a default `block drop in log all` rule which drops and logs all un-handled traffic. I've been rotating the logs around, but not doing anything more than troubleshooting with the logs. I often watch the live pflog scroll by, investigating the occasional IP of interest.

@@ -11,10 +11,6 @@ categories:
 - Network Monitoring
 - System Administration
 external_url: https://isc.sans.edu/diary/Google+DNS+Server+IP+Address+Spoofed+for+SNMP+reflective+Attacks/18647
-image:
-  feature: https://ciscodude.net/static/blog-img/foggy-morning.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 The [Internet Storm Center](https://isc.sans.edu/) had an [interesting diary entry](https://isc.sans.edu/diary/Google+DNS+Server+IP+Address+Spoofed+for+SNMP+reflective+Attacks/18647) up today which I was able to independently confirm quite easily in under 5 minutes. Watching the traffic for a longer period of time became rather interesting.

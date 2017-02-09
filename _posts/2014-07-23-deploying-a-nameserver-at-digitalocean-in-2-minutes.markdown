@@ -11,10 +11,6 @@ categories:
 - Virtualization
 - SaltStack
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 One of the great things about [DigitalOcean](https://www.digitalocean.com/?refcode=f6432a6e1354) is that you can spin up a new small sized Debian VM in under 55 seconds. All that remains is to log in, add the Salt Debian repo, add the salt signing key, and then run state.highstate on the Salt master. If somewhat scripted, this can easily be accomplished in under 65 seconds, resulting in a new Slave Nameserver deployed in (under) 2 minutes. I have used this to deploy slave nameservers at LON1, SGP1, and most recently, NYC3 (all the DigitalOcean regions with IPv6).

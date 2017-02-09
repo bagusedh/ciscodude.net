@@ -13,10 +13,6 @@ categories:
 - Network Monitoring
 - Programming
 - Virtualization
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 I have been doing a [lot](https://www.iweb-hosting.co.uk/blog/using-bgp-to-serve-high-availability-dns.html) [of](http://vincent.bernat.im/en/blog/2013-exabgp-highavailability.html) [reading](https://github.com/Exa-Networks/exabgp/wiki) about [exabgp](https://github.com/Exa-Networks/exabgp). exabgp is a python BGP implementation which doesn't implement any host routing functionality at all, just transforms BGP messages into plain text or JSON which can be easily manipulate by scripts. This works both directions, allowing monitoring of route advertisements received from other BGP speakers, and injection of routes into a system.
 

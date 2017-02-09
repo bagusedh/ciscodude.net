@@ -9,10 +9,6 @@ categories:
 - Security
 - CLI
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 [XKCD](http://xkcd.com/) is an awesome webcomic of romance, sarcasm, math, and language. It often has UNIX shell jokes, and other sysadmin humour as well. One [particularly funny comic strip](http://xkcd.com/936/) focuses on how terrible passwords are for people to remember, but easy for computers to guess. 
 

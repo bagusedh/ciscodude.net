@@ -10,10 +10,6 @@ categories:
 - Network Monitoring
 - BGP
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 Yesterday afternoon, starting at 2:05PM local time, I received several notices about our prefixes being hijacked -- announced by an ASN other than our own. The particular ASN that was advertising the prefixes in question was AS4761, Indosat, an Indonesian satellite Internet provider.
 

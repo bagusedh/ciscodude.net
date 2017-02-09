@@ -1,9 +1,5 @@
 ---
 layout: post
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "SSH Pubkeys with Cisco IOS 15"
 date: 2015-05-31 19:56:09 -0500
 external_url: https://supportforums.cisco.com/document/110946/ssh-using-public-key-authentication-ios-and-big-outputs

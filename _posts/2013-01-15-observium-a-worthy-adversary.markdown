@@ -1,10 +1,6 @@
 ---
 layout: post
 noindex: true
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "Observium, A Worthy Adversary!"
 date: 2013-01-15 10:33:00 -0600
 comments: false

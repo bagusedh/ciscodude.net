@@ -9,10 +9,6 @@ categories:
 - Programming
 - SSL
 - ISP
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 Another huge blunder this week in the ubiquitous OpenSSL library [secadv](https://www.openssl.org/news/secadv_20140407.txt). This one's called [Heartbleed](http://heartbleed.com/). You can easily check if your services are vulnerable at [filippo.io/Heartbleed](http://filippo.io/Heartbleed/). This one is particularly scary as it allows reading random private memory directly from the server/device/etc. This may include decrypted SSL transactions, certs, private keys, and other random memory. So far I have only seen other SSL requests, and public certificate chains from my own devices.
 

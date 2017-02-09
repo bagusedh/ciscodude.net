@@ -11,10 +11,6 @@ categories:
 - IPv6
 - Programming
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 check-soa is a CLI tool written in go which lets a DNS name server administrator easily verify that all servers listed as authoritative are in sync and serving the same zone by verifying the SOA record. I use this tool nearly every day at work to verify that changes have propagated to all slave nameservers.

@@ -13,10 +13,6 @@ categories:
 - BGP
 - Network Monitoring
 - Troubleshooting
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 I've been trying to track down an issue with SNMP on one of two redundant Mikrotik Cloud Core CCR1036-12G-4S routers. For some reason, approximately 40 days ago, one of the two routers stopped responding to SNMP from my monitoring station on its "loopback" (which is actually a Mikrotik bridge with no interfaces on it)

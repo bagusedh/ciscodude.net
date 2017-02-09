@@ -11,10 +11,6 @@ categories:
 - Virtualization
 - SaltStack
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 Let me start this off by saying in this particular example, this is the wrong way to solve the problem. I should be learning more about fail2ban, and deploying files in the action.d and filter.d directories, however this is a really quick and dirty solution to the problem, and shows off jinja templating in SaltStack.

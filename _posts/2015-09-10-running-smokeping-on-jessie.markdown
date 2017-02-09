@@ -1,9 +1,5 @@
 ---
 layout: post
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "Running Smokeping on Jessie"
 date: 2015-09-10 18:47:25 -0500
 external_url: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=760474

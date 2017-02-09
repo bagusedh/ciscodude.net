@@ -1,10 +1,6 @@
 ---
 layout: post
 noindex: true
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "Enjoying HTML5 over the Holidays"
 date: 2014-01-02 02:00:06 -0600
 comments: false

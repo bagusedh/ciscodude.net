@@ -15,10 +15,6 @@ categories:
 - System Administration
 - IPv6
 - BGP
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 This is a second blog post in a related series, the first is located [here](/2014/11/21/service-status-via-saltstack-2014-7-w-nagios/).

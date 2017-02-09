@@ -12,10 +12,6 @@ categories:
 - Virtualization
 - SaltStack
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 I've been hearing about SaltStack for some time now, and have taken a peek at it, but never set it up. This week I changed that and set up a salt-master and several (OK, 10) salt-minions to take commands from the master. 8 local Debian Linux VMs, 1 Remote FreeBSD VM, and 1 remote Debian Linux VM.

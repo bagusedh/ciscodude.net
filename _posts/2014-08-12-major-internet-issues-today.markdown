@@ -10,10 +10,6 @@ categories:
 - Network Monitoring
 - System Administration
 - Troubleshooting
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 There has been a lot of noise in Canada on Twitter about the widespread network issues Shaw was experiencing, and also a lot of speculation about what the cause of those issues were. Simultaneously, the number of IPv4 routes advertised in the global routing table went over 512k, triggering memory overflows and crashes for some providers who had their heads in the sand about this problem that has been well known since 2007.

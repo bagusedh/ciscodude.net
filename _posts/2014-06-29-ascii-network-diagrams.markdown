@@ -7,10 +7,6 @@ categories:
 - Networking
 - Nerd Projects
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 I've often wondered if there is an easy way to generate ASCII network diagrams like those that appear in text RFC documents. This week I discovered [ASCIIFlow](http://asciiflow.com/).

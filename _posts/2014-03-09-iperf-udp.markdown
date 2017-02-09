@@ -9,10 +9,6 @@ categories:
 - IPv6
 - CLI
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 A colleague of mine was looking for a way to isolate a VOIP problem by testing UDP performance/jitter/packet loss and I suggested iperf. I figured I should look into how its run, and the options available in case he asked for testing specifics.
 

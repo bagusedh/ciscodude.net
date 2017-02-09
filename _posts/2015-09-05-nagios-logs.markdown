@@ -1,9 +1,5 @@
 ---
 layout: post
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "Nagios Logs, Handy One-Liner"
 date: 2015-09-05 18:25:11 -0500
 external_url: http://geekpeek.net/nagios-log-convert-timestamp/

@@ -10,10 +10,6 @@ categories:
 - Programming
 - CLI
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 One of the many tasks that I do quite often is subnetting. Sometimes when I am allocating subnets by hand, I get distracted by requests/email/calls/etc, and I occasionally make subnetting errors. This is annoying, embarassing, and I prefer to just avoid mistakes if at all possible. One of the ways I do this is by using [[net-mgmt/subcalc]](http://freshports.org/net-mgmt/subcalc/), a CLI subnet calculator which uses identical syntax to ifconfig, so no new learning is required. I compile this utility on my Mac for every day use.
 

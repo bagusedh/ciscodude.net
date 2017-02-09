@@ -8,10 +8,6 @@ categories:
 - Networking
 - ISP
 - System Administration
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 I just noticed that [Observium](http://www.observium.org/wiki/Main_Page) released a new Community Edition release (0.14.4) on April 1. The changes (and additions!!!) mentioned in the [CHANGELOG](http://www.observium.org/wiki/Changelog) are numerous, and include several security fixes -- including for an SQL injection so it is important to upgrade your installation right away, especially if your installation is public-facing.
 

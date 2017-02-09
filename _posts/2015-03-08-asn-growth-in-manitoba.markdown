@@ -12,10 +12,6 @@ categories:
 - BGP
 - System Administration
 external_url: https://ciscodude.net/bgp/mb/asns/
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 share: true
 ---
 I recently started maintaining [this graph](/bgp/mb/asns/) which shows the total number of AS Numbers in Manitoba. You will notice the dramatic increase in 2013 and 2014. 
