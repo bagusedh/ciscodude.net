@@ -1,9 +1,5 @@
 ---
 layout: post
-image:
-  feature: https://ciscodude.net/static/blog-img/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 title: "HA Recursive DNS with dnsdist and exabgp"
 date: 2017-02-02 22:30:38 -0500
 comments: false
