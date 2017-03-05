@@ -117,6 +117,8 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS395588](https://stat.ripe.net/AS395588) | Zirro | {% img /static/blog-img/nov4.png %} | active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395588)
 [AS395653](https://stat.ripe.net/AS395653) | Princess Auto Ltd |  | inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395653)
 [AS395755](https://stat.ripe.net/AS395755) | Valley Internet Service Provider, LTD |  | inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395755)
+[AS396045](https://stat.ripe.net/AS396045) | Spliced Networks Inc. |  | inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396045)
+[AS396084](https://stat.ripe.net/AS396084) | Qualico | {%img /static/blog-img/nov4.png %} | inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396084)
 
 
 ### Statistics
@@ -129,6 +131,10 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 I have created a [graph showing the growth of Manitoban ASNs](/bgp/mb/asns/), using chart.js.
 
 ### Update History
+
+**2017-03-03:** Added new ASN: AS396084
+
+**2017-02-21:** Added new ASN: AS396045
 
 **2016-12-01:** Added new ASN: AS395755
 
