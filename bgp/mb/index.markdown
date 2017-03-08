@@ -106,7 +106,6 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS394255](https://stat.ripe.net/AS394255) | MTS Data Centres Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394255)
 [AS394352](https://stat.ripe.net/AS394352) | Fastnet Communications | {% img /static/blog-img/v4.png %} | active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394352)
 [AS394422](https://stat.ripe.net/AS394422) | James Richardson International Limited | {% img /static/blog-img/v4.png %} | active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394422)
-[AS394466](https://stat.ripe.net/AS394466) | Fiber Hosting Canada | {% img /static/blog-img/v4.png %} | active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394466)
 [AS394467](https://stat.ripe.net/AS394467) | Iders Incorporated |  | inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394467)
 [AS394522](https://stat.ripe.net/AS394522) | Assiniboine Community College | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394522)
 [AS394989](https://stat.ripe.net/AS394989) | Gene's Telecom | {% img /static/blog-img/v4.png %} | active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394989)
