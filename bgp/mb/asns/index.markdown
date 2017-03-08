@@ -35,7 +35,7 @@ categories:
 				pointStrokeColor : "#fff",
 				pointHighlightFill : "#fff",
 				pointHighlightStroke : "rgba(151,187,205,1)",
-				data : [1,1,2,2,5,10,11,12,14,18,19,21,23,26,26,30,32,45,54,67,72]
+				data : [1,1,2,2,5,10,11,12,14,18,19,21,23,25,25,29,31,44,52,64,72]
 			}
 		]
 

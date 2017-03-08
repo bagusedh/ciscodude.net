@@ -123,10 +123,10 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 ### Statistics
 
-* Total ASNs: 78
-  * IPv4 only: 36 or 46% 
-  * IPv6 Allocation: 36 or 47%
-  * IPv6 Allocation Advertised: 33 or 43%
+* Total ASNs: 81
+  * IPv4 only: 37 or 45% 
+  * IPv6 Allocation: 36 or 44%
+  * IPv6 Allocation Advertised: 33 or 40%
 
 I have created a [graph showing the growth of Manitoban ASNs](/bgp/mb/asns/), using chart.js.
 
