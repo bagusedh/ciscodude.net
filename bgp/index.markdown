@@ -16,34 +16,24 @@ categories:
 ---
 I keep an eye on Canadian BGP/routing.
 
-[Alberta BGP info](/bgp/ab/)
+Provincial routing status pages:
 
-[British Columbia BGP info](/bgp/bc/)
+* [Alberta](/bgp/ab/)
+* [British Columbia](/bgp/bc/)
+* [Manitoba](/bgp/mb/)
+* [New Brunswick](/bgp/nb/)
+* [Newfoundland](/bgp/nl/)
+* [Nova Scotia](/bgp/ns/)
+* [Northwest Territories](/bgp/nt/)
+* [Nunavut (none)](/bgp/nu/)
+* [Ontario](/bgp/on/)
+* [Prince Edward Island](/bgp/pe/)
+* [Quebec](/bgp/qc/)
+* [Saskatchewan](/bgp/sk/)
+* [Yukon info](/bgp/Yukon/)
 
-[Manitoba BGP info](/bgp/mb/)
+BGP Growth charts (by ASNs registered per year).
+Rendered using chart.js
 
-[New Brunswick BGP info](/bgp/nb/)
-
-[Newfoundland BGP info](/bgp/nl/)
-
-[Nova Scotia BGP info](/bgp/ns/)
-
-[Northwest Territories BGP info](/bgp/nt/)
-
-<!--
-[Nunavut BGP info](/bgp/nu/)
--->
-
-[Ontario BGP info](/bgp/on/)
-
-[Prince Edward Island BGP info](/bgp/pe/)
-
-[Quebec BGP info](/bgp/qc/)
-
-[Saskatchewan BGP info](/bgp/sk/)
-
-[Yukon info](/bgp/Yukon/)
-
-
-
-[Canadian BGP Growth (chart.js)](/bgp/asns/)
+* [Canadian BGP Growth](/bgp/asns/)
+* [Manitoba BGP Growth](/bgp/mb/asns/)
