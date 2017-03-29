@@ -43,5 +43,6 @@ Rendered using chart.js
 ## Statistics
 
 * Total ASNS: 1636
+  * Active ASNs: 1154 or 70.54%
   * IPv4 only: 855 or 52.26%
   * IPv6 Advertisement: 299 or 18.28%
