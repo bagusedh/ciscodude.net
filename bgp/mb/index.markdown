@@ -23,22 +23,11 @@ Icons are from a BGP advertisement perspective.
 Icon | Meaning
 ---- | -------
 {% img /static/blog-img/v4.png %} | IPv4 advertisement(s)
-{% img /static/blog-img/nov4.png %} | IPv4 allocated but not advertised
+{% img /static/blog-img/nov4.png %} | IPv4 not advertised
 {% img /static/blog-img/v6.png %} | IPv6 advertisement(s)
-{% img /static/blog-img/nov6.png %} | IPv6 allocated but not advertised
+{% img /static/blog-img/nov6.png %} | IPv6 not advertised
 
 ## ASN Status Table
-
-### National/International ASNs Operating in Manitoba
-
-ASN | Name | v4 / v6 | BGP
---- | ---- | ------- | ---
-[AS6327](https://stat.ripe.net/AS6327) | Shaw Communications Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | active
-[AS6539](https://stat.ripe.net/AS6539) | Bell/Group Telecom | {% img /static/blog-img/v4.png %} | active
-[AS6939](https://stat.ripe.net/AS6939) | Hurricane Electric, Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | active
-[AS15290](https://stat.ripe.net/AS15290) | Allstream Corp. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | active
-[AS20161](https://stat.ripe.net/AS20161) | TeraGo Networks Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | active
-[AS22995](https://stat.ripe.net/AS22995) | Xplornet Communications Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | active
 
 ### Manitoban ASNs
 
