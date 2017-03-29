@@ -23,9 +23,9 @@ Icons are from a BGP advertisement perspective.
 Icon | Meaning
 ---- | -------
 {% img /static/blog-img/v4.png %} | IPv4 advertisement(s)
-{% img /static/blog-img/nov4.png %} | IPv4 allocated but not advertised
+{% img /static/blog-img/nov4.png %} | IPv4 not advertised
 {% img /static/blog-img/v6.png %} | IPv6 advertisement(s)
-{% img /static/blog-img/nov6.png %} | IPv6 allocated but not advertised
+{% img /static/blog-img/nov6.png %} | IPv6 not advertised
 
 ## ASN Status Table
 
