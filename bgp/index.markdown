@@ -16,7 +16,7 @@ categories:
 ---
 I keep an eye on Canadian BGP/routing.
 
-Provincial routing status pages:
+## Provincial ASNs
 
 * [Alberta](/bgp/ab/)
 * [British Columbia](/bgp/bc/)
@@ -32,8 +32,16 @@ Provincial routing status pages:
 * [Saskatchewan](/bgp/sk/)
 * [Yukon info](/bgp/Yukon/)
 
+## Growth
+
 BGP Growth charts (by ASNs registered per year).
 Rendered using chart.js
 
 * [Canadian BGP Growth](/bgp/asns/)
 * [Manitoba BGP Growth](/bgp/mb/asns/)
+
+## Statistics
+
+* Total ASNS: 1636
+  * IPv4 only: 855 or 52.26%
+  * IPv6 Advertisement: 299 or 18.28%
