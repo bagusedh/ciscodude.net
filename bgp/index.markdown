@@ -16,8 +16,13 @@ categories:
 ---
 I keep an eye on Canadian BGP/routing.
 
-[Manitoban BGP info](/bgp/mb/)
+[British Columbia BGP info](/bgp/bc/)
+
+[Alberta BGP info](/bgp/ab/)
 
 [Saskatchewan BGP info](/bgp/sk/)
+
+[Manitoban BGP info](/bgp/mb/)
+
 
 [Canadian BGP Growth (chart.js)](/bgp/asns/)
