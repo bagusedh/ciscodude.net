@@ -5,6 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in British Columbia, or are British Columbia Companies."
+lastmodified: 2017-03-29 18:44:04 +0000
 categories:
 - IPv6
 - ISP

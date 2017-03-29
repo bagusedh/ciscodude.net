@@ -5,6 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Yukon, or are Yukon Companies."
+lastmodified: 2017-03-29 18:44:05 +0000
 categories:
 - IPv6
 - ISP
