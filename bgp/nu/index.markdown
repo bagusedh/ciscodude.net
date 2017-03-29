@@ -4,7 +4,7 @@ title: "NU BGP/ASN Status"
 comments: false
 sharing: true
 footer: false
-description: "Current status foday for all ASNs I could find that operate in Nunavut, or are Nunavut Companies."
+description: "Current status today for all ASNs I could find that operate in Nunavut, or are Nunavut Companies."
 categories:
 - IPv6
 - ISP

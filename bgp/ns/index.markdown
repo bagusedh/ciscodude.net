@@ -4,7 +4,7 @@ title: "NS BGP/ASN Status"
 comments: false
 sharing: true
 footer: false
-description: "Current status foday for all ASNs I could find that operate in Nova Scotia, or are Nova Scotia Companies."
+description: "Current status today for all ASNs I could find that operate in Nova Scotia, or are Nova Scotia Companies."
 categories:
 - IPv6
 - ISP
@@ -14,7 +14,6 @@ categories:
 - BGP
 - Network Monitoring
 ---
-Nova Scotia Placeholder
 Below is the status today for all ASNs I could find that operate in Nova Scotia, or are Nova Scotian Companies. I check the status of each ASN fairly often and update things as they change. Please [Contact Me](/contact/) if you have any updates.
 
 ### Icon Status Key

@@ -4,7 +4,7 @@ title: "YT BGP/ASN Status"
 comments: false
 sharing: true
 footer: false
-description: "Current status foday for all ASNs I could find that operate in Yukon, or are Yukon Companies."
+description: "Current status today for all ASNs I could find that operate in Yukon, or are Yukon Companies."
 categories:
 - IPv6
 - ISP
