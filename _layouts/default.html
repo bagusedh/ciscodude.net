@@ -147,8 +147,8 @@
       </div>
       <div class="col-sm-8 col-offset-1 main-layout">
         {{ content }}
-        {% if page.lastmodified %} <hr /> {{ page.lastmodified }}{% endif %}
         <footer>
+          {% if page.lastmodified %} Page last modified: {{ page.lastmodified }}<br>{% endif %}
           &copy; {{ site.author }}
           {% if site.github %}
             - <a href="{{ site.github }}">{{ site.github }}</a> - Powered by Jekyll.
