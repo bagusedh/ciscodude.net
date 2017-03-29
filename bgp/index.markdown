@@ -5,8 +5,8 @@ comments: false
 sharing: true
 footer: false
 description: "I keep an eye on Canadian BGP/routing."
+lastmodified: 2017-03-29 18:56:39 +0000
 categories:
-lastmodified: 2017-03-29 18:44:04 +0000
 - IPv6
 - ISP
 - Nerd Projects
