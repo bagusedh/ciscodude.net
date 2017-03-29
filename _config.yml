@@ -34,6 +34,8 @@ share:
 urls:
     - text: About Me
       url: /about/
+    - text: Canadian BGP
+      url: /bgp/
     - text: MB BGP Status
       url: /bgp/mb/
     - text: SK BGP Status
