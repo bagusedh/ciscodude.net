@@ -4,10 +4,6 @@ title: "txts"
 comments: false
 sharing: false
 footer: false
-image:
-  feature: https://ciscodude.net/images/snow-dust.jpg
-  credit: Theo Baschak
-  creditlink: https://www.flickr.com/photos/theodorebaschak/
 ---
 
 <ul class="nav nav-pills">
