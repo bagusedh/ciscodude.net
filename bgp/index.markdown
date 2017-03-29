@@ -30,7 +30,7 @@ I keep an eye on Canadian BGP/routing.
 * [Prince Edward Island](/bgp/pe/)
 * [Quebec](/bgp/qc/)
 * [Saskatchewan](/bgp/sk/)
-* [Yukon info](/bgp/Yukon/)
+* [Yukon](/bgp/Yukon/)
 
 ## Growth
 
