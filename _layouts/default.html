@@ -147,7 +147,7 @@
       </div>
       <div class="col-sm-8 col-offset-1 main-layout">
         {{ content }}
-        {% if page.lastmodified %} <hr /> {{ page.lastmodified | date: "%b %-d, %Y" }}{% endif %}
+        {% if page.lastmodified %} <hr /> {{ page.lastmodified }}{% endif %}
         <footer>
           &copy; {{ site.author }}
           {% if site.github %}
