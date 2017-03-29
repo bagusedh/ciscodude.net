@@ -312,8 +312,9 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 275
+  * Active ASNs: 207 or 75.27%
   * IPv4 only: 159 or 57.82%
-  * IPv6 Allocation Advertised: 48 or 17.45%
+  * IPv6 Advertisement: 48 or 17.45%
 
 I have created a [graph showing the growth of Quebec ASNs](/bgp/qc/asns/), using chart.js.
 

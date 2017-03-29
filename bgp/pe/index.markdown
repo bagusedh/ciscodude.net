@@ -42,10 +42,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 5
+  * Active ASNs: 3 or 60.00%
   * IPv4 only: 2 or 40.00%
-  * IPv6 Allocation Advertised: 1 or 20.00%
+  * IPv6 Advertisement: 1 or 20.00%
 
-I have created a [graph showing the growth of Prince Edward Island ASNs](/bgp/pe/asns/), using chart.js.
+Graph showing the [growth of Prince Edward Island ASNs](/bgp/pe/asns/), using chart.js.
 
 ### Update History
 

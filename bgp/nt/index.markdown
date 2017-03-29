@@ -41,10 +41,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 4
+  * Active ASNs: 3 or 75.00%
   * IPv4 only: 3 or 75.00%
-  * IPv6 Allocation Advertised: 0 or 0.00%
+  * IPv6 Advertisement: 0 or 0.00%
 
-I have created a [graph showing the growth of Northwest Territories ASNs](/bgp/nt/asns/), using chart.js.
+Graph showing the [growth of Northwest Territories ASNs](/bgp/nt/asns/), using chart.js.
 
 ### Update History
 

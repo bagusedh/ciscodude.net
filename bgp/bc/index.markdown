@@ -232,10 +232,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 195
+  * Active ASNs: 137 or 70.26%
   * IPv4 only: 98 or 50.26%
-  * IPv6 Allocation Advertised: 39 or 20.00%
+  * IPv6 Advertisement: 39 or 20.00%
 
-I have created a [graph showing the growth of British Columbian ASNs](/bgp/bc/asns/), using chart.js.
+Graph showing the [growth of British Columbian ASNs](/bgp/bc/asns/), using chart.js.
 
 ### Update History
 

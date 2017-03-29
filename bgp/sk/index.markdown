@@ -67,8 +67,9 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 30
+  * Active ASNs: 25 or 83.33%
   * IPv4 only: 20 or 66.67%
-  * IPv6 Allocation Advertised: 5 or 16.67%
+  * IPv6 Advertisement: 5 or 16.67%
 
 I have created a [graph showing the growth of Saskatchewan ASNs](/bgp/sk/asns/), using chart.js.
 

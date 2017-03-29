@@ -831,10 +831,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 794
+  * Active ASNs: 546 or 68.77%
   * IPv4 only: 400 or 50.38%
-  * IPv6 Allocation Advertised: 146 or 18.39%
+  * IPv6 Advertisement: 146 or 18.39%
 
-I have created a [graph showing the growth of Ontario ASNs](/bgp/on/asns/), using chart.js.
+Graph showing the [growth of Ontario ASNs](/bgp/on/asns/), using chart.js.
 
 ### Update History
 

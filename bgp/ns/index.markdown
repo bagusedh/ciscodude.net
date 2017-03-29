@@ -69,10 +69,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 32
+  * Active ASNs: 22 or 68.75%
   * IPv4 only: 11 or 34.38%
-  * IPv6 Allocation Advertised: 11 or 34.38%
+  * IPv6 Advertisement: 11 or 34.38%
 
-I have created a [graph showing the growth of Nova Scotian ASNs](/bgp/ns/asns/), using chart.js.
+Graph showing the [growth of Nova Scotian ASNs](/bgp/ns/asns/), using chart.js.
 
 ### Update History
 

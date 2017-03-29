@@ -212,10 +212,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 175
+  * Active ASNs: 123 or 70.29%
   * IPv4 only: 104 or 59.43%
-  * IPv6 Allocation Advertised: 19 or 10.86%
+  * IPv6 Advertisement: 19 or 10.86%
 
-I have created a [graph showing the growth of Alberta ASNs](/bgp/ab/asns/), using chart.js.
+Graph showing the [growth of Alberta ASNs](/bgp/ab/asns/), using chart.js.
 
 ### Update History
 

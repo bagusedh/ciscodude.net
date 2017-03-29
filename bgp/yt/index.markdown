@@ -40,8 +40,9 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 3
+  * Active ASNs: 2 or 66.67%
   * IPv4 only: 2 or 66.67%
-  * IPv6 Allocation Advertised: 0 or 0.00%
+  * IPv6 Advertisement: 0 or 0.00%
 
 I have created a [graph showing the growth of Yukon ASNs](/bgp/yt/asns/), using chart.js.
 

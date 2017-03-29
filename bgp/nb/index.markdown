@@ -66,10 +66,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 29
+  * Active ASNs: 21 or 72.41%
   * IPv4 only: 14 or 48.28%
-  * IPv6 Allocation Advertised: 7 or 24.14%
+  * IPv6 Advertisement: 7 or 24.14%
 
-I have created a [graph showing the growth of New Brunswick ASNs](/bgp/nb/asns/), using chart.js.
+Graph showing the [growth of New Brunswick ASNs](/bgp/nb/asns/), using chart.js.
 
 ### Update History
 

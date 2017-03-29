@@ -52,10 +52,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 15
+  * Active ASNs: 8 or 53.33%
   * IPv4 only: 8 or 53.33%
-  * IPv6 Allocation Advertised: 0 or 0.00%
+  * IPv6 Advertisement: 0 or 0.00%
 
-I have created a [graph showing the growth of Newfoundland ASNs](/bgp/nl/asns/), using chart.js.
+Graph showing the [growth of Newfoundland ASNs](/bgp/nl/asns/), using chart.js.
 
 ### Update History
 

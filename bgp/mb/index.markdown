@@ -116,10 +116,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 79
+  * Active ASNs: 57 or 72.15%
   * IPv4 only: 34 or 43.04%
-  * IPv6 Allocation Advertised: 23 or 29.11%
+  * IPv6 Advertisement: 23 or 29.11%
 
-I have created a [graph showing the growth of Manitoban ASNs](/bgp/mb/asns/), using chart.js.
+Graph showing the [growth of Manitoban ASNs](/bgp/mb/asns/), using chart.js.
 
 ### Update History
 
