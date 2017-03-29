@@ -1,5 +1,6 @@
 ---
 layout: nul
+lastmodified: 2017-03-29 18:54:54 +0000
 ---
 This is a chart of BGP growth (# of registered ASNs) in Canada by province.
 

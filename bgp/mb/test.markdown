@@ -6,6 +6,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Manitoba, or are Manitoban Companies."
+lastmodified: 2017-03-29 18:54:54 +0000
 categories:
 - IPv6
 - ISP
