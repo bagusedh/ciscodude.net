@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Manitoba, or are Manitoban Companies."
-lastmodified: 2017-03-29 18:44:04 +0000
+lastmodified: 2017-03-30 05:39:45 +0000
 categories:
 - IPv6
 - ISP
@@ -39,7 +39,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS7398](https://stat.ripe.net/AS7398) | MTS Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=7398)
 [AS7442](https://stat.ripe.net/AS7442) | Federated Insurance Company of Canada | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=7442)
 [AS10965](https://stat.ripe.net/AS10965) | MRNet | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=10965)
-[AS11566](https://stat.ripe.net/AS11566) | MTS Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=11566)
+[AS11566](https://stat.ripe.net/AS11566) | MTS Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=11566)
 [AS11991](https://stat.ripe.net/AS11991) | WiBand Communications | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=11991)
 [AS14099](https://stat.ripe.net/AS14099) | On-Call Solutions | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14099)
 [AS14268](https://stat.ripe.net/AS14268) | Northern Computer Solutions Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14268)
@@ -62,8 +62,8 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS21774](https://stat.ripe.net/AS21774) | The Exchange Global Server Center | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21774)
 [AS22105](https://stat.ripe.net/AS22105) | WiBand Communications | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22105)
 [AS22165](https://stat.ripe.net/AS22165) | Ducks Unlimited Canada | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22165)
-[AS22839](https://stat.ripe.net/AS22839) | Standard Aero Ltd | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22839)
-[AS23001](https://stat.ripe.net/AS23001) | Ultimate Internet Corp. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=23001)
+[AS22839](https://stat.ripe.net/AS22839) | Standard Aero Ltd | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22839)
+[AS23001](https://stat.ripe.net/AS23001) | Ultimate Internet Corp. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=23001)
 [AS23523](https://stat.ripe.net/AS23523) | Voyageur Internet Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=23523)
 [AS26110](https://stat.ripe.net/AS26110) | Manitoba Hydro International LTD | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26110)
 [AS26320](https://stat.ripe.net/AS26320) | MONARCH INDUSTRIES LIMITED | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26320)
@@ -71,21 +71,21 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS27618](https://stat.ripe.net/AS27618) | T. Grand Networks Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=27618)
 [AS30028](https://stat.ripe.net/AS30028) | Manitoba NetSet Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=30028)
 [AS31914](https://stat.ripe.net/AS31914) | Hutterian Broadband Network Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=31914)
-[AS32433](https://stat.ripe.net/AS32433) | Palliser Furniture Upholstery Ltd. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32433)
+[AS32433](https://stat.ripe.net/AS32433) | Palliser Furniture Upholstery Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32433)
 [AS32584](https://stat.ripe.net/AS32584) | I-Net Link Wireless | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32584)
 [AS32773](https://stat.ripe.net/AS32773) | Commstream Communications Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32773)
 [AS46300](https://stat.ripe.net/AS46300) | High Speed Crow Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=46300)
 [AS46920](https://stat.ripe.net/AS46920) | RF Now Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=46920)
 [AS54454](https://stat.ripe.net/AS54454) | NoLimits Internet Solutions | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=54454)
 [AS54899](https://stat.ripe.net/AS54899) | Voyageur Internet Inc | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=54899)
-[AS54937](https://stat.ripe.net/AS54937) | MacDon Industries Ltd. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=54937)
+[AS54937](https://stat.ripe.net/AS54937) | MacDon Industries Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=54937)
 [AS55073](https://stat.ripe.net/AS55073) | Winnipeg Internet Exchange | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=55073)
 [AS55101](https://stat.ripe.net/AS55101) | Daemon Defense Systems Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=55101)
 [AS62589](https://stat.ripe.net/AS62589) | Fort Garry Industries Ltd | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62589)
 [AS62752](https://stat.ripe.net/AS62752) | Adam Thompson | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62752)
 [AS62758](https://stat.ripe.net/AS62758) | Manitoba First Nations Education Resource Centre Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62758)
 [AS62770](https://stat.ripe.net/AS62770) | Manitoba Public Insurance | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62770)
-[AS62846](https://stat.ripe.net/AS62846) | Reimer World Corp. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62846)
+[AS62846](https://stat.ripe.net/AS62846) | Reimer World Corp. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62846)
 [AS62962](https://stat.ripe.net/AS62962) | HyLife LTD | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62962)
 [AS63318](https://stat.ripe.net/AS63318) | Infotec Manitoba | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63318)
 [AS64231](https://stat.ripe.net/AS64231) | 24-7 Intouch Incorporated | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=64231)
@@ -104,7 +104,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS394522](https://stat.ripe.net/AS394522) | Assiniboine Community College | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394522)
 [AS394583](https://stat.ripe.net/AS394583) | The Great-West Life Assurance Company | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394583)
 [AS394989](https://stat.ripe.net/AS394989) | Gene's Telecom | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394989)
-[AS395089](https://stat.ripe.net/AS395089) | Hextet Systems | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395089)
+[AS395089](https://stat.ripe.net/AS395089) | Hextet Systems | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395089)
 [AS395248](https://stat.ripe.net/AS395248) | Loewen | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395248)
 [AS395295](https://stat.ripe.net/AS395295) | The Wawanesa Mutual Insurance Company | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395295)
 [AS395338](https://stat.ripe.net/AS395338) | RBC Convention Centre Winnipeg | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395338)
@@ -117,9 +117,9 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 79
-  * Active ASNs: 57 or 72.15%
-  * IPv4 only: 34 or 43.04%
-  * IPv6 Advertisement: 23 or 29.11%
+  * Active ASNs: 64 or 81.01%
+  * IPv4 only: 40 or 50.63%
+  * IPv6 Advertisement: 24 or 30.38%
 
 Graph showing the [growth of Manitoban ASNs](/bgp/mb/asns/), using chart.js.
 
