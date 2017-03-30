@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "I keep an eye on Canadian BGP/routing."
-lastmodified: 2017-03-30 05:52:50 +0000
+lastmodified: 2017-03-30 06:05:37 +0000
 categories:
 - IPv6
 - ISP
@@ -40,6 +40,7 @@ Rendered using chart.js
 
 * [Canadian BGP Growth](/bgp/asns/)
 * [Manitoba BGP Growth](/bgp/mb/asns/)
+* [Saskatchewan BGP Growth](/bgp/sk/asns/)
 
 ## Statistics
 
