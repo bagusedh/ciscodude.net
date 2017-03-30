@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in British Columbia, or are British Columbia Companies."
-lastmodified: 2017-03-29 18:44:04 +0000
+lastmodified: 2017-03-30 05:45:36 +0000
 categories:
 - IPv6
 - ISP
@@ -150,7 +150,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS40808](https://stat.ripe.net/AS40808) | Vancouver International Airport Authority | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40808)
 [AS40820](https://stat.ripe.net/AS40820) | Van-Kam Freightways Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40820)
 [AS40854](https://stat.ripe.net/AS40854) | Whistler Blackcomb Holdings Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40854)
-[AS40915](https://stat.ripe.net/AS40915) | PC Helpline Computer Support Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40915)
+[AS40915](https://stat.ripe.net/AS40915) | PC Helpline Computer Support Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40915)
 [AS46383](https://stat.ripe.net/AS46383) | Translink | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=46383)
 [AS46482](https://stat.ripe.net/AS46482) | Contigo Systems Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=46482)
 [AS46882](https://stat.ripe.net/AS46882) | RhiCom Networks Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=46882)
@@ -233,8 +233,8 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 195
-  * Active ASNs: 137 or 70.26%
-  * IPv4 only: 98 or 50.26%
+  * Active ASNs: 138 or 70.77%
+  * IPv4 only: 99 or 50.77%
   * IPv6 Advertisement: 39 or 20.00%
 
 Graph showing the [growth of British Columbian ASNs](/bgp/bc/asns/), using chart.js.
