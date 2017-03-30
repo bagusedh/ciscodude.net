@@ -25,7 +25,7 @@ categories:
 <script>
 	var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
 	var lineChartData = {
-		labels : [1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015],
+		labels : [1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017],
 		datasets : [
 			{
 				label: "SK ASNs Assigned",
@@ -35,7 +35,7 @@ categories:
 				pointStrokeColor : "#fff",
 				pointHighlightFill : "#fff",
 				pointHighlightStroke : "rgba(151,187,205,1)",
-				data : [1,1,1,1,1,1,2,6,8,11,12,12,15,15,16,17,20,20,21,22,24,27]
+				data : [1,1,1,1,1,1,2,6,8,11,12,12,15,15,16,17,20,20,21,22,24,27,28,29]
 			}
 		]
 
