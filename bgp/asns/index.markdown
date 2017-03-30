@@ -1,6 +1,6 @@
 ---
 layout: nul
-lastmodified: 2017-03-29 18:54:54 +0000
+lastmodified: 2017-03-30 06:09:49 +0000
 ---
 This is a chart of BGP growth (# of registered ASNs) in Canada by province.
 
@@ -24,7 +24,7 @@ This is a chart of BGP growth (# of registered ASNs) in Canada by province.
 				pointStrokeColor : "#fff",
 				pointHighlightFill : "#fff",
 				pointHighlightStroke : "rgba(255,0,0,1)",
-				data : [0,0,0,0,1,1,1,1,3,4,4,6,10,11,13,21,28,36,42,48,54,64,72,77,89,94,105,121,139,147,161,171,173]
+				data : [0,0,0,0,1,1,1,1,3,4,4,6,10,11,13,21,28,36,42,48,54,64,72,77,89,94,105,121,139,147,161,171,174]
 			},
 			{
 				label: "BC ASNs Assigned",
@@ -34,7 +34,7 @@ This is a chart of BGP growth (# of registered ASNs) in Canada by province.
 				pointStrokeColor : "#fff",
 				pointHighlightFill : "#fff",
 				pointHighlightStroke : "rgba(226, 87, 30,1)",
-				data : [0,0,0,0,1,1,1,1,2,5,7,12,15,17,20,30,35,43,47,50,54,60,68,78,89,99,108,130,151,171,178,191,195]
+				data : [0,0,0,0,1,1,1,1,2,5,7,12,15,17,20,30,35,43,47,49,53,59,67,77,88,98,107,129,150,170,177,190,195]
 			},
 			{
 				label: "MB ASNs Assigned",
@@ -94,7 +94,7 @@ This is a chart of BGP growth (# of registered ASNs) in Canada by province.
 				pointStrokeColor : "#fff",
 				pointHighlightFill : "#fff",
 				pointHighlightStroke : "rgba(75, 0, 130,1)",
-				data : [0,1,1,2,3,8,8,10,14,32,47,58,79,94,115,145,184,224,255,299,327,365,395,427,463,504,539,570,619,656,709,758,765]
+				data : [0,1,1,2,3,8,8,10,14,32,47,58,79,94,115,145,184,224,255,299,327,365,395,427,463,504,540,571,620,657,710,759,772]
 			},
 			{
 				label: "PE ASNs Assigned",
