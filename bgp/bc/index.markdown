@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "BC BGP/ASN Status"
+title: "British Columbia BGP/ASN Status"
 comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in British Columbia, or are British Columbia Companies."
-lastmodified: 2017-03-30 05:45:36 +0000
+lastmodified: 2017-04-01 08:43:22 +0000
 categories:
 - IPv6
 - ISP
@@ -15,7 +15,7 @@ categories:
 - BGP
 - Network Monitoring
 ---
-Below is the status today for all ASNs I could find that operate in British Columbia, or are British Columbian Companies. I check the status of each ASN fairly often and update things as they change. Please [Contact Me](/contact/) if you have any updates.
+Below is the status today for all ASNs I could find that operate in British Columbia, or are British Columbia Companies. I check the status of each ASN fairly often and update things as they change. Please [Contact Me](/contact/) if you have any updates.
 
 ### Icon Status Key
 
@@ -30,8 +30,7 @@ Icon | Meaning
 
 ## ASN Status Table
 
-### British Columbian ASNs
-
+### British Columbia ASNs
 ASN | Name | v4 / v6 | BGP | BGP LG
 --- | ---- | ------- | --- | ------
 [AS271](https://stat.ripe.net/AS271) | BCnet | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=271)
@@ -133,7 +132,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS32956](https://stat.ripe.net/AS32956) | Canadian Broadcasting Corporation | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32956)
 [AS33169](https://stat.ripe.net/AS33169) | Utherverse Digital Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=33169)
 [AS33303](https://stat.ripe.net/AS33303) | Metrobridge Networks USA Corporation | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=33303)
-[AS33314](https://stat.ripe.net/AS33314) | Vancouver Community College | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=33314)
+[AS33314](https://stat.ripe.net/AS33314) | Vancouver Community College | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=33314)
 [AS33333](https://stat.ripe.net/AS33333) | Awknet Communications, Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=33333)
 [AS35875](https://stat.ripe.net/AS35875) | StormCloud Network (Canada) Incorprated | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=35875)
 [AS35949](https://stat.ripe.net/AS35949) | Sea to Sky Network Solutions Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=35949)
@@ -191,7 +190,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS62692](https://stat.ripe.net/AS62692) | Camosun College | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62692)
 [AS62726](https://stat.ripe.net/AS62726) | Windward Software Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62726)
 [AS62969](https://stat.ripe.net/AS62969) | ABC Allen Business Communications Ltd | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62969)
-[AS63023](https://stat.ripe.net/AS63023) | 2P Agency Soft Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63023)
+[AS63023](https://stat.ripe.net/AS63023) | 2P Agency Soft Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63023)
 [AS63052](https://stat.ripe.net/AS63052) | Columbia Basin Broadband Corporation | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63052)
 [AS63126](https://stat.ripe.net/AS63126) | Aptient Consulting Group Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63126)
 [AS63213](https://stat.ripe.net/AS63213) | Astute Hosting Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63213)
@@ -233,14 +232,12 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 195
-  * Active ASNs: 138 or 70.77%
-  * IPv4 only: 99 or 50.77%
+  * Active ASNs: 140 or 71.79%
+  * IPv4 only: 101 or 51.79%
   * IPv6 Advertisement: 39 or 20.00%
 
-Graph showing the [growth of British Columbian ASNs](/bgp/bc/asns/), using chart.js.
+Graph showing the [growth of British Columbia ASNs](/bgp/bc/asns/), using chart.js.
 
 ### Update History
 
-**2017-03-29:** Page being generated now instead of manually maintained.
-
-**2017-03-28:** Page Created
+**2017-03-29:** Page being generated instead of manually maintained.

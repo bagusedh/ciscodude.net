@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "MB BGP/ASN Status"
+title: "Manitoba BGP/ASN Status"
 comments: false
 sharing: true
 footer: false
-description: "Current status today for all ASNs I could find that operate in Manitoba, or are Manitoban Companies."
-lastmodified: 2017-03-30 05:39:45 +0000
+description: "Current status today for all ASNs I could find that operate in Manitoba, or are Manitoba Companies."
+lastmodified: 2017-04-01 08:43:22 +0000
 categories:
 - IPv6
 - ISP
@@ -15,7 +15,7 @@ categories:
 - BGP
 - Network Monitoring
 ---
-Below is the status today for all ASNs I could find that operate in Manitoba, or are Manitoban Companies. I check the status of each ASN fairly often and update things as they change. Please [Contact Me](/contact/) if you have any updates.
+Below is the status today for all ASNs I could find that operate in Manitoba, or are Manitoba Companies. I check the status of each ASN fairly often and update things as they change. Please [Contact Me](/contact/) if you have any updates.
 
 ### Icon Status Key
 
@@ -30,8 +30,7 @@ Icon | Meaning
 
 ## ASN Status Table
 
-### Manitoban ASNs
-
+### Manitoba ASNs
 ASN | Name | v4 / v6 | BGP | BGP LG
 --- | ---- | ------- | --- | ------
 [AS684](https://stat.ripe.net/AS684) | MTS Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=684)
@@ -121,130 +120,8 @@ ASN | Name | v4 / v6 | BGP | BGP LG
   * IPv4 only: 40 or 50.63%
   * IPv6 Advertisement: 24 or 30.38%
 
-Graph showing the [growth of Manitoban ASNs](/bgp/mb/asns/), using chart.js.
+Graph showing the [growth of Manitoba ASNs](/bgp/mb/asns/), using chart.js.
 
 ### Update History
 
-**2017-03-29:** Page being generated now instead of manually maintained.
-
-**2017-03-03:** Added new ASN: AS396084
-
-**2017-02-21:** Added new ASN: AS396045
-
-**2016-12-01:** Added new ASN: AS395755
-
-**2016-11-06:** Added new ASN: AS395653
-
-**2016-10-14:** Added new ASN: AS395588
-
-**2016-09-20:** AS395388 advertising own IPv4 now.
-
-**2016-07-27:** Removed AS21876 (formerly HED Insurance and Risk Services)
-
-**2016-07-12:** AS393987 advertising own IPv4 now.
-
-**2016-07-05:** Added new ASN: AS395338
-
-**2016-06-24:** Added new ASNs: AS395248 and AS395295.
-
-**2016-05-06:** AS394352 now advertising IPv4.
-
-**2016-04-12:** Added new ASN: AS395089. AS395089 now advertising IPv4 and IPv6.
-
-**2016-03-11:** AS394989 now advertising IPv4.
-
-**2016-03-10:** Added new ASN: AS394989. 
-
-**2016-03-07:** AS64231 now advertising IPv4.
-
-**2016-02-26:** AS15102 now advertising IPv6.
-
-**2016-02-10:** AS31914 now advertising IPv6.
-
-**2015-12-15:** Added AS64231. Added IPv6 for AS18534. AS18472 advertising IPv6.
-
-**2015-10-30:** AS21876, AS22839, AS23001, AS32433, and AS54937 have disappeared from global BGP due to an atomic aggregate summarization by AS7122 on 2015-09-13.
-
-**2015-10-26:** AS14338 has turned down BGP (2015-10-03).
-
-**2015-10-23:** Added AS394583.
-
-**2015-10-07:** Added AS394522. 
-
-**2015-10-04:** AS394466 has turned up IPv4.
-
-**2015-09-19:** Added AS394467.
-
-**2015-09-18:** Added AS394466.
-
-**2015-09-14:** AS20291 has been assigned an IPv6 prefix.
-
-**2015-09-03:** Added AS394422.
-
-**2015-08-19:** Added AS394352.
-
-**2015-08-13:** AS394255 has turned up BGP.
-
-**2015-08-12:** AS32557 has been removed.
-
-**2015-08-11:** AS31914 has been assigned an IPv6 prefix.
-
-**2015-08-07:** AS14099 has been assigned an IPv4 prefix.
-
-**2015-07-27:** AS394255 has been assigned an IPv6 prefix.
-
-**2015-07-22:** Added AS394255
-
-**2015-06-12:** Added AS394097
-
-**2015-06-10:** Added AS394091
-
-**2015-05-15:** Added AS393987
-
-**2015-04-30:** Added AS393927
-
-**2015-04-17:** AS393445 has started announcing an IPv4 prefix
-
-**2015-03-10:** AS393733 has been allocated an IPv4 prefix
-
-**2015-03-03:** MTS appears to have started using AS7122 once again, now announcing 37 IPv4 prefixes (up from 2) including those from 4 downstream ASNs
-
-**2015-02-10:** AS393445 has been allocated an IPv4 prefix
-
-**2015-01-30:** Added AS14099
-
-**2014-12-10:** Added AS393733
-
-**2014-12-05:** AS20291 now advertising IPv4. AS22839 online after month-long BGP hiatus.
-
-**2014-12-02:** Added AS63318 (also announcing IPv4)
-
-**2014-11-25:** Added AS20291
-
-**2014-10-23:** AS18534, AS393431 now announcing IPv4. AS30028 now announcing IPv6.
-
-**2014-10-21:** Added AS18534
-
-**2014-10-03:** Added AS22995
-
-**2014-09-19:** Added AS19041, AS20273, AS21876, AS46920, AS62846
-
-**2014-09-11:** AS18472 now advertising its own V4 (instead of AS15290)
-
-**2014-07-31:** AS393523 now advertising V4/V6
-
-**2014-07-23:** Add AS7442, AS23001
-
-**2014-07-14:** Add Statistics
-
-**2014-07-12:** Add Winnipeg Internet Exchange (AS393523), Add AS32557
-
-**2014-07-05:** Change to table layout
-
-**2014-07-02:** Change into dedicated page, Add AS18472, AS393445, AS393431
-
-**2014-05-23:** AS30028 was allocated 2605:7480::/32
-
-**2014-04-21:** Add AS6539, AS7122
-
-**2014-04-19:** Add AS19016
+**2017-03-29:** Page being generated instead of manually maintained.

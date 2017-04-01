@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "PE BGP/ASN Status"
+title: "Prince Edward Island BGP/ASN Status"
 comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Prince Edward Island, or are Prince Edward Island Companies."
-lastmodified: 2017-03-29 18:44:05 +0000
+lastmodified: 2017-04-01 08:43:23 +0000
 categories:
 - IPv6
 - ISP
@@ -31,7 +31,6 @@ Icon | Meaning
 ## ASN Status Table
 
 ### Prince Edward Island ASNs
-
 ASN | Name | v4 / v6 | BGP | BGP LG
 --- | ---- | ------- | --- | ------
 [AS691](https://stat.ripe.net/AS691) | University of P.E.I | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=691)
@@ -52,5 +51,3 @@ Graph showing the [growth of Prince Edward Island ASNs](/bgp/pe/asns/), using ch
 ### Update History
 
 **2017-03-29:** Page being generated instead of manually maintained.
-
-**2017-03-28:** Page Created

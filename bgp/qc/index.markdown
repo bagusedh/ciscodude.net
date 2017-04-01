@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "QC BGP/ASN Status"
+title: "Quebec BGP/ASN Status"
 comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Quebec, or are Quebec Companies."
-lastmodified: 2017-04-01 05:47:05 +0000
+lastmodified: 2017-04-01 08:43:23 +0000
 categories:
 - IPv6
 - ISP
@@ -31,7 +31,6 @@ Icon | Meaning
 ## ASN Status Table
 
 ### Quebec ASNs
-
 ASN | Name | v4 / v6 | BGP | BGP LG
 --- | ---- | ------- | --- | ------
 [AS376](https://stat.ripe.net/AS376) | Reseau  d'informations scientifiques du Quebec (RISQ) | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=376)
@@ -317,10 +316,8 @@ ASN | Name | v4 / v6 | BGP | BGP LG
   * IPv4 only: 159 or 57.82%
   * IPv6 Advertisement: 48 or 17.45%
 
-I have created a [graph showing the growth of Quebec ASNs](/bgp/qc/asns/), using chart.js.
+Graph showing the [growth of Quebec ASNs](/bgp/qc/asns/), using chart.js.
 
 ### Update History
 
 **2017-03-29:** Page being generated instead of manually maintained.
-
-**2017-03-28:** Page Created

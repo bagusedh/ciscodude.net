@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "AB BGP/ASN Status"
+title: "Alberta BGP/ASN Status"
 comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Alberta, or are Alberta Companies."
-lastmodified: 2017-03-29 18:44:04 +0000
+lastmodified: 2017-04-01 08:43:22 +0000
 categories:
 - IPv6
 - ISP
@@ -31,7 +31,6 @@ Icon | Meaning
 ## ASN Status Table
 
 ### Alberta ASNs
-
 ASN | Name | v4 / v6 | BGP | BGP LG
 --- | ---- | ------- | --- | ------
 [AS542](https://stat.ripe.net/AS542) | Alberta Research Council | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=542)
@@ -222,5 +221,3 @@ Graph showing the [growth of Alberta ASNs](/bgp/ab/asns/), using chart.js.
 ### Update History
 
 **2017-03-29:** Page being generated instead of manually maintained.
-
-**2017-03-28:** Page Created

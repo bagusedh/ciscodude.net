@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "SK BGP/ASN Status"
+title: "Saskatchewan BGP/ASN Status"
 comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Saskatchewan, or are Saskatchewan Companies."
-lastmodified: 2017-03-29 18:44:05 +0000
+lastmodified: 2017-04-01 08:43:23 +0000
 categories:
 - IPv6
 - ISP
@@ -31,7 +31,6 @@ Icon | Meaning
 ## ASN Status Table
 
 ### Saskatchewan ASNs
-
 ASN | Name | v4 / v6 | BGP | BGP LG
 --- | ---- | ------- | --- | ------
 [AS803](https://stat.ripe.net/AS803) | Saskatchewan Telecommunications | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=803)
@@ -72,10 +71,8 @@ ASN | Name | v4 / v6 | BGP | BGP LG
   * IPv4 only: 20 or 66.67%
   * IPv6 Advertisement: 5 or 16.67%
 
-I have created a [graph showing the growth of Saskatchewan ASNs](/bgp/sk/asns/), using chart.js.
+Graph showing the [growth of Saskatchewan ASNs](/bgp/sk/asns/), using chart.js.
 
 ### Update History
 
-**2017-03-29:** Page being generated now instead of manually maintained.
-
-**2016-01-21:** Page created.
+**2017-03-29:** Page being generated instead of manually maintained.

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "YT BGP/ASN Status"
+title: "Yukon Territory BGP/ASN Status"
 comments: false
 sharing: true
 footer: false
-description: "Current status today for all ASNs I could find that operate in Yukon, or are Yukon Companies."
-lastmodified: 2017-03-29 18:44:05 +0000
+description: "Current status today for all ASNs I could find that operate in Yukon Territory, or are Yukon Territory Companies."
+lastmodified: 2017-04-01 08:43:23 +0000
 categories:
 - IPv6
 - ISP
@@ -15,7 +15,7 @@ categories:
 - BGP
 - Network Monitoring
 ---
-Below is the status today for all ASNs I could find that operate in Yukon, or are Yukon Companies. I check the status of each ASN fairly often and update things as they change. Please [Contact Me](/contact/) if you have any updates.
+Below is the status today for all ASNs I could find that operate in Yukon Territory, or are Yukon Territory Companies. I check the status of each ASN fairly often and update things as they change. Please [Contact Me](/contact/) if you have any updates.
 
 ### Icon Status Key
 
@@ -30,8 +30,7 @@ Icon | Meaning
 
 ## ASN Status Table
 
-### Yukon ASNs
-
+### Yukon Territory ASNs
 ASN | Name | v4 / v6 | BGP | BGP LG
 --- | ---- | ------- | --- | ------
 [AS6058](https://stat.ripe.net/AS6058) | Northwestel Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=6058)
@@ -45,10 +44,8 @@ ASN | Name | v4 / v6 | BGP | BGP LG
   * IPv4 only: 2 or 66.67%
   * IPv6 Advertisement: 0 or 0.00%
 
-I have created a [graph showing the growth of Yukon ASNs](/bgp/yt/asns/), using chart.js.
+Graph showing the [growth of Yukon Territory ASNs](/bgp/yt/asns/), using chart.js.
 
 ### Update History
 
 **2017-03-29:** Page being generated instead of manually maintained.
-
-**2017-03-28:** Page Created

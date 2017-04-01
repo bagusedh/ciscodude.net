@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "ON BGP/ASN Status"
+title: "Ontario BGP/ASN Status"
 comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Ontario, or are Ontario Companies."
-lastmodified: 2017-03-30 05:51:10 +0000
+lastmodified: 2017-04-01 08:43:23 +0000
 categories:
 - IPv6
 - ISP
@@ -31,7 +31,6 @@ Icon | Meaning
 ## ASN Status Table
 
 ### Ontario ASNs
-
 ASN | Name | v4 / v6 | BGP | BGP LG
 --- | ---- | ------- | --- | ------
 [AS74](https://stat.ripe.net/AS74) | Defence Research Establishment | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=74)
@@ -840,6 +839,4 @@ Graph showing the [growth of Ontario ASNs](/bgp/on/asns/), using chart.js.
 
 ### Update History
 
-**2017-03-29:** Page being generated now instead of manually maintained.
-
-**2016-01-21:** Page created.
+**2017-03-29:** Page being generated instead of manually maintained.
