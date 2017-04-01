@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Quebec, or are Quebec Companies."
-lastmodified: 2017-03-29 18:44:05 +0000
+lastmodified: 2017-04-01 05:47:05 +0000
 categories:
 - IPv6
 - ISP
@@ -207,7 +207,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS40108](https://stat.ripe.net/AS40108) | LOGNET | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40108)
 [AS40126](https://stat.ripe.net/AS40126) | Molson Coors Brewing Company | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40126)
 [AS40191](https://stat.ripe.net/AS40191) | ZEROFAIL | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40191)
-[AS40206](https://stat.ripe.net/AS40206) | Reseau Collectif de communications electroniques et d'outils des gestion Gaspesie - Iles-de-la-Madeleine | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40206)
+[AS40206](https://stat.ripe.net/AS40206) | Reseau Collectif de communications electroniques et<br> d'outils des gestion Gaspesie - Iles-de-la-Madeleine | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40206)
 [AS40224](https://stat.ripe.net/AS40224) | Selectcom Telecom | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40224)
 [AS40332](https://stat.ripe.net/AS40332) | Montreal Exchange | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40332)
 [AS40392](https://stat.ripe.net/AS40392) | Croesus Finansoft Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40392)
