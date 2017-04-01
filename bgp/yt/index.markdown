@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Yukon Territory, or are Yukon Territory Companies."
-lastmodified: 2017-04-01 08:43:23 +0000
+lastmodified: 2017-04-01 08:46:16 +0000
 categories:
 - IPv6
 - ISP
@@ -31,6 +31,7 @@ Icon | Meaning
 ## ASN Status Table
 
 ### Yukon Territory ASNs
+
 ASN | Name | v4 / v6 | BGP | BGP LG
 --- | ---- | ------- | --- | ------
 [AS6058](https://stat.ripe.net/AS6058) | Northwestel Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=6058)
