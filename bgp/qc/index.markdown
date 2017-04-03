@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Quebec, or are Quebec Companies."
-lastmodified: 2017-04-01 08:46:16 +0000
+lastmodified: 2017-04-03 19:32:50 +0000
 categories:
 - IPv6
 - ISP
@@ -112,7 +112,6 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS18801](https://stat.ripe.net/AS18801) | NETBX TECHNOLOGIES INC. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18801)
 [AS18868](https://stat.ripe.net/AS18868) | Ormuco | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18868)
 [AS18875](https://stat.ripe.net/AS18875) | Questzone.Net, Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18875)
-[AS18892](https://stat.ripe.net/AS18892) | MEGA Brands, Inc | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18892)
 [AS19086](https://stat.ripe.net/AS19086) | CGI Group Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19086)
 [AS19122](https://stat.ripe.net/AS19122) | 19thfloor.net | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19122)
 [AS19188](https://stat.ripe.net/AS19188) | Exchange Market Systems E.M.S. Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19188)
@@ -201,7 +200,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS36605](https://stat.ripe.net/AS36605) | Lancity Networks Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36605)
 [AS36648](https://stat.ripe.net/AS36648) | Wanted Technologies | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36648)
 [AS36786](https://stat.ripe.net/AS36786) | Universite Laval | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36786)
-[AS36792](https://stat.ripe.net/AS36792) | Origen | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36792)
+[AS36792](https://stat.ripe.net/AS36792) | Origen | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36792)
 [AS39959](https://stat.ripe.net/AS39959) | iTeract inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=39959)
 [AS39985](https://stat.ripe.net/AS39985) | Market Engines | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=39985)
 [AS40108](https://stat.ripe.net/AS40108) | LOGNET | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40108)
@@ -312,10 +311,10 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 ### Statistics
 
-* Total ASNS: 275
-  * Active ASNs: 207 or 75.27%
-  * IPv4 only: 159 or 57.82%
-  * IPv6 Advertisement: 48 or 17.45%
+* Total ASNS: 274
+  * Active ASNs: 207 or 75.55%
+  * IPv4 only: 158 or 57.66%
+  * IPv6 Advertisement: 49 or 17.88%
 
 Graph showing the [growth of Quebec ASNs](/bgp/qc/asns/), using chart.js.
 
