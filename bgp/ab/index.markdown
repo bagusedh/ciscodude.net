@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Alberta, or are Alberta Companies."
-lastmodified: 2017-04-01 08:46:16 +0000
+lastmodified: 2017-04-03 19:29:34 +0000
 categories:
 - IPv6
 - ISP
@@ -49,7 +49,6 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS6638](https://stat.ripe.net/AS6638) | OA Internet Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=6638)
 [AS7826](https://stat.ripe.net/AS7826) | Canada Connect Corp. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=7826)
 [AS7878](https://stat.ripe.net/AS7878) | Telnet Canada Enterprises, Ltd. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=7878)
-[AS8104](https://stat.ripe.net/AS8104) | Calfrac Well Services Ltd. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=8104)
 [AS8165](https://stat.ripe.net/AS8165) | DataBoss Inc | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=8165)
 [AS10360](https://stat.ripe.net/AS10360) | Software Alberta Society | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=10360)
 [AS10482](https://stat.ripe.net/AS10482) | Shaw Communications Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=10482)
@@ -212,10 +211,10 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 ### Statistics
 
-* Total ASNS: 175
-  * Active ASNs: 123 or 70.29%
-  * IPv4 only: 104 or 59.43%
-  * IPv6 Advertisement: 19 or 10.86%
+* Total ASNS: 174
+  * Active ASNs: 123 or 70.69%
+  * IPv4 only: 104 or 59.77%
+  * IPv6 Advertisement: 19 or 10.92%
 
 Graph showing the [growth of Alberta ASNs](/bgp/ab/asns/), using chart.js.
 
