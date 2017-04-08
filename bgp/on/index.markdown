@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Ontario, or are Ontario Companies."
-lastmodified: 2017-04-06 00:11:20 +0000
+lastmodified: 2017-04-08 16:26:40 +0000
 categories:
 - IPv6
 - ISP
@@ -706,7 +706,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS63122](https://stat.ripe.net/AS63122) | LOGIX Data Products Inc, | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63122)
 [AS63155](https://stat.ripe.net/AS63155) | Digital Extremes Ltd | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63155)
 [AS63170](https://stat.ripe.net/AS63170) | Wire IE (Canada) Inc | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63170)
-[AS63202](https://stat.ripe.net/AS63202) | Taridium Canada | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63202)
+[AS63202](https://stat.ripe.net/AS63202) | Taridium Canada | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63202)
 [AS63272](https://stat.ripe.net/AS63272) | Clearcable Network Services | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63272)
 [AS63300](https://stat.ripe.net/AS63300) | SGGG Portfolio System Company Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63300)
 [AS63327](https://stat.ripe.net/AS63327) | Ontario Agency for Health Protection and Promotion | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63327)
@@ -831,9 +831,9 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 793
-  * Active ASNs: 548 or 69.10%
+  * Active ASNs: 549 or 69.23%
   * IPv4 only: 402 or 50.69%
-  * IPv6 Advertisement: 146 or 18.41%
+  * IPv6 Advertisement: 147 or 18.54%
 
 Graph showing the [growth of Ontario ASNs](/bgp/on/asns/), using chart.js.
 
