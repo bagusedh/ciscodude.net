@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Northwest Territories, or are Northwest Territories Companies."
-lastmodified: 2017-04-01 08:46:16 +0000
+lastmodified: 2017-04-11 18:56:37 +0000
 categories:
 - IPv6
 - ISP
@@ -42,9 +42,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 4
-  * Active ASNs: 3 or 75.00%
+* Active ASNs: 3 or 75.00%
+  * Dualstack IPv4+IPv6: 0 or 0.00%
+  * IPv6 Advertised: 0 or 0.00%
+  * IPv6 only: 0 or 0.00%
   * IPv4 only: 3 or 75.00%
-  * IPv6 Advertisement: 0 or 0.00%
 
 Graph showing the [growth of Northwest Territories ASNs](/bgp/nt/asns/), using chart.js.
 

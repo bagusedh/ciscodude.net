@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Alberta, or are Alberta Companies."
-lastmodified: 2017-04-03 19:29:34 +0000
+lastmodified: 2017-04-11 18:56:37 +0000
 categories:
 - IPv6
 - ISP
@@ -212,9 +212,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 174
-  * Active ASNs: 123 or 70.69%
+* Active ASNs: 123 or 70.69%
+  * Dualstack IPv4+IPv6: 18 or 10.34%
+  * IPv6 Advertised: 19 or 10.92%
+  * IPv6 only: 1 or 0.57%
   * IPv4 only: 104 or 59.77%
-  * IPv6 Advertisement: 19 or 10.92%
 
 Graph showing the [growth of Alberta ASNs](/bgp/ab/asns/), using chart.js.
 

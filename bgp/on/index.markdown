@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Ontario, or are Ontario Companies."
-lastmodified: 2017-04-08 16:26:40 +0000
+lastmodified: 2017-04-11 18:56:37 +0000
 categories:
 - IPv6
 - ISP
@@ -831,9 +831,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 793
-  * Active ASNs: 549 or 69.23%
+* Active ASNs: 549 or 69.23%
+  * Dualstack IPv4+IPv6: 142 or 17.91%
+  * IPv6 Advertised: 147 or 18.54%
+  * IPv6 only: 5 or 0.63%
   * IPv4 only: 402 or 50.69%
-  * IPv6 Advertisement: 147 or 18.54%
 
 Graph showing the [growth of Ontario ASNs](/bgp/on/asns/), using chart.js.
 

@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in New Brunswick, or are New Brunswick Companies."
-lastmodified: 2017-04-01 08:46:16 +0000
+lastmodified: 2017-04-11 18:56:37 +0000
 categories:
 - IPv6
 - ISP
@@ -67,9 +67,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 29
-  * Active ASNs: 21 or 72.41%
+* Active ASNs: 21 or 72.41%
+  * Dualstack IPv4+IPv6: 6 or 20.69%
+  * IPv6 Advertised: 7 or 24.14%
+  * IPv6 only: 1 or 3.45%
   * IPv4 only: 14 or 48.28%
-  * IPv6 Advertisement: 7 or 24.14%
 
 Graph showing the [growth of New Brunswick ASNs](/bgp/nb/asns/), using chart.js.
 

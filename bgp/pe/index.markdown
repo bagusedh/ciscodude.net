@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Prince Edward Island, or are Prince Edward Island Companies."
-lastmodified: 2017-04-01 08:46:16 +0000
+lastmodified: 2017-04-11 18:56:37 +0000
 categories:
 - IPv6
 - ISP
@@ -43,9 +43,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 5
-  * Active ASNs: 3 or 60.00%
+* Active ASNs: 3 or 60.00%
+  * Dualstack IPv4+IPv6: 1 or 20.00%
+  * IPv6 Advertised: 1 or 20.00%
+  * IPv6 only: 0 or 0.00%
   * IPv4 only: 2 or 40.00%
-  * IPv6 Advertisement: 1 or 20.00%
 
 Graph showing the [growth of Prince Edward Island ASNs](/bgp/pe/asns/), using chart.js.
 

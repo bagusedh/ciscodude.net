@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Nova Scotia, or are Nova Scotia Companies."
-lastmodified: 2017-04-01 08:46:16 +0000
+lastmodified: 2017-04-11 18:56:37 +0000
 categories:
 - IPv6
 - ISP
@@ -70,9 +70,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 32
-  * Active ASNs: 22 or 68.75%
+* Active ASNs: 22 or 68.75%
+  * Dualstack IPv4+IPv6: 11 or 34.38%
+  * IPv6 Advertised: 11 or 34.38%
+  * IPv6 only: 0 or 0.00%
   * IPv4 only: 11 or 34.38%
-  * IPv6 Advertisement: 11 or 34.38%
 
 Graph showing the [growth of Nova Scotia ASNs](/bgp/ns/asns/), using chart.js.
 

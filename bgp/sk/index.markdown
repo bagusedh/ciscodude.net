@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Saskatchewan, or are Saskatchewan Companies."
-lastmodified: 2017-04-01 08:46:16 +0000
+lastmodified: 2017-04-11 18:56:37 +0000
 categories:
 - IPv6
 - ISP
@@ -68,9 +68,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 30
-  * Active ASNs: 25 or 83.33%
+* Active ASNs: 25 or 83.33%
+  * Dualstack IPv4+IPv6: 5 or 16.67%
+  * IPv6 Advertised: 5 or 16.67%
+  * IPv6 only: 0 or 0.00%
   * IPv4 only: 20 or 66.67%
-  * IPv6 Advertisement: 5 or 16.67%
 
 Graph showing the [growth of Saskatchewan ASNs](/bgp/sk/asns/), using chart.js.
 

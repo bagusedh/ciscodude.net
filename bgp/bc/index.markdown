@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in British Columbia, or are British Columbia Companies."
-lastmodified: 2017-04-09 07:45:21 +0000
+lastmodified: 2017-04-11 18:56:37 +0000
 categories:
 - IPv6
 - ISP
@@ -234,14 +234,14 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 196
-  * Active ASNs: 140 or 71.43%
+* Active ASNs: 140 or 71.43%
+  * Dualstack IPv4+IPv6: 38 or 19.39%
+  * IPv6 Advertised: 39 or 19.90%
+  * IPv6 only: 1 or 0.51%
   * IPv4 only: 101 or 51.53%
-  * IPv6 Advertisement: 39 or 19.90%
 
 Graph showing the [growth of British Columbia ASNs](/bgp/bc/asns/), using chart.js.
 
 ### Update History
 
 **2017-03-29:** Page being generated instead of manually maintained.
-
-

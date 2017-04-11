@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Manitoba, or are Manitoba Companies."
-lastmodified: 2017-04-01 08:46:16 +0000
+lastmodified: 2017-04-11 18:56:37 +0000
 categories:
 - IPv6
 - ISP
@@ -117,9 +117,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 79
-  * Active ASNs: 64 or 81.01%
+* Active ASNs: 64 or 81.01%
+  * Dualstack IPv4+IPv6: 24 or 30.38%
+  * IPv6 Advertised: 24 or 30.38%
+  * IPv6 only: 0 or 0.00%
   * IPv4 only: 40 or 50.63%
-  * IPv6 Advertisement: 24 or 30.38%
 
 Graph showing the [growth of Manitoba ASNs](/bgp/mb/asns/), using chart.js.
 

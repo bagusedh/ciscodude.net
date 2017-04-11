@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Quebec, or are Quebec Companies."
-lastmodified: 2017-04-03 19:32:50 +0000
+lastmodified: 2017-04-11 18:56:37 +0000
 categories:
 - IPv6
 - ISP
@@ -312,9 +312,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 274
-  * Active ASNs: 207 or 75.55%
+* Active ASNs: 207 or 75.55%
+  * Dualstack IPv4+IPv6: 49 or 17.88%
+  * IPv6 Advertised: 49 or 17.88%
+  * IPv6 only: 0 or 0.00%
   * IPv4 only: 158 or 57.66%
-  * IPv6 Advertisement: 49 or 17.88%
 
 Graph showing the [growth of Quebec ASNs](/bgp/qc/asns/), using chart.js.
 
