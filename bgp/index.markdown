@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "I keep an eye on Canadian BGP/routing."
-lastmodified: 2017-04-11 18:52:27 +0000
+lastmodified: 2017-04-13 06:24:12 +0000
 categories:
 - IPv6
 - ISP
@@ -44,10 +44,9 @@ Rendered using chart.js
 
 ## Statistics
 
-* Total ASNS: 1634
-* Active ASNs: 1168 or 71.48%
-  * Dualstack IPv4+IPv6: 294 or 17.99%
-  * IPv6 Advertised: 302 or 18.48%
+* Total ASNS: 1633
+* Active ASNs: 1167 or 71.46%
+  * Dualstack IPv4+IPv6: 294 or 18.00%
+  * IPv6 Advertised: 302 or 18.49%
   * IPv6 only: 8 or 0.49%
-  * IPv4 only: 866 or 53.00%
-
+  * IPv4 only: 865 or 52.97%
