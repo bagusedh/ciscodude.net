@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Quebec, or are Quebec Companies."
-lastmodified: 2017-04-11 18:56:37 +0000
+lastmodified: 2017-04-13 06:13:43 +0000
 categories:
 - IPv6
 - ISP
@@ -138,7 +138,6 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS22639](https://stat.ripe.net/AS22639) | Cooptel Coop de Telecommunication | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22639)
 [AS22652](https://stat.ripe.net/AS22652) | Fibrenoire Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22652)
 [AS22705](https://stat.ripe.net/AS22705) | Placements Montrusco Bolton Investments | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22705)
-[AS22748](https://stat.ripe.net/AS22748) | SkyNet Canada Wireless Fiber | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22748)
 [AS22953](https://stat.ripe.net/AS22953) | Calcul Quebec | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22953)
 [AS22964](https://stat.ripe.net/AS22964) | ISP Telecom | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22964)
 [AS23046](https://stat.ripe.net/AS23046) | The Standard Life Assurance Company of Canada | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=23046)
@@ -311,12 +310,12 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 ### Statistics
 
-* Total ASNS: 274
-* Active ASNs: 207 or 75.55%
-  * Dualstack IPv4+IPv6: 49 or 17.88%
-  * IPv6 Advertised: 49 or 17.88%
+* Total ASNS: 273
+* Active ASNs: 206 or 75.46%
+  * Dualstack IPv4+IPv6: 49 or 17.95%
+  * IPv6 Advertised: 49 or 17.95%
   * IPv6 only: 0 or 0.00%
-  * IPv4 only: 158 or 57.66%
+  * IPv4 only: 157 or 57.51%
 
 Graph showing the [growth of Quebec ASNs](/bgp/qc/asns/), using chart.js.
 
