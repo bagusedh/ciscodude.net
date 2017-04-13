@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Ontario, or are Ontario Companies."
-lastmodified: 2017-04-11 18:56:37 +0000
+lastmodified: 2017-04-13 06:22:11 +0000
 categories:
 - IPv6
 - ISP
@@ -570,7 +570,6 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS40064](https://stat.ripe.net/AS40064) | JumpTV, Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40064)
 [AS40124](https://stat.ripe.net/AS40124) | Nelson a division of Thomson Canada Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40124)
 [AS40232](https://stat.ripe.net/AS40232) | Crazy8Domains.com Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40232)
-[AS40241](https://stat.ripe.net/AS40241) | Action Hosting Corporation Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40241)
 [AS40243](https://stat.ripe.net/AS40243) | Livingston International Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40243)
 [AS40280](https://stat.ripe.net/AS40280) | Christie Digital Systems Canada, Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40280)
 [AS40291](https://stat.ripe.net/AS40291) | Broadband Collaborative Solutions (USA), Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40291)
@@ -830,12 +829,12 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 ### Statistics
 
-* Total ASNS: 793
-* Active ASNs: 549 or 69.23%
-  * Dualstack IPv4+IPv6: 142 or 17.91%
-  * IPv6 Advertised: 147 or 18.54%
+* Total ASNS: 792
+* Active ASNs: 549 or 69.32%
+  * Dualstack IPv4+IPv6: 142 or 17.93%
+  * IPv6 Advertised: 147 or 18.56%
   * IPv6 only: 5 or 0.63%
-  * IPv4 only: 402 or 50.69%
+  * IPv4 only: 402 or 50.76%
 
 Graph showing the [growth of Ontario ASNs](/bgp/on/asns/), using chart.js.
 
