@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Quebec, or are Quebec Companies."
-lastmodified: 2017-04-13 06:13:43 +0000
+lastmodified: 2017-04-16 07:55:45 +0000
 categories:
 - IPv6
 - ISP
@@ -54,7 +54,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS5769](https://stat.ripe.net/AS5769) | Videotron Telecom Ltee | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=5769)
 [AS6280](https://stat.ripe.net/AS6280) | Babillard Synapse Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=6280)
 [AS7110](https://stat.ripe.net/AS7110) | Quebec.Net | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=7110)
-[AS7403](https://stat.ripe.net/AS7403) | Colba Net Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=7403)
+[AS7403](https://stat.ripe.net/AS7403) | Colba Net Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=7403)
 [AS7446](https://stat.ripe.net/AS7446) | Login Communication Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=7446)
 [AS7454](https://stat.ripe.net/AS7454) | ClicNet Telecom | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=7454)
 [AS7765](https://stat.ripe.net/AS7765) | Koumbit | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=7765)
@@ -312,10 +312,10 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 * Total ASNS: 273
 * Active ASNs: 206 or 75.46%
-  * Dualstack IPv4+IPv6: 49 or 17.95%
-  * IPv6 Advertised: 49 or 17.95%
+  * Dualstack IPv4+IPv6: 48 or 17.58%
+  * IPv6 Advertised: 48 or 17.58%
   * IPv6 only: 0 or 0.00%
-  * IPv4 only: 157 or 57.51%
+  * IPv4 only: 158 or 57.88%
 
 Graph showing the [growth of Quebec ASNs](/bgp/qc/asns/), using chart.js.
 
