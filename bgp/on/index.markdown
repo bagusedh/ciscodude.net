@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Ontario, or are Ontario Companies."
-lastmodified: 2017-04-13 06:22:11 +0000
+lastmodified: 2017-04-16 03:53:50 +0000
 categories:
 - IPv6
 - ISP
@@ -435,7 +435,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS27299](https://stat.ripe.net/AS27299) | CIRA Canadian Internet Registration Authority<br> Autorit Canadienne pour les enregistrements Internet | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=27299)
 [AS27312](https://stat.ripe.net/AS27312) | Carswell, a division of Thomson Canada Ltd | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=27312)
 [AS27324](https://stat.ripe.net/AS27324) | Canadian Broadcasting Corporation | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=27324)
-[AS27381](https://stat.ripe.net/AS27381) | Index Exchange Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=27381)
+[AS27381](https://stat.ripe.net/AS27381) | Index Exchange Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=27381)
 [AS27546](https://stat.ripe.net/AS27546) | Canadian Payments Association | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=27546)
 [AS27579](https://stat.ripe.net/AS27579) | KiSP Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=27579)
 [AS29711](https://stat.ripe.net/AS29711) | Maple Financial | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=29711)
@@ -831,10 +831,10 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 * Total ASNS: 792
 * Active ASNs: 549 or 69.32%
-  * Dualstack IPv4+IPv6: 142 or 17.93%
-  * IPv6 Advertised: 147 or 18.56%
+  * Dualstack IPv4+IPv6: 143 or 18.06%
+  * IPv6 Advertised: 148 or 18.69%
   * IPv6 only: 5 or 0.63%
-  * IPv4 only: 402 or 50.76%
+  * IPv4 only: 401 or 50.63%
 
 Graph showing the [growth of Ontario ASNs](/bgp/on/asns/), using chart.js.
 
