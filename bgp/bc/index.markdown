@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in British Columbia, or are British Columbia Companies."
-lastmodified: 2017-04-13 06:13:09 +0000
+lastmodified: 2017-04-21 04:07:20 +0000
 categories:
 - IPv6
 - ISP
@@ -134,7 +134,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS33169](https://stat.ripe.net/AS33169) | Utherverse Digital Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=33169)
 [AS33303](https://stat.ripe.net/AS33303) | Metrobridge Networks USA Corporation | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=33303)
 [AS33314](https://stat.ripe.net/AS33314) | Vancouver Community College | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=33314)
-[AS33333](https://stat.ripe.net/AS33333) | Awknet Communications, Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=33333)
+[AS33333](https://stat.ripe.net/AS33333) | Awknet Communications, Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=33333)
 [AS35875](https://stat.ripe.net/AS35875) | StormCloud Network (Canada) Incorprated | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=35875)
 [AS35949](https://stat.ripe.net/AS35949) | Sea to Sky Network Solutions Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=35949)
 [AS36000](https://stat.ripe.net/AS36000) | Northern Health Authority | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36000)
@@ -228,16 +228,16 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS395807](https://stat.ripe.net/AS395807) | Selkirk College | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395807)
 [AS395991](https://stat.ripe.net/AS395991) | College of the Rockies | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395991)
 [AS396005](https://stat.ripe.net/AS396005) | New Westminster Public Library | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396005)
-[AS396110](https://stat.ripe.net/AS396110) | Creation Technologies LP | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396110)
+[AS396110](https://stat.ripe.net/AS396110) | Creation Technologies LP | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396110)
 [AS396221](https://stat.ripe.net/AS396221) | Optic Zoo Networks Ltd. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396221)
 [AS396237](https://stat.ripe.net/AS396237) | SilverServers Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396237)
 
 ### Statistics
 
 * Total ASNS: 197
-* Active ASNs: 140 or 71.07%
-  * Dualstack IPv4+IPv6: 38 or 19.29%
-  * IPv6 Advertised: 39 or 19.80%
+* Active ASNs: 141 or 71.57%
+  * Dualstack IPv4+IPv6: 39 or 19.80%
+  * IPv6 Advertised: 40 or 20.30%
   * IPv6 only: 1 or 0.51%
   * IPv4 only: 101 or 51.27%
 
