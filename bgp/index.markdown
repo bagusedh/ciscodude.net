@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "I keep an eye on Canadian BGP/routing."
-lastmodified: 2017-04-21 20:45:14 +0000
+lastmodified: 2017-04-21 20:47:27 +0000
 categories:
 - IPv6
 - ISP
@@ -24,8 +24,8 @@ I keep an eye on Canadian BGP/routing.
 * [Manitoba](/bgp/mb/)
 * [New Brunswick](/bgp/nb/)
 * [Newfoundland](/bgp/nl/)
-* [Nova Scotia](/bgp/ns/)
 * [Northwest Territories](/bgp/nt/)
+* [Nova Scotia](/bgp/ns/)
 * [Nunavut (none)](/bgp/nu/)
 * [Ontario](/bgp/on/)
 * [Prince Edward Island](/bgp/pe/)
