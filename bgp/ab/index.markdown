@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Alberta, or are Alberta Companies."
-lastmodified: 2017-04-11 18:56:37 +0000
+lastmodified: 2017-04-21 04:06:27 +0000
 categories:
 - IPv6
 - ISP
@@ -170,7 +170,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS55019](https://stat.ripe.net/AS55019) | Gemini Positioning Systems Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=55019)
 [AS55084](https://stat.ripe.net/AS55084) | Interscale Inc | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=55084)
 [AS55162](https://stat.ripe.net/AS55162) | Sniper Satellite & Comunications LTD | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=55162)
-[AS55206](https://stat.ripe.net/AS55206) | Foothills School Division No. 38 | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=55206)
+[AS55206](https://stat.ripe.net/AS55206) | Foothills School Division No. 38 | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=55206)
 [AS62470](https://stat.ripe.net/AS62470) | Keeran Systems | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62470)
 [AS62502](https://stat.ripe.net/AS62502) | YEGIX Internet Exchange Community Ltd. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62502)
 [AS62596](https://stat.ripe.net/AS62596) | Axia SuperNet Ltd | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62596)
@@ -212,11 +212,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 174
-* Active ASNs: 123 or 70.69%
+* Active ASNs: 124 or 71.26%
   * Dualstack IPv4+IPv6: 18 or 10.34%
   * IPv6 Advertised: 19 or 10.92%
   * IPv6 only: 1 or 0.57%
-  * IPv4 only: 104 or 59.77%
+  * IPv4 only: 105 or 60.34%
 
 Graph showing the [growth of Alberta ASNs](/bgp/ab/asns/), using chart.js.
 
