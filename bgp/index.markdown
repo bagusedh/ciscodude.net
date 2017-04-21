@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "I keep an eye on Canadian BGP/routing."
-lastmodified: 2017-04-21 04:24:55 +0000
+lastmodified: 2017-04-21 20:45:14 +0000
 categories:
 - IPv6
 - ISP
@@ -31,7 +31,7 @@ I keep an eye on Canadian BGP/routing.
 * [Prince Edward Island](/bgp/pe/)
 * [Quebec](/bgp/qc/)
 * [Saskatchewan](/bgp/sk/)
-* [Yukon](/bgp/Yukon/)
+* [Yukon](/bgp/yt/)
 
 ## Growth
 
