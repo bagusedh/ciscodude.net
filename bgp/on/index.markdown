@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Ontario, or are Ontario Companies."
-lastmodified: 2017-04-16 03:53:50 +0000
+lastmodified: 2017-04-27 18:24:48 +0000
 categories:
 - IPv6
 - ISP
@@ -356,7 +356,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS21722](https://stat.ripe.net/AS21722) | Quick Service Software Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21722)
 [AS21738](https://stat.ripe.net/AS21738) | Madison Internet Corp. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21738)
 [AS21775](https://stat.ripe.net/AS21775) | Afilias Canada, Corp. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21775)
-[AS21813](https://stat.ripe.net/AS21813) | Trillium Health Partners | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21813)
+[AS21813](https://stat.ripe.net/AS21813) | Trillium Health Partners | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21813)
 [AS21834](https://stat.ripe.net/AS21834) | Desire2Learn Incorporated | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21834)
 [AS21867](https://stat.ripe.net/AS21867) | DealerTrack Canada Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21867)
 [AS21920](https://stat.ripe.net/AS21920) | Emergis Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21920)
@@ -818,7 +818,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS395901](https://stat.ripe.net/AS395901) | Tek-IT | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395901)
 [AS395913](https://stat.ripe.net/AS395913) | The Corporation of the City of Pickering | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395913)
 [AS395960](https://stat.ripe.net/AS395960) | Fastable Network Inc | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395960)
-[AS395965](https://stat.ripe.net/AS395965) | Carrytel | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395965)
+[AS395965](https://stat.ripe.net/AS395965) | Carrytel | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395965)
 [AS396031](https://stat.ripe.net/AS396031) | 1923327 ONTARIO INC | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396031)
 [AS396095](https://stat.ripe.net/AS396095) | Plexxis Software Inc | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396095)
 [AS396100](https://stat.ripe.net/AS396100) | Beyond Air Networks Limited | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396100)
@@ -830,11 +830,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 792
-* Active ASNs: 549 or 69.32%
+* Active ASNs: 551 or 69.57%
   * Dualstack IPv4+IPv6: 143 or 18.06%
   * IPv6 Advertised: 148 or 18.69%
   * IPv6 only: 5 or 0.63%
-  * IPv4 only: 401 or 50.63%
+  * IPv4 only: 403 or 50.88%
 
 Graph showing the [growth of Ontario ASNs](/bgp/on/asns/), using chart.js.
 
