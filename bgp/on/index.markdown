@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Ontario, or are Ontario Companies."
-lastmodified: 2017-04-27 18:24:48 +0000
+lastmodified: 2017-04-29 04:23:57 +0000
 categories:
 - IPv6
 - ISP
@@ -826,15 +826,16 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS396113](https://stat.ripe.net/AS396113) | BAI Canada Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396113)
 [AS396126](https://stat.ripe.net/AS396126) | TRANS UNION OF CANADA, INC. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396126)
 [AS396142](https://stat.ripe.net/AS396142) | Alkeron Multimedia Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396142)
+[AS396295](https://stat.ripe.net/AS396295) | MatrixIT | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396295)
 
 ### Statistics
 
-* Total ASNS: 792
-* Active ASNs: 551 or 69.57%
-  * Dualstack IPv4+IPv6: 143 or 18.06%
-  * IPv6 Advertised: 148 or 18.69%
+* Total ASNS: 793
+* Active ASNs: 551 or 69.48%
+  * Dualstack IPv4+IPv6: 143 or 18.03%
+  * IPv6 Advertised: 148 or 18.66%
   * IPv6 only: 5 or 0.63%
-  * IPv4 only: 403 or 50.88%
+  * IPv4 only: 403 or 50.82%
 
 Graph showing the [growth of Ontario ASNs](/bgp/on/asns/), using chart.js.
 
