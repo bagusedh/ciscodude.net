@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Ontario, or are Ontario Companies."
-lastmodified: 2017-05-02 04:18:31 +0000
+lastmodified: 2017-05-03 04:37:40 +0000
 categories:
 - IPv6
 - ISP
@@ -650,6 +650,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS54235](https://stat.ripe.net/AS54235) | Watch Tower Bible and Tract Society of Canada | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=54235)
 [AS54320](https://stat.ripe.net/AS54320) | Uberflip | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=54320)
 [AS54351](https://stat.ripe.net/AS54351) | Communicate Freely | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=54351)
+[AS54364](https://stat.ripe.net/AS54364) | Rayan Telecom Inc | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=54364)
 [AS54397](https://stat.ripe.net/AS54397) | Lakefield College School | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=54397)
 [AS54412](https://stat.ripe.net/AS54412) | Granite Networks Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=54412)
 [AS54460](https://stat.ripe.net/AS54460) | OnX Enterprise Solutions Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=54460)
@@ -827,15 +828,16 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS396126](https://stat.ripe.net/AS396126) | TRANS UNION OF CANADA, INC. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396126)
 [AS396142](https://stat.ripe.net/AS396142) | Alkeron Multimedia Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396142)
 [AS396295](https://stat.ripe.net/AS396295) | MatrixIT | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396295)
+[AS396297](https://stat.ripe.net/AS396297) | SIMCONET TECHNOLOGIES INC. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396297)
 
 ### Statistics
 
-* Total ASNS: 793
-* Active ASNs: 552 or 69.61%
-  * Dualstack IPv4+IPv6: 143 or 18.03%
-  * IPv6 Advertised: 148 or 18.66%
+* Total ASNS: 795
+* Active ASNs: 552 or 69.43%
+  * Dualstack IPv4+IPv6: 143 or 17.99%
+  * IPv6 Advertised: 148 or 18.62%
   * IPv6 only: 5 or 0.63%
-  * IPv4 only: 404 or 50.95%
+  * IPv4 only: 404 or 50.82%
 
 Graph showing the [growth of Ontario ASNs](/bgp/on/asns/), using chart.js.
 
