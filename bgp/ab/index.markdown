@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Alberta, or are Alberta Companies."
-lastmodified: 2017-04-29 04:23:23 +0000
+lastmodified: 2017-05-03 04:36:28 +0000
 categories:
 - IPv6
 - ISP
@@ -182,7 +182,6 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS62960](https://stat.ripe.net/AS62960) | Iwantwireless.ca Ltd. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62960)
 [AS62993](https://stat.ripe.net/AS62993) | Catch Engineering Partnership | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62993)
 [AS63004](https://stat.ripe.net/AS63004) | Infosat Communications LP | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63004)
-[AS63286](https://stat.ripe.net/AS63286) | Slyce Holdings Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63286)
 [AS393468](https://stat.ripe.net/AS393468) | Concordia University of Edmonton | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=393468)
 [AS393659](https://stat.ripe.net/AS393659) | North West Redwater Partnership | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=393659)
 [AS393686](https://stat.ripe.net/AS393686) | G.P.N. Wireless Network Solutions Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=393686)
@@ -212,12 +211,12 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 ### Statistics
 
-* Total ASNS: 175
-* Active ASNs: 124 or 70.86%
-  * Dualstack IPv4+IPv6: 18 or 10.29%
-  * IPv6 Advertised: 19 or 10.86%
+* Total ASNS: 174
+* Active ASNs: 123 or 70.69%
+  * Dualstack IPv4+IPv6: 18 or 10.34%
+  * IPv6 Advertised: 19 or 10.92%
   * IPv6 only: 1 or 0.57%
-  * IPv4 only: 105 or 60.00%
+  * IPv4 only: 104 or 59.77%
 
 Graph showing the [growth of Alberta ASNs](/bgp/ab/asns/), using chart.js.
 
