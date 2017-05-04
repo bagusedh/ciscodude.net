@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Saskatchewan, or are Saskatchewan Companies."
-lastmodified: 2017-04-11 18:56:37 +0000
+lastmodified: 2017-05-04 05:38:45 +0000
 categories:
 - IPv6
 - ISP
@@ -43,7 +43,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS20218](https://stat.ripe.net/AS20218) | BlackSun Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=20218)
 [AS21804](https://stat.ripe.net/AS21804) | Access Communications  Co-operative Limited | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21804)
 [AS22950](https://stat.ripe.net/AS22950) | University of Saskatchewan | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22950)
-[AS26206](https://stat.ripe.net/AS26206) | University of Regina | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26206)
+[AS26206](https://stat.ripe.net/AS26206) | University of Regina | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26206)
 [AS26501](https://stat.ripe.net/AS26501) | Saskatchewan Telecommunications | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26501)
 [AS26806](https://stat.ripe.net/AS26806) | SRNet Saskatchewan Research Network Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26806)
 [AS27628](https://stat.ripe.net/AS27628) | Innovation Place | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=27628)
@@ -69,10 +69,10 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 * Total ASNS: 30
 * Active ASNs: 25 or 83.33%
-  * Dualstack IPv4+IPv6: 5 or 16.67%
-  * IPv6 Advertised: 5 or 16.67%
+  * Dualstack IPv4+IPv6: 6 or 20.00%
+  * IPv6 Advertised: 6 or 20.00%
   * IPv6 only: 0 or 0.00%
-  * IPv4 only: 20 or 66.67%
+  * IPv4 only: 19 or 63.33%
 
 Graph showing the [growth of Saskatchewan ASNs](/bgp/sk/asns/), using chart.js.
 
