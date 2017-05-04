@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Ontario, or are Ontario Companies."
-lastmodified: 2017-05-03 04:37:40 +0000
+lastmodified: 2017-05-04 05:38:06 +0000
 categories:
 - IPv6
 - ISP
@@ -711,7 +711,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS63300](https://stat.ripe.net/AS63300) | SGGG Portfolio System Company Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63300)
 [AS63327](https://stat.ripe.net/AS63327) | Ontario Agency for Health Protection and Promotion | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63327)
 [AS63349](https://stat.ripe.net/AS63349) | Pacific & Western Bank of Canada | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63349)
-[AS63350](https://stat.ripe.net/AS63350) | Fonolo | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63350)
+[AS63350](https://stat.ripe.net/AS63350) | Fonolo | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63350)
 [AS63359](https://stat.ripe.net/AS63359) | Simcoe Muskoka Catholic District School Board | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63359)
 [AS63372](https://stat.ripe.net/AS63372) | WEBSAN SOLUTIONS INC | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63372)
 [AS63392](https://stat.ripe.net/AS63392) | Linovus Holdings Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63392)
@@ -833,11 +833,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 795
-* Active ASNs: 552 or 69.43%
+* Active ASNs: 553 or 69.56%
   * Dualstack IPv4+IPv6: 143 or 17.99%
   * IPv6 Advertised: 148 or 18.62%
   * IPv6 only: 5 or 0.63%
-  * IPv4 only: 404 or 50.82%
+  * IPv4 only: 405 or 50.94%
 
 Graph showing the [growth of Ontario ASNs](/bgp/on/asns/), using chart.js.
 
