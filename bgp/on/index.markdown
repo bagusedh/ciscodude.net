@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Ontario, or are Ontario Companies."
-lastmodified: 2017-05-04 05:38:06 +0000
+lastmodified: 2017-05-05 17:33:30 +0000
 categories:
 - IPv6
 - ISP
@@ -500,7 +500,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS32545](https://stat.ripe.net/AS32545) | Detour Gold Corporation | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32545)
 [AS32558](https://stat.ripe.net/AS32558) | Zeuter Development Corporation | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32558)
 [AS32580](https://stat.ripe.net/AS32580) | Yak Communications (Canada) Corp | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32580)
-[AS32586](https://stat.ripe.net/AS32586) | Niagara Wireless Internet Co. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32586)
+[AS32586](https://stat.ripe.net/AS32586) | Niagara Wireless Internet Co. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32586)
 [AS32598](https://stat.ripe.net/AS32598) | Trader Corporation | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32598)
 [AS32636](https://stat.ripe.net/AS32636) | Tucows.com Co. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32636)
 [AS32638](https://stat.ripe.net/AS32638) | Trent University | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32638)
@@ -829,15 +829,16 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS396142](https://stat.ripe.net/AS396142) | Alkeron Multimedia Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396142)
 [AS396295](https://stat.ripe.net/AS396295) | MatrixIT | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396295)
 [AS396297](https://stat.ripe.net/AS396297) | SIMCONET TECHNOLOGIES INC. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396297)
+[AS396306](https://stat.ripe.net/AS396306) | Think On, Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396306)
 
 ### Statistics
 
-* Total ASNS: 795
-* Active ASNs: 553 or 69.56%
-  * Dualstack IPv4+IPv6: 143 or 17.99%
-  * IPv6 Advertised: 148 or 18.62%
+* Total ASNS: 796
+* Active ASNs: 554 or 69.60%
+  * Dualstack IPv4+IPv6: 143 or 17.96%
+  * IPv6 Advertised: 148 or 18.59%
   * IPv6 only: 5 or 0.63%
-  * IPv4 only: 405 or 50.94%
+  * IPv4 only: 406 or 51.01%
 
 Graph showing the [growth of Ontario ASNs](/bgp/on/asns/), using chart.js.
 
