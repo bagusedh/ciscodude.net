@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Quebec, or are Quebec Companies."
-lastmodified: 2017-04-16 07:55:45 +0000
+lastmodified: 2017-05-06 05:49:42 +0000
 categories:
 - IPv6
 - ISP
@@ -307,15 +307,16 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS395956](https://stat.ripe.net/AS395956) | Devicom Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395956)
 [AS395997](https://stat.ripe.net/AS395997) | Metro Richelieu Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395997)
 [AS396048](https://stat.ripe.net/AS396048) | LANKA NAP | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396048)
+[AS396313](https://stat.ripe.net/AS396313) | MocTel | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396313)
 
 ### Statistics
 
-* Total ASNS: 273
-* Active ASNs: 206 or 75.46%
-  * Dualstack IPv4+IPv6: 48 or 17.58%
-  * IPv6 Advertised: 48 or 17.58%
+* Total ASNS: 274
+* Active ASNs: 206 or 75.18%
+  * Dualstack IPv4+IPv6: 48 or 17.52%
+  * IPv6 Advertised: 48 or 17.52%
   * IPv6 only: 0 or 0.00%
-  * IPv4 only: 158 or 57.88%
+  * IPv4 only: 158 or 57.66%
 
 Graph showing the [growth of Quebec ASNs](/bgp/qc/asns/), using chart.js.
 
