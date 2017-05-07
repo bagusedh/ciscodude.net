@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Manitoba, or are Manitoba Companies."
-lastmodified: 2017-05-03 04:37:08 +0000
+lastmodified: 2017-05-07 04:42:41 +0000
 categories:
 - IPv6
 - ISP
@@ -113,15 +113,16 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS395755](https://stat.ripe.net/AS395755) | Valley Internet Service Provider, LTD. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395755)
 [AS396045](https://stat.ripe.net/AS396045) | Spliced Networks Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396045)
 [AS396084](https://stat.ripe.net/AS396084) | Qualico | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396084)
+[AS396316](https://stat.ripe.net/AS396316) | Full Throttle Networks Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396316)
 
 ### Statistics
 
-* Total ASNS: 79
-* Active ASNs: 64 or 81.01%
-  * Dualstack IPv4+IPv6: 24 or 30.38%
-  * IPv6 Advertised: 24 or 30.38%
+* Total ASNS: 80
+* Active ASNs: 64 or 80.00%
+  * Dualstack IPv4+IPv6: 24 or 30.00%
+  * IPv6 Advertised: 24 or 30.00%
   * IPv6 only: 0 or 0.00%
-  * IPv4 only: 40 or 50.63%
+  * IPv4 only: 40 or 50.00%
 
 Graph showing the [growth of Manitoba ASNs](/bgp/mb/asns/), using chart.js.
 
