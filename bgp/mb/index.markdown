@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Manitoba, or are Manitoba Companies."
-lastmodified: 2017-05-07 04:42:41 +0000
+lastmodified: 2017-05-09 02:55:49 +0000
 categories:
 - IPv6
 - ISP
@@ -70,7 +70,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS27265](https://stat.ripe.net/AS27265) | Ceridian Canada Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=27265)
 [AS27618](https://stat.ripe.net/AS27618) | T. Grand Networks Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=27618)
 [AS30028](https://stat.ripe.net/AS30028) | Manitoba NetSet Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=30028)
-[AS31914](https://stat.ripe.net/AS31914) | Hutterian Broadband Network Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=31914)
+[AS31914](https://stat.ripe.net/AS31914) | Hutterian Broadband Network Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=31914)
 [AS32433](https://stat.ripe.net/AS32433) | Palliser Furniture Upholstery Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32433)
 [AS32584](https://stat.ripe.net/AS32584) | I-Net Link Wireless | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32584)
 [AS32773](https://stat.ripe.net/AS32773) | Commstream Communications Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32773)
@@ -119,10 +119,10 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 * Total ASNS: 80
 * Active ASNs: 64 or 80.00%
-  * Dualstack IPv4+IPv6: 24 or 30.00%
-  * IPv6 Advertised: 24 or 30.00%
+  * Dualstack IPv4+IPv6: 25 or 31.25%
+  * IPv6 Advertised: 25 or 31.25%
   * IPv6 only: 0 or 0.00%
-  * IPv4 only: 40 or 50.00%
+  * IPv4 only: 39 or 48.75%
 
 Graph showing the [growth of Manitoba ASNs](/bgp/mb/asns/), using chart.js.
 
