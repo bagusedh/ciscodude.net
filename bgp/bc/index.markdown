@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in British Columbia, or are British Columbia Companies."
-lastmodified: 2017-04-24 01:25:13 +0000
+lastmodified: 2017-05-09 02:55:12 +0000
 categories:
 - IPv6
 - ISP
@@ -185,7 +185,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS55130](https://stat.ripe.net/AS55130) | Provision Data Systems Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=55130)
 [AS55185](https://stat.ripe.net/AS55185) | BC Libraries Cooperative | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=55185)
 [AS55220](https://stat.ripe.net/AS55220) | KIX MEDIA INC | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=55220)
-[AS62466](https://stat.ripe.net/AS62466) | ClearDDoS Technologies | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62466)
+[AS62466](https://stat.ripe.net/AS62466) | ClearDDoS Technologies | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62466)
 [AS62487](https://stat.ripe.net/AS62487) | Keta Cable Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62487)
 [AS62686](https://stat.ripe.net/AS62686) | Vision Critical | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62686)
 [AS62692](https://stat.ripe.net/AS62692) | Camosun College | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62692)
@@ -225,7 +225,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS395449](https://stat.ripe.net/AS395449) | Arc'teryx Equipment | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395449)
 [AS395611](https://stat.ripe.net/AS395611) | 9909877 Canada Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395611)
 [AS395766](https://stat.ripe.net/AS395766) | Telephonic Communications Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395766)
-[AS395807](https://stat.ripe.net/AS395807) | Selkirk College | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395807)
+[AS395807](https://stat.ripe.net/AS395807) | Selkirk College | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395807)
 [AS395991](https://stat.ripe.net/AS395991) | College of the Rockies | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395991)
 [AS396005](https://stat.ripe.net/AS396005) | New Westminster Public Library | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396005)
 [AS396110](https://stat.ripe.net/AS396110) | Creation Technologies LP | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396110)
@@ -236,11 +236,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 198
-* Active ASNs: 142 or 71.72%
+* Active ASNs: 140 or 70.71%
   * Dualstack IPv4+IPv6: 39 or 19.70%
   * IPv6 Advertised: 40 or 20.20%
   * IPv6 only: 1 or 0.51%
-  * IPv4 only: 102 or 51.52%
+  * IPv4 only: 100 or 50.51%
 
 Graph showing the [growth of British Columbia ASNs](/bgp/bc/asns/), using chart.js.
 
