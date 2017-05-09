@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Quebec, or are Quebec Companies."
-lastmodified: 2017-05-06 05:49:42 +0000
+lastmodified: 2017-05-09 02:57:56 +0000
 categories:
 - IPv6
 - ISP
@@ -87,7 +87,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS14086](https://stat.ripe.net/AS14086) | Montreal Internet Exchange Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14086)
 [AS14102](https://stat.ripe.net/AS14102) | Transvision Reseau Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14102)
 [AS14112](https://stat.ripe.net/AS14112) | SecureNet Information Services | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14112)
-[AS14304](https://stat.ripe.net/AS14304) | Intertrade Systems Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14304)
+[AS14304](https://stat.ripe.net/AS14304) | Intertrade Systems Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14304)
 [AS14537](https://stat.ripe.net/AS14537) | Mohawk Internet Technologies | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14537)
 [AS14659](https://stat.ripe.net/AS14659) | ZiD Internet | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14659)
 [AS14720](https://stat.ripe.net/AS14720) | Gamma Networking Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14720)
@@ -102,7 +102,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS16532](https://stat.ripe.net/AS16532) | B2B2C Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=16532)
 [AS16605](https://stat.ripe.net/AS16605) | Telephone de St-Ephrem inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=16605)
 [AS16624](https://stat.ripe.net/AS16624) | Hydro Quebec | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=16624)
-[AS16723](https://stat.ripe.net/AS16723) | @six.net | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=16723)
+[AS16723](https://stat.ripe.net/AS16723) | @six.net | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=16723)
 [AS16932](https://stat.ripe.net/AS16932) | Future Electronique Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=16932)
 [AS16944](https://stat.ripe.net/AS16944) | Aerobic Technologies inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=16944)
 [AS17397](https://stat.ripe.net/AS17397) | NETBX TECHNOLOGIES INC. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=17397)
