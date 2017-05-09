@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Ontario, or are Ontario Companies."
-lastmodified: 2017-05-05 17:33:30 +0000
+lastmodified: 2017-05-09 02:57:03 +0000
 categories:
 - IPv6
 - ISP
@@ -51,7 +51,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS810](https://stat.ripe.net/AS810) | Shared Services Canada | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=810)
 [AS811](https://stat.ripe.net/AS811) | Shared Services Canada | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=811)
 [AS812](https://stat.ripe.net/AS812) | Rogers Communications Canada Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=812)
-[AS818](https://stat.ripe.net/AS818) | Department of Communications | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=818)
+[AS818](https://stat.ripe.net/AS818) | Department of Communications | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=818)
 [AS819](https://stat.ripe.net/AS819) | LARG*net | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=819)
 [AS820](https://stat.ripe.net/AS820) | Industry Canada | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=820)
 [AS822](https://stat.ripe.net/AS822) | St. Joseph's Health Care, London | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=822)
@@ -773,7 +773,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS394746](https://stat.ripe.net/AS394746) | MIFI Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394746)
 [AS394786](https://stat.ripe.net/AS394786) | Avetria Wireless | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394786)
 [AS394821](https://stat.ripe.net/AS394821) | Toronto District School Board | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394821)
-[AS394840](https://stat.ripe.net/AS394840) | Britesky Technologies Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394840)
+[AS394840](https://stat.ripe.net/AS394840) | Britesky Technologies Inc | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394840)
 [AS394857](https://stat.ripe.net/AS394857) | Logiq3 Corporation | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394857)
 [AS394958](https://stat.ripe.net/AS394958) | County of Wellington | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394958)
 [AS394974](https://stat.ripe.net/AS394974) | Walmart Canada Corporation | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394974)
@@ -834,9 +834,9 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 796
-* Active ASNs: 554 or 69.60%
-  * Dualstack IPv4+IPv6: 143 or 17.96%
-  * IPv6 Advertised: 148 or 18.59%
+* Active ASNs: 553 or 69.47%
+  * Dualstack IPv4+IPv6: 142 or 17.84%
+  * IPv6 Advertised: 147 or 18.47%
   * IPv6 only: 5 or 0.63%
   * IPv4 only: 406 or 51.01%
 
