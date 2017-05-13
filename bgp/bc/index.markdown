@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in British Columbia, or are British Columbia Companies."
-lastmodified: 2017-05-09 02:55:12 +0000
+lastmodified: 2017-05-13 19:27:34 +0000
 categories:
 - IPv6
 - ISP
@@ -232,15 +232,16 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS396221](https://stat.ripe.net/AS396221) | Optic Zoo Networks Ltd. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396221)
 [AS396237](https://stat.ripe.net/AS396237) | SilverServers Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396237)
 [AS396263](https://stat.ripe.net/AS396263) | Twin Island Communications Ltd | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396263)
+[AS396341](https://stat.ripe.net/AS396341) | NASN Licensing Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396341)
 
 ### Statistics
 
-* Total ASNS: 198
-* Active ASNs: 140 or 70.71%
-  * Dualstack IPv4+IPv6: 39 or 19.70%
-  * IPv6 Advertised: 40 or 20.20%
-  * IPv6 only: 1 or 0.51%
-  * IPv4 only: 100 or 50.51%
+* Total ASNS: 199
+* Active ASNs: 140 or 70.35%
+  * Dualstack IPv4+IPv6: 39 or 19.60%
+  * IPv6 Advertised: 40 or 20.10%
+  * IPv6 only: 1 or 0.50%
+  * IPv4 only: 100 or 50.25%
 
 Graph showing the [growth of British Columbia ASNs](/bgp/bc/asns/), using chart.js.
 
