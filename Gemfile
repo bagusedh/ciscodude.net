@@ -12,5 +12,6 @@ group :jekyll_plugins do
 #  gem 'octopress-minify-html'
 #  gem 'octopress-debugger'
   gem 'jekyll-twitter-plugin'
+  gem 'jekyll-youtube'
 end
 

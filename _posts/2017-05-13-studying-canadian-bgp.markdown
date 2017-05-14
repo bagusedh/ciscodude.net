@@ -16,9 +16,18 @@ categories:
 ---
 Over the past four or so years I've been researching BGP routing in Canada.
 
-This has taken several forms as I learn what works and what doesn't work at all.
+My first interest in studying Canadian BGP came as a result of studying historical BGP hijacks. I talk about this during my BSidesWpg 2013 talk:
+
+{% youtube "https://www.youtube.com/watch?v=qvall1kyNIg" %}
+
+The practicap applications of my study have taken several forms as I learn what works and what doesn't work (at all).
 
 *	v1 - direct JSON from exabgp piped into curl to store in couchdb
+
+I talk about what I'm calling v1 in my BSidesWpg 2015 talk:
+
+{% youtube "https://www.youtube.com/watch?v=X1e7mPH8u6s" %}
+
 *	v2 - JSON from exabgp piped into python where it is parsed and INSERTed into a mySQL table
 
 Now that I have a database which contains the current status and number of prefixes advertised by each Canadian ASN I am able to automate the generation of various sections of my website.

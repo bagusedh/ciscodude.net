@@ -61,7 +61,7 @@ gems:
 #  - jekyll-gist
   - octopress-gist
   - jekyll-twitter-plugin
-
+  - jekyll-youtube
 
 exclude: [vendor]
 
