@@ -20,7 +20,7 @@ My first interest in studying Canadian BGP came as a result of studying historic
 
 {% youtube "https://www.youtube.com/watch?v=qvall1kyNIg" %}
 
-The practicap applications of my study have taken several forms as I learn what works and what doesn't work (at all).
+The practica; applications of my study have taken several forms as I learn what works and what doesn't work (at all).
 
 *	v1 - direct JSON from exabgp piped into curl to store in couchdb
 
