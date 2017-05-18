@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in British Columbia, or are British Columbia Companies."
-lastmodified: 2017-05-13 19:27:34 +0000
+lastmodified: 2017-05-18 04:23:42 +0000
 categories:
 - IPv6
 - ISP
@@ -96,7 +96,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS19202](https://stat.ripe.net/AS19202) | Backbone Data Vault Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19202)
 [AS19234](https://stat.ripe.net/AS19234) | Canada Web Hosting | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19234)
 [AS19297](https://stat.ripe.net/AS19297) | WeatherCity Services | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19297)
-[AS19432](https://stat.ripe.net/AS19432) | Sierra Wireless, Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19432)
+[AS19432](https://stat.ripe.net/AS19432) | Sierra Wireless, Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19432)
 [AS19662](https://stat.ripe.net/AS19662) | Uniserve On Line | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19662)
 [AS19968](https://stat.ripe.net/AS19968) | Mark Anthony Group Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19968)
 [AS21659](https://stat.ripe.net/AS21659) | Ucluelet Video Services Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21659)
@@ -238,10 +238,10 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 * Total ASNS: 199
 * Active ASNs: 140 or 70.35%
-  * Dualstack IPv4+IPv6: 39 or 19.60%
-  * IPv6 Advertised: 40 or 20.10%
+  * Dualstack IPv4+IPv6: 40 or 20.10%
+  * IPv6 Advertised: 41 or 20.60%
   * IPv6 only: 1 or 0.50%
-  * IPv4 only: 100 or 50.25%
+  * IPv4 only: 99 or 49.75%
 
 Graph showing the [growth of British Columbia ASNs](/bgp/bc/asns/), using chart.js.
 
