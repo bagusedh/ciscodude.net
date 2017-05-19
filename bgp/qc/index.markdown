@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Quebec, or are Quebec Companies."
-lastmodified: 2017-05-12 04:22:02 +0000
+lastmodified: 2017-05-19 05:35:40 +0000
 categories:
 - IPv6
 - ISP
@@ -137,6 +137,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS22639](https://stat.ripe.net/AS22639) | Cooptel Coop de Telecommunication | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22639)
 [AS22652](https://stat.ripe.net/AS22652) | Fibrenoire Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22652)
 [AS22705](https://stat.ripe.net/AS22705) | Placements Montrusco Bolton Investments | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22705)
+[AS22748](https://stat.ripe.net/AS22748) | SkyNet Canada Wireless Network Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22748)
 [AS22953](https://stat.ripe.net/AS22953) | Calcul Quebec | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22953)
 [AS22964](https://stat.ripe.net/AS22964) | ISP Telecom | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22964)
 [AS23046](https://stat.ripe.net/AS23046) | The Standard Life Assurance Company of Canada | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=23046)
@@ -306,17 +307,17 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS395956](https://stat.ripe.net/AS395956) | Devicom Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395956)
 [AS395997](https://stat.ripe.net/AS395997) | Metro Richelieu Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395997)
 [AS396048](https://stat.ripe.net/AS396048) | LANKA NAP | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396048)
-[AS396313](https://stat.ripe.net/AS396313) | MocTel | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396313)
+[AS396313](https://stat.ripe.net/AS396313) | MocTel | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396313)
 [AS396338](https://stat.ripe.net/AS396338) | Altima Telecom | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396338)
 
 ### Statistics
 
-* Total ASNS: 274
-* Active ASNs: 206 or 75.18%
-  * Dualstack IPv4+IPv6: 48 or 17.52%
-  * IPv6 Advertised: 48 or 17.52%
+* Total ASNS: 275
+* Active ASNs: 208 or 75.64%
+  * Dualstack IPv4+IPv6: 48 or 17.45%
+  * IPv6 Advertised: 48 or 17.45%
   * IPv6 only: 0 or 0.00%
-  * IPv4 only: 158 or 57.66%
+  * IPv4 only: 160 or 58.18%
 
 Graph showing the [growth of Quebec ASNs](/bgp/qc/asns/), using chart.js.
 
