@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Quebec, or are Quebec Companies."
-lastmodified: 2017-05-19 05:35:40 +0000
+lastmodified: 2017-05-24 04:19:09 +0000
 categories:
 - IPv6
 - ISP
@@ -309,15 +309,16 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS396048](https://stat.ripe.net/AS396048) | LANKA NAP | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396048)
 [AS396313](https://stat.ripe.net/AS396313) | MocTel | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396313)
 [AS396338](https://stat.ripe.net/AS396338) | Altima Telecom | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396338)
+[AS396363](https://stat.ripe.net/AS396363) | Altima Telecom | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396363)
 
 ### Statistics
 
-* Total ASNS: 275
-* Active ASNs: 208 or 75.64%
-  * Dualstack IPv4+IPv6: 48 or 17.45%
-  * IPv6 Advertised: 48 or 17.45%
+* Total ASNS: 276
+* Active ASNs: 208 or 75.36%
+  * Dualstack IPv4+IPv6: 48 or 17.39%
+  * IPv6 Advertised: 48 or 17.39%
   * IPv6 only: 0 or 0.00%
-  * IPv4 only: 160 or 58.18%
+  * IPv4 only: 160 or 57.97%
 
 Graph showing the [growth of Quebec ASNs](/bgp/qc/asns/), using chart.js.
 
