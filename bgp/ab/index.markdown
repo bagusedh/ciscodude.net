@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Alberta, or are Alberta Companies."
-lastmodified: 2017-05-18 04:23:19 +0000
+lastmodified: 2017-05-26 03:57:22 +0000
 categories:
 - IPv6
 - ISP
@@ -204,21 +204,22 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS395559](https://stat.ripe.net/AS395559) | Arrow Group Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395559)
 [AS395600](https://stat.ripe.net/AS395600) | copyseis ltd. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395600)
 [AS395660](https://stat.ripe.net/AS395660) | The City of Edmonton | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395660)
-[AS395938](https://stat.ripe.net/AS395938) | Generic dot Business Ltd. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395938)
+[AS395938](https://stat.ripe.net/AS395938) | Generic dot Business Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395938)
 [AS396015](https://stat.ripe.net/AS396015) | CCINET LTD | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396015)
 [AS396125](https://stat.ripe.net/AS396125) | CCL Networks Inc | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396125)
 [AS396294](https://stat.ripe.net/AS396294) | Converging Technology Solutions Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396294)
 [AS396302](https://stat.ripe.net/AS396302) | YYC Net Lab | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396302)
 [AS396328](https://stat.ripe.net/AS396328) | WiMacTel Canada Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396328)
+[AS396374](https://stat.ripe.net/AS396374) | 3C Information Solutions Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396374)
 
 ### Statistics
 
-* Total ASNS: 176
-* Active ASNs: 124 or 70.45%
-  * Dualstack IPv4+IPv6: 18 or 10.23%
-  * IPv6 Advertised: 19 or 10.80%
-  * IPv6 only: 1 or 0.57%
-  * IPv4 only: 105 or 59.66%
+* Total ASNS: 177
+* Active ASNs: 124 or 70.06%
+  * Dualstack IPv4+IPv6: 19 or 10.73%
+  * IPv6 Advertised: 19 or 10.73%
+  * IPv6 only: 0 or 0.00%
+  * IPv4 only: 105 or 59.32%
 
 Graph showing the [growth of Alberta ASNs](/bgp/ab/asns/), using chart.js.
 
