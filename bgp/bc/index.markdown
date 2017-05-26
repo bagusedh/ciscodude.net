@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in British Columbia, or are British Columbia Companies."
-lastmodified: 2017-05-24 04:17:50 +0000
+lastmodified: 2017-05-26 03:57:49 +0000
 categories:
 - IPv6
 - ISP
@@ -154,7 +154,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS46383](https://stat.ripe.net/AS46383) | Translink | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=46383)
 [AS46482](https://stat.ripe.net/AS46482) | Contigo Systems Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=46482)
 [AS46882](https://stat.ripe.net/AS46882) | RhiCom Networks Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=46882)
-[AS46915](https://stat.ripe.net/AS46915) | Lyttonnet | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=46915)
+[AS46915](https://stat.ripe.net/AS46915) | Lyttonnet | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=46915)
 [AS46926](https://stat.ripe.net/AS46926) | Payment Processing Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=46926)
 [AS46959](https://stat.ripe.net/AS46959) | Vancouver Convention Centre | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=46959)
 [AS53349](https://stat.ripe.net/AS53349) | RBBS Telecom Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=53349)
@@ -238,10 +238,10 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 * Total ASNS: 199
 * Active ASNs: 142 or 71.36%
-  * Dualstack IPv4+IPv6: 40 or 20.10%
-  * IPv6 Advertised: 41 or 20.60%
+  * Dualstack IPv4+IPv6: 41 or 20.60%
+  * IPv6 Advertised: 42 or 21.11%
   * IPv6 only: 1 or 0.50%
-  * IPv4 only: 101 or 50.75%
+  * IPv4 only: 100 or 50.25%
 
 Graph showing the [growth of British Columbia ASNs](/bgp/bc/asns/), using chart.js.
 
