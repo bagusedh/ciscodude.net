@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Ontario, or are Ontario Companies."
-lastmodified: 2017-05-24 04:18:25 +0000
+lastmodified: 2017-06-01 04:59:35 +0000
 categories:
 - IPv6
 - ISP
@@ -405,7 +405,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS26221](https://stat.ripe.net/AS26221) | Bank of Montreal | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26221)
 [AS26227](https://stat.ripe.net/AS26227) | Sandelman Software Works Corporation | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26227)
 [AS26230](https://stat.ripe.net/AS26230) | Telecom Ottawa Limited | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26230)
-[AS26281](https://stat.ripe.net/AS26281) | BlackBerry Limited | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26281)
+[AS26281](https://stat.ripe.net/AS26281) | BlackBerry Limited | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26281)
 [AS26288](https://stat.ripe.net/AS26288) | Keewaytinook Okimakanak | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26288)
 [AS26321](https://stat.ripe.net/AS26321) | The Toronto Stock Exchange | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26321)
 [AS26416](https://stat.ripe.net/AS26416) | OCAS Application Services Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26416)
@@ -428,7 +428,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS26902](https://stat.ripe.net/AS26902) | HOCHTIEF PPP Solutions North America, Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26902)
 [AS26944](https://stat.ripe.net/AS26944) | Munich Life Management Corporation, LTD | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26944)
 [AS26996](https://stat.ripe.net/AS26996) | RYERSON UNIVERSITY | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26996)
-[AS27168](https://stat.ripe.net/AS27168) | MaXess Networx | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=27168)
+[AS27168](https://stat.ripe.net/AS27168) | MaXess Networx | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=27168)
 [AS27181](https://stat.ripe.net/AS27181) | KMTS Internet | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=27181)
 [AS27272](https://stat.ripe.net/AS27272) | Q9 Networks Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=27272)
 [AS27293](https://stat.ripe.net/AS27293) | The Bank of Canada | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=27293)
@@ -679,6 +679,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS55195](https://stat.ripe.net/AS55195) | CIRA Canadian Internet Registration Authority<br> Autorit Canadienne pour les enregistrements Internet | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=55195)
 [AS55254](https://stat.ripe.net/AS55254) | WaveDirect Telecommunications | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=55254)
 [AS55267](https://stat.ripe.net/AS55267) | Mid-Range Computer Group Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=55267)
+[AS55286](https://stat.ripe.net/AS55286) | B2 Net Solutions Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=55286)
 [AS55288](https://stat.ripe.net/AS55288) | Dimensional Strategies Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=55288)
 [AS62525](https://stat.ripe.net/AS62525) | LifeLabs Medical Laboratory Services | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62525)
 [AS62560](https://stat.ripe.net/AS62560) | Andrews Wireless Limited | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62560)
@@ -834,12 +835,12 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 ### Statistics
 
-* Total ASNS: 797
-* Active ASNs: 554 or 69.51%
-  * Dualstack IPv4+IPv6: 142 or 17.82%
-  * IPv6 Advertised: 147 or 18.44%
+* Total ASNS: 798
+* Active ASNs: 556 or 69.67%
+  * Dualstack IPv4+IPv6: 143 or 17.92%
+  * IPv6 Advertised: 148 or 18.55%
   * IPv6 only: 5 or 0.63%
-  * IPv4 only: 407 or 51.07%
+  * IPv4 only: 408 or 51.13%
 
 Graph showing the [growth of Ontario ASNs](/bgp/on/asns/), using chart.js.
 
