@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Ontario, or are Ontario Companies."
-lastmodified: 2017-06-01 04:59:35 +0000
+lastmodified: 2017-06-03 04:24:33 +0000
 categories:
 - IPv6
 - ISP
@@ -208,7 +208,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS12277](https://stat.ripe.net/AS12277) | Natural Resources Canada | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=12277)
 [AS12287](https://stat.ripe.net/AS12287) | Afilias Canada, Corp. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=12287)
 [AS13319](https://stat.ripe.net/AS13319) | Storm Internet Services | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=13319)
-[AS13340](https://stat.ripe.net/AS13340) | BlackBerry Limited | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=13340)
+[AS13340](https://stat.ripe.net/AS13340) | BlackBerry Limited | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=13340)
 [AS13441](https://stat.ripe.net/AS13441) | Bank of Nova Scotia | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=13441)
 [AS13468](https://stat.ripe.net/AS13468) | Kingston Online Services | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=13468)
 [AS13561](https://stat.ripe.net/AS13561) | Lafarge Canada Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=13561)
@@ -224,7 +224,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS13846](https://stat.ripe.net/AS13846) | Lavalife Corp. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=13846)
 [AS13851](https://stat.ripe.net/AS13851) | SevenL Networks | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=13851)
 [AS13861](https://stat.ripe.net/AS13861) | March Networks Corporation | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=13861)
-[AS13862](https://stat.ripe.net/AS13862) | iTMethods Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=13862)
+[AS13862](https://stat.ripe.net/AS13862) | iTMethods Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=13862)
 [AS13895](https://stat.ripe.net/AS13895) | FiberConX | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=13895)
 [AS13901](https://stat.ripe.net/AS13901) | Afilias Canada, Corp. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=13901)
 [AS13948](https://stat.ripe.net/AS13948) | Linamar Corporation | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=13948)
@@ -445,7 +445,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS29807](https://stat.ripe.net/AS29807) | 531442 Ontario Inc | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=29807)
 [AS29839](https://stat.ripe.net/AS29839) | Afilias Canada, Corp. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=29839)
 [AS29862](https://stat.ripe.net/AS29862) | Ontario Financing Authority | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=29862)
-[AS29872](https://stat.ripe.net/AS29872) | District School Board of Niagara | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=29872)
+[AS29872](https://stat.ripe.net/AS29872) | District School Board of Niagara | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=29872)
 [AS29883](https://stat.ripe.net/AS29883) | Internet Hosting Servers | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=29883)
 [AS29953](https://stat.ripe.net/AS29953) | Cygnet Internet Services Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=29953)
 [AS29974](https://stat.ripe.net/AS29974) | Wightman Telecom | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=29974)
@@ -807,7 +807,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS395569](https://stat.ripe.net/AS395569) | IT Weapons Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395569)
 [AS395570](https://stat.ripe.net/AS395570) | FibreStream, Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395570)
 [AS395616](https://stat.ripe.net/AS395616) | The Insurance Institute of Canada | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395616)
-[AS395631](https://stat.ripe.net/AS395631) | SSEN CORP. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395631)
+[AS395631](https://stat.ripe.net/AS395631) | SSEN CORP. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395631)
 [AS395667](https://stat.ripe.net/AS395667) | WISP Internet Services Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395667)
 [AS395677](https://stat.ripe.net/AS395677) | GTAA | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395677)
 [AS395704](https://stat.ripe.net/AS395704) | Canadore College of Applied Arts and Technology | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395704)
@@ -836,11 +836,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 798
-* Active ASNs: 556 or 69.67%
-  * Dualstack IPv4+IPv6: 143 or 17.92%
-  * IPv6 Advertised: 148 or 18.55%
-  * IPv6 only: 5 or 0.63%
-  * IPv4 only: 408 or 51.13%
+* Active ASNs: 554 or 69.42%
+  * Dualstack IPv4+IPv6: 141 or 17.67%
+  * IPv6 Advertised: 147 or 18.42%
+  * IPv6 only: 6 or 0.75%
+  * IPv4 only: 407 or 51.00%
 
 Graph showing the [growth of Ontario ASNs](/bgp/on/asns/), using chart.js.
 
