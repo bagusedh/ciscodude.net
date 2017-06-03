@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Quebec, or are Quebec Companies."
-lastmodified: 2017-06-01 05:00:01 +0000
+lastmodified: 2017-06-03 04:28:31 +0000
 categories:
 - IPv6
 - ISP
@@ -192,7 +192,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS35982](https://stat.ripe.net/AS35982) | SherWeb inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=35982)
 [AS36068](https://stat.ripe.net/AS36068) | AppDirect | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36068)
 [AS36231](https://stat.ripe.net/AS36231) | MSD Informatique | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36231)
-[AS36255](https://stat.ripe.net/AS36255) | RIMQ | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36255)
+[AS36255](https://stat.ripe.net/AS36255) | RIMQ | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36255)
 [AS36354](https://stat.ripe.net/AS36354) | SherWeb inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36354)
 [AS36369](https://stat.ripe.net/AS36369) | Le Groupe Mediom Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36369)
 [AS36522](https://stat.ripe.net/AS36522) | BELL MOBILITY INC. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36522)
@@ -310,15 +310,16 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS396313](https://stat.ripe.net/AS396313) | MocTel | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396313)
 [AS396338](https://stat.ripe.net/AS396338) | Altima Telecom | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396338)
 [AS396363](https://stat.ripe.net/AS396363) | Altima Telecom | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396363)
+[AS396406](https://stat.ripe.net/AS396406) | Mevasys Solutions Inc | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396406)
 
 ### Statistics
 
-* Total ASNS: 276
-* Active ASNs: 208 or 75.36%
-  * Dualstack IPv4+IPv6: 49 or 17.75%
-  * IPv6 Advertised: 49 or 17.75%
+* Total ASNS: 277
+* Active ASNs: 207 or 74.73%
+  * Dualstack IPv4+IPv6: 49 or 17.69%
+  * IPv6 Advertised: 49 or 17.69%
   * IPv6 only: 0 or 0.00%
-  * IPv4 only: 159 or 57.61%
+  * IPv4 only: 158 or 57.04%
 
 Graph showing the [growth of Quebec ASNs](/bgp/qc/asns/), using chart.js.
 
