@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Ontario, or are Ontario Companies."
-lastmodified: 2017-06-03 04:24:33 +0000
+lastmodified: 2017-06-07 15:49:41 +0000
 categories:
 - IPv6
 - ISP
@@ -339,6 +339,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS20045](https://stat.ripe.net/AS20045) | Toronto Hydro Electric System Limited | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=20045)
 [AS20068](https://stat.ripe.net/AS20068) | Hawk Host Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=20068)
 [AS20069](https://stat.ripe.net/AS20069) | Royal Bank of Canada | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=20069)
+[AS20132](https://stat.ripe.net/AS20132) | Bank of Nova Scotia | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=20132)
 [AS20161](https://stat.ripe.net/AS20161) | TeraGo Networks Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=20161)
 [AS20237](https://stat.ripe.net/AS20237) | Kubra | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=20237)
 [AS20272](https://stat.ripe.net/AS20272) | Bluewater TV Cable, Limited | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=20272)
@@ -835,12 +836,12 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 ### Statistics
 
-* Total ASNS: 798
-* Active ASNs: 554 or 69.42%
-  * Dualstack IPv4+IPv6: 141 or 17.67%
-  * IPv6 Advertised: 147 or 18.42%
+* Total ASNS: 799
+* Active ASNs: 555 or 69.46%
+  * Dualstack IPv4+IPv6: 141 or 17.65%
+  * IPv6 Advertised: 147 or 18.40%
   * IPv6 only: 6 or 0.75%
-  * IPv4 only: 407 or 51.00%
+  * IPv4 only: 408 or 51.06%
 
 Graph showing the [growth of Ontario ASNs](/bgp/on/asns/), using chart.js.
 
