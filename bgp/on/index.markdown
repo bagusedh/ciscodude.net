@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Ontario, or are Ontario Companies."
-lastmodified: 2017-06-07 15:49:41 +0000
+lastmodified: 2017-06-11 03:40:32 +0000
 categories:
 - IPv6
 - ISP
@@ -833,15 +833,16 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS396297](https://stat.ripe.net/AS396297) | SIMCONET TECHNOLOGIES INC. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396297)
 [AS396306](https://stat.ripe.net/AS396306) | Think On, Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396306)
 [AS396367](https://stat.ripe.net/AS396367) | Canadian Tire Corporation, LTD | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396367)
+[AS396419](https://stat.ripe.net/AS396419) | CanWeb Internet Services Ltd. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396419)
 
 ### Statistics
 
-* Total ASNS: 799
-* Active ASNs: 555 or 69.46%
-  * Dualstack IPv4+IPv6: 141 or 17.65%
-  * IPv6 Advertised: 147 or 18.40%
+* Total ASNS: 800
+* Active ASNs: 555 or 69.38%
+  * Dualstack IPv4+IPv6: 141 or 17.62%
+  * IPv6 Advertised: 147 or 18.38%
   * IPv6 only: 6 or 0.75%
-  * IPv4 only: 408 or 51.06%
+  * IPv4 only: 408 or 51.00%
 
 Graph showing the [growth of Ontario ASNs](/bgp/on/asns/), using chart.js.
 
