@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in British Columbia, or are British Columbia Companies."
-lastmodified: 2017-05-26 03:57:49 +0000
+lastmodified: 2017-06-28 04:58:51 +0000
 categories:
 - IPv6
 - ISP
@@ -225,7 +225,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS395449](https://stat.ripe.net/AS395449) | Arc'teryx Equipment | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395449)
 [AS395611](https://stat.ripe.net/AS395611) | 9909877 Canada Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395611)
 [AS395766](https://stat.ripe.net/AS395766) | Telephonic Communications Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395766)
-[AS395807](https://stat.ripe.net/AS395807) | Selkirk College | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395807)
+[AS395807](https://stat.ripe.net/AS395807) | Selkirk College | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395807)
 [AS395991](https://stat.ripe.net/AS395991) | College of the Rockies | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395991)
 [AS396005](https://stat.ripe.net/AS396005) | New Westminster Public Library | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396005)
 [AS396110](https://stat.ripe.net/AS396110) | Creation Technologies LP | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396110)
@@ -233,15 +233,16 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS396237](https://stat.ripe.net/AS396237) | SilverServers Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396237)
 [AS396263](https://stat.ripe.net/AS396263) | Twin Island Communications Ltd | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396263)
 [AS396341](https://stat.ripe.net/AS396341) | NASN Licensing Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396341)
+[AS396472](https://stat.ripe.net/AS396472) | 0764016 B.C. Ltd. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396472)
 
 ### Statistics
 
-* Total ASNS: 199
-* Active ASNs: 142 or 71.36%
-  * Dualstack IPv4+IPv6: 41 or 20.60%
-  * IPv6 Advertised: 42 or 21.11%
+* Total ASNS: 200
+* Active ASNs: 143 or 71.50%
+  * Dualstack IPv4+IPv6: 41 or 20.50%
+  * IPv6 Advertised: 42 or 21.00%
   * IPv6 only: 1 or 0.50%
-  * IPv4 only: 100 or 50.25%
+  * IPv4 only: 101 or 50.50%
 
 Graph showing the [growth of British Columbia ASNs](/bgp/bc/asns/), using chart.js.
 

@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Alberta, or are Alberta Companies."
-lastmodified: 2017-06-07 14:51:46 +0000
+lastmodified: 2017-06-28 04:58:51 +0000
 categories:
 - IPv6
 - ISP
@@ -126,7 +126,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS32536](https://stat.ripe.net/AS32536) | 4WEB.CA | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32536)
 [AS32716](https://stat.ripe.net/AS32716) | Northern Lakes College | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32716)
 [AS32738](https://stat.ripe.net/AS32738) | Hybrid Wireless Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32738)
-[AS32792](https://stat.ripe.net/AS32792) | TransCanada Pipelines Ltd. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32792)
+[AS32792](https://stat.ripe.net/AS32792) | TransCanada Pipelines Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32792)
 [AS32856](https://stat.ripe.net/AS32856) | Haemonetics | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32856)
 [AS33091](https://stat.ripe.net/AS33091) | University of Calgary | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=33091)
 [AS33096](https://stat.ripe.net/AS33096) | Bow Valley College | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=33096)
@@ -199,11 +199,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS395097](https://stat.ripe.net/AS395097) | PACHEZ HOLDINGS LTD. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395097)
 [AS395156](https://stat.ripe.net/AS395156) | The King's University | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395156)
 [AS395205](https://stat.ripe.net/AS395205) | ENMAX | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395205)
-[AS395405](https://stat.ripe.net/AS395405) | OIlers Entertainment Group Limited | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395405)
+[AS395405](https://stat.ripe.net/AS395405) | OIlers Entertainment Group Limited | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395405)
 [AS395546](https://stat.ripe.net/AS395546) | Crossover Networks | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395546)
-[AS395559](https://stat.ripe.net/AS395559) | Arrow Group Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395559)
+[AS395559](https://stat.ripe.net/AS395559) | Arrow Group Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395559)
 [AS395600](https://stat.ripe.net/AS395600) | copyseis ltd. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395600)
-[AS395660](https://stat.ripe.net/AS395660) | The City of Edmonton | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395660)
+[AS395660](https://stat.ripe.net/AS395660) | The City of Edmonton | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395660)
 [AS395938](https://stat.ripe.net/AS395938) | Generic dot Business Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395938)
 [AS396015](https://stat.ripe.net/AS396015) | CCINET LTD | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396015)
 [AS396125](https://stat.ripe.net/AS396125) | CCL Networks Inc | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396125)
@@ -211,15 +211,16 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS396302](https://stat.ripe.net/AS396302) | YYC Net Lab | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396302)
 [AS396328](https://stat.ripe.net/AS396328) | WiMacTel Canada Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396328)
 [AS396374](https://stat.ripe.net/AS396374) | 3C Information Solutions Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396374)
+[AS396475](https://stat.ripe.net/AS396475) | Alberta Investment Management Corporation | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396475)
 
 ### Statistics
 
-* Total ASNS: 177
-* Active ASNs: 125 or 70.62%
-  * Dualstack IPv4+IPv6: 19 or 10.73%
-  * IPv6 Advertised: 20 or 11.30%
+* Total ASNS: 178
+* Active ASNs: 128 or 71.91%
+  * Dualstack IPv4+IPv6: 20 or 11.24%
+  * IPv6 Advertised: 21 or 11.80%
   * IPv6 only: 1 or 0.56%
-  * IPv4 only: 105 or 59.32%
+  * IPv4 only: 107 or 60.11%
 
 Graph showing the [growth of Alberta ASNs](/bgp/ab/asns/), using chart.js.
 

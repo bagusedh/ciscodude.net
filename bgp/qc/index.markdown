@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Quebec, or are Quebec Companies."
-lastmodified: 2017-06-03 04:28:31 +0000
+lastmodified: 2017-06-28 04:58:51 +0000
 categories:
 - IPv6
 - ISP
@@ -192,7 +192,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS35982](https://stat.ripe.net/AS35982) | SherWeb inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=35982)
 [AS36068](https://stat.ripe.net/AS36068) | AppDirect | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36068)
 [AS36231](https://stat.ripe.net/AS36231) | MSD Informatique | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36231)
-[AS36255](https://stat.ripe.net/AS36255) | RIMQ | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36255)
+[AS36255](https://stat.ripe.net/AS36255) | RIMQ | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36255)
 [AS36354](https://stat.ripe.net/AS36354) | SherWeb inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36354)
 [AS36369](https://stat.ripe.net/AS36369) | Le Groupe Mediom Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36369)
 [AS36522](https://stat.ripe.net/AS36522) | BELL MOBILITY INC. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=36522)
@@ -271,6 +271,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS63134](https://stat.ripe.net/AS63134) | Developpement Innovations Haut-Richelieu | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63134)
 [AS63159](https://stat.ripe.net/AS63159) | 8429812 CANADA INC. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63159)
 [AS63176](https://stat.ripe.net/AS63176) | Acquisio | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63176)
+[AS63236](https://stat.ripe.net/AS63236) | TTEK | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63236)
 [AS63278](https://stat.ripe.net/AS63278) | Carillon Information Security Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63278)
 [AS63385](https://stat.ripe.net/AS63385) | Gouvernement du Quebec (Government of Quebec) | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63385)
 [AS63396](https://stat.ripe.net/AS63396) | 9013-6573 Quebec inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63396)
@@ -314,12 +315,12 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 ### Statistics
 
-* Total ASNS: 277
-* Active ASNs: 207 or 74.73%
-  * Dualstack IPv4+IPv6: 49 or 17.69%
-  * IPv6 Advertised: 49 or 17.69%
+* Total ASNS: 278
+* Active ASNs: 208 or 74.82%
+  * Dualstack IPv4+IPv6: 49 or 17.63%
+  * IPv6 Advertised: 49 or 17.63%
   * IPv6 only: 0 or 0.00%
-  * IPv4 only: 158 or 57.04%
+  * IPv4 only: 159 or 57.19%
 
 Graph showing the [growth of Quebec ASNs](/bgp/qc/asns/), using chart.js.
 
