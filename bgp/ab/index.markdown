@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Alberta, or are Alberta Companies."
-lastmodified: 2017-06-28 04:58:51 +0000
+lastmodified: 2017-07-05 23:35:01 +0000
 categories:
 - IPv6
 - ISP
@@ -199,9 +199,9 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS395097](https://stat.ripe.net/AS395097) | PACHEZ HOLDINGS LTD. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395097)
 [AS395156](https://stat.ripe.net/AS395156) | The King's University | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395156)
 [AS395205](https://stat.ripe.net/AS395205) | ENMAX | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395205)
-[AS395405](https://stat.ripe.net/AS395405) | OIlers Entertainment Group Limited | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395405)
+[AS395405](https://stat.ripe.net/AS395405) | OIlers Entertainment Group Limited | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395405)
 [AS395546](https://stat.ripe.net/AS395546) | Crossover Networks | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395546)
-[AS395559](https://stat.ripe.net/AS395559) | Arrow Group Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395559)
+[AS395559](https://stat.ripe.net/AS395559) | Arrow Group Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395559)
 [AS395600](https://stat.ripe.net/AS395600) | copyseis ltd. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395600)
 [AS395660](https://stat.ripe.net/AS395660) | The City of Edmonton | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395660)
 [AS395938](https://stat.ripe.net/AS395938) | Generic dot Business Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395938)
@@ -216,9 +216,9 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 178
-* Active ASNs: 128 or 71.91%
-  * Dualstack IPv4+IPv6: 20 or 11.24%
-  * IPv6 Advertised: 21 or 11.80%
+* Active ASNs: 127 or 71.35%
+  * Dualstack IPv4+IPv6: 19 or 10.67%
+  * IPv6 Advertised: 20 or 11.24%
   * IPv6 only: 1 or 0.56%
   * IPv4 only: 107 or 60.11%
 

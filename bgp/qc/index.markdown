@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Quebec, or are Quebec Companies."
-lastmodified: 2017-06-28 04:58:51 +0000
+lastmodified: 2017-07-05 23:35:01 +0000
 categories:
 - IPv6
 - ISP
@@ -109,7 +109,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS18499](https://stat.ripe.net/AS18499) | Cyber Generation Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18499)
 [AS18563](https://stat.ripe.net/AS18563) | CGI Group Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18563)
 [AS18637](https://stat.ripe.net/AS18637) | babyTEL Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18637)
-[AS18801](https://stat.ripe.net/AS18801) | NETBX TECHNOLOGIES INC. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18801)
+[AS18801](https://stat.ripe.net/AS18801) | NETBX TECHNOLOGIES INC. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18801)
 [AS18868](https://stat.ripe.net/AS18868) | Ormuco | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18868)
 [AS18875](https://stat.ripe.net/AS18875) | Questzone.Net, Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18875)
 [AS19086](https://stat.ripe.net/AS19086) | CGI Group Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19086)
@@ -121,7 +121,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS19515](https://stat.ripe.net/AS19515) | Oricom Internet | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19515)
 [AS19696](https://stat.ripe.net/AS19696) | Vodalink Telecom Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19696)
 [AS19700](https://stat.ripe.net/AS19700) | Industrielle Alliance Valeurs Mobilieres inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19700)
-[AS19743](https://stat.ripe.net/AS19743) | Wajam | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19743)
+[AS19743](https://stat.ripe.net/AS19743) | Wajam | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19743)
 [AS20221](https://stat.ripe.net/AS20221) | International Air Transport Association | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=20221)
 [AS20324](https://stat.ripe.net/AS20324) | Ormuco | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=20324)
 [AS21652](https://stat.ripe.net/AS21652) | Pratt & Whitney Canada Corp. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21652)
@@ -214,7 +214,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS40470](https://stat.ripe.net/AS40470) | Protected.CA Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40470)
 [AS40478](https://stat.ripe.net/AS40478) | MCJ CONSEIL | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40478)
 [AS40563](https://stat.ripe.net/AS40563) | iMetrik Solutions, Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40563)
-[AS40660](https://stat.ripe.net/AS40660) | Universite du Quebec a Trois-Rivieres | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40660)
+[AS40660](https://stat.ripe.net/AS40660) | Universite du Quebec a Trois-Rivieres | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40660)
 [AS40699](https://stat.ripe.net/AS40699) | iWeb Technologies Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40699)
 [AS40727](https://stat.ripe.net/AS40727) | TELENET Informatique Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40727)
 [AS40864](https://stat.ripe.net/AS40864) | Targo Communications Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=40864)
@@ -282,7 +282,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS393595](https://stat.ripe.net/AS393595) | IPvision | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=393595)
 [AS393879](https://stat.ripe.net/AS393879) | Objectif Lune Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=393879)
 [AS394232](https://stat.ripe.net/AS394232) | TelKel inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394232)
-[AS394277](https://stat.ripe.net/AS394277) | Astral internet Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394277)
+[AS394277](https://stat.ripe.net/AS394277) | Astral internet Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394277)
 [AS394332](https://stat.ripe.net/AS394332) | Aldo Group Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394332)
 [AS394357](https://stat.ripe.net/AS394357) | CAA Quebec | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394357)
 [AS394799](https://stat.ripe.net/AS394799) | Mohawk Internet Technologies | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394799)
@@ -316,11 +316,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 ### Statistics
 
 * Total ASNS: 278
-* Active ASNs: 208 or 74.82%
-  * Dualstack IPv4+IPv6: 49 or 17.63%
-  * IPv6 Advertised: 49 or 17.63%
+* Active ASNs: 207 or 74.46%
+  * Dualstack IPv4+IPv6: 50 or 17.99%
+  * IPv6 Advertised: 50 or 17.99%
   * IPv6 only: 0 or 0.00%
-  * IPv4 only: 159 or 57.19%
+  * IPv4 only: 157 or 56.47%
 
 Graph showing the [growth of Quebec ASNs](/bgp/qc/asns/), using chart.js.
 

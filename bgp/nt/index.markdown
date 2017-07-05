@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Northwest Territories, or are Northwest Territories Companies."
-lastmodified: 2017-06-07 14:52:25 +0000
+lastmodified: 2017-07-05 23:35:01 +0000
 categories:
 - IPv6
 - ISP
