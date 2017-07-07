@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Quebec, or are Quebec Companies."
-lastmodified: 2017-07-05 23:35:01 +0000
+lastmodified: 2017-07-07 19:56:29 +0000
 categories:
 - IPv6
 - ISP
@@ -312,15 +312,16 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS396338](https://stat.ripe.net/AS396338) | Altima Telecom | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396338)
 [AS396363](https://stat.ripe.net/AS396363) | Altima Telecom | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396363)
 [AS396406](https://stat.ripe.net/AS396406) | Mevasys Solutions Inc | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396406)
+[AS396516](https://stat.ripe.net/AS396516) | Surete du Quebec | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396516)
 
 ### Statistics
 
-* Total ASNS: 278
-* Active ASNs: 207 or 74.46%
-  * Dualstack IPv4+IPv6: 50 or 17.99%
-  * IPv6 Advertised: 50 or 17.99%
+* Total ASNS: 279
+* Active ASNs: 207 or 74.19%
+  * Dualstack IPv4+IPv6: 50 or 17.92%
+  * IPv6 Advertised: 50 or 17.92%
   * IPv6 only: 0 or 0.00%
-  * IPv4 only: 157 or 56.47%
+  * IPv4 only: 157 or 56.27%
 
 Graph showing the [growth of Quebec ASNs](/bgp/qc/asns/), using chart.js.
 
