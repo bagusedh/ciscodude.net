@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Manitoba, or are Manitoba Companies."
-lastmodified: 2017-07-05 23:35:01 +0000
+lastmodified: 2017-07-14 15:41:21 +0000
 categories:
 - IPv6
 - ISP
@@ -95,6 +95,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS393733](https://stat.ripe.net/AS393733) | Oxygen Technical Services Ltd | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=393733)
 [AS393927](https://stat.ripe.net/AS393927) | VOI NET INC. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=393927)
 [AS393987](https://stat.ripe.net/AS393987) | Brandon University | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=393987)
+[AS394081](https://stat.ripe.net/AS394081) | Rionet Wireless Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394081)
 [AS394091](https://stat.ripe.net/AS394091) | Canada Drugs | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394091)
 [AS394097](https://stat.ripe.net/AS394097) | Canad Corporation of Manitoba Limited | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394097)
 [AS394255](https://stat.ripe.net/AS394255) | MTS Data Centres Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394255)
@@ -118,12 +119,12 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 ### Statistics
 
-* Total ASNS: 81
-* Active ASNs: 64 or 79.01%
-  * Dualstack IPv4+IPv6: 24 or 29.63%
-  * IPv6 Advertised: 24 or 29.63%
+* Total ASNS: 82
+* Active ASNs: 64 or 78.05%
+  * Dualstack IPv4+IPv6: 24 or 29.27%
+  * IPv6 Advertised: 24 or 29.27%
   * IPv6 only: 0 or 0.00%
-  * IPv4 only: 40 or 49.38%
+  * IPv4 only: 40 or 48.78%
 
 Graph showing the [growth of Manitoba ASNs](/bgp/mb/asns/), using chart.js.
 
