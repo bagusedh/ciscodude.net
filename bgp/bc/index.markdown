@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in British Columbia, or are British Columbia Companies."
-lastmodified: 2017-07-14 15:40:12 +0000
+lastmodified: 2017-07-17 03:26:18 +0000
 categories:
 - IPv6
 - ISP
@@ -91,6 +91,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS18686](https://stat.ripe.net/AS18686) | INCOGNITO SOFTWARE INC. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18686)
 [AS18988](https://stat.ripe.net/AS18988) | City West Cable & Telephone Corp. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18988)
 [AS19062](https://stat.ripe.net/AS19062) | W3 International Media Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19062)
+[AS19120](https://stat.ripe.net/AS19120) | Infocube Technology Limited | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19120)
 [AS19171](https://stat.ripe.net/AS19171) | Stargate Connections Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19171)
 [AS19190](https://stat.ripe.net/AS19190) | TELUS Communications Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19190)
 [AS19202](https://stat.ripe.net/AS19202) | Backbone Data Vault Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19202)
@@ -238,12 +239,12 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 ### Statistics
 
-* Total ASNS: 201
-* Active ASNs: 143 or 71.14%
-  * Dualstack IPv4+IPv6: 41 or 20.40%
-  * IPv6 Advertised: 43 or 21.39%
-  * IPv6 only: 2 or 1.00%
-  * IPv4 only: 100 or 49.75%
+* Total ASNS: 202
+* Active ASNs: 143 or 70.79%
+  * Dualstack IPv4+IPv6: 41 or 20.30%
+  * IPv6 Advertised: 43 or 21.29%
+  * IPv6 only: 2 or 0.99%
+  * IPv4 only: 100 or 49.50%
 
 Graph showing the [growth of British Columbia ASNs](/bgp/bc/asns/), using chart.js.
 
