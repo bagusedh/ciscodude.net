@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Quebec, or are Quebec Companies."
-lastmodified: 2017-07-07 19:56:29 +0000
+lastmodified: 2017-07-28 17:59:36 +0000
 categories:
 - IPv6
 - ISP
@@ -88,7 +88,6 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS14102](https://stat.ripe.net/AS14102) | Transvision Reseau Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14102)
 [AS14112](https://stat.ripe.net/AS14112) | SecureNet Information Services | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14112)
 [AS14304](https://stat.ripe.net/AS14304) | Intertrade Systems Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14304)
-[AS14537](https://stat.ripe.net/AS14537) | Mohawk Internet Technologies | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14537)
 [AS14659](https://stat.ripe.net/AS14659) | ZiD Internet | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14659)
 [AS14720](https://stat.ripe.net/AS14720) | Gamma Networking Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14720)
 [AS14811](https://stat.ripe.net/AS14811) | CGI Group Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14811)
@@ -264,7 +263,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS55275](https://stat.ripe.net/AS55275) | Canfone.com Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=55275)
 [AS62497](https://stat.ripe.net/AS62497) | Societe des alcools du Quebec | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62497)
 [AS62577](https://stat.ripe.net/AS62577) | NEXUCOM | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62577)
-[AS62840](https://stat.ripe.net/AS62840) | Fute Media Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62840)
+[AS62840](https://stat.ripe.net/AS62840) | Fute Media Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62840)
 [AS62875](https://stat.ripe.net/AS62875) | Meade Willis, Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=62875)
 [AS63003](https://stat.ripe.net/AS63003) | Infra-Solutions inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63003)
 [AS63076](https://stat.ripe.net/AS63076) | Commission scolaire des premieres seigneuries | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=63076)
@@ -316,12 +315,12 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 ### Statistics
 
-* Total ASNS: 279
-* Active ASNs: 207 or 74.19%
-  * Dualstack IPv4+IPv6: 50 or 17.92%
-  * IPv6 Advertised: 50 or 17.92%
+* Total ASNS: 278
+* Active ASNs: 206 or 74.10%
+  * Dualstack IPv4+IPv6: 50 or 17.99%
+  * IPv6 Advertised: 50 or 17.99%
   * IPv6 only: 0 or 0.00%
-  * IPv4 only: 157 or 56.27%
+  * IPv4 only: 156 or 56.12%
 
 Graph showing the [growth of Quebec ASNs](/bgp/qc/asns/), using chart.js.
 

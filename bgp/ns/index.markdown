@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Nova Scotia, or are Nova Scotia Companies."
-lastmodified: 2017-07-05 23:35:01 +0000
+lastmodified: 2017-07-28 17:59:36 +0000
 categories:
 - IPv6
 - ISP
@@ -63,7 +63,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS47027](https://stat.ripe.net/AS47027) | Seaside Communications, Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=47027)
 [AS54254](https://stat.ripe.net/AS54254) | AG Research | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=54254)
 [AS393907](https://stat.ripe.net/AS393907) | Cape Breton University | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=393907)
-[AS394015](https://stat.ripe.net/AS394015) | Mikmaw Kinamatnewey | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394015)
+[AS394015](https://stat.ripe.net/AS394015) | Mikmaw Kinamatnewey | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394015)
 [AS394430](https://stat.ripe.net/AS394430) | Nova Scotia Community College | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=394430)
 [AS395787](https://stat.ripe.net/AS395787) | Walcam Communications Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=395787)
 
@@ -71,10 +71,10 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 * Total ASNS: 32
 * Active ASNs: 22 or 68.75%
-  * Dualstack IPv4+IPv6: 11 or 34.38%
-  * IPv6 Advertised: 11 or 34.38%
+  * Dualstack IPv4+IPv6: 12 or 37.50%
+  * IPv6 Advertised: 12 or 37.50%
   * IPv6 only: 0 or 0.00%
-  * IPv4 only: 11 or 34.38%
+  * IPv4 only: 10 or 31.25%
 
 Graph showing the [growth of Nova Scotia ASNs](/bgp/ns/asns/), using chart.js.
 

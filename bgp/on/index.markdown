@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Ontario, or are Ontario Companies."
-lastmodified: 2017-07-14 15:41:53 +0000
+lastmodified: 2017-07-28 17:59:36 +0000
 categories:
 - IPv6
 - ISP
@@ -200,6 +200,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS11727](https://stat.ripe.net/AS11727) | Bruce Telecom | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=11727)
 [AS11814](https://stat.ripe.net/AS11814) | DISTRIBUTEL COMMUNICATIONS LTD. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=11814)
 [AS11851](https://stat.ripe.net/AS11851) | The Michener Institute for Applied Health Sciences | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=11851)
+[AS11864](https://stat.ripe.net/AS11864) | BlackBerry Limited | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=11864)
 [AS12010](https://stat.ripe.net/AS12010) | International Financial Data Services (Canada) Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=12010)
 [AS12021](https://stat.ripe.net/AS12021) | Rogers Communications Canada Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=12021)
 [AS12041](https://stat.ripe.net/AS12041) | Afilias Canada, Corp. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=12041)
@@ -236,6 +237,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS13948](https://stat.ripe.net/AS13948) | Linamar Corporation | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=13948)
 [AS14008](https://stat.ripe.net/AS14008) | Kincardine Cable Tv Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14008)
 [AS14066](https://stat.ripe.net/AS14066) | Telmetrics Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14066)
+[AS14078](https://stat.ripe.net/AS14078) | Voicenetpulse Telecom Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14078)
 [AS14114](https://stat.ripe.net/AS14114) | Camilion Solutions | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14114)
 [AS14152](https://stat.ripe.net/AS14152) | Netpulse Services | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14152)
 [AS14166](https://stat.ripe.net/AS14166) | Softcom Technology Consulting Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=14166)
@@ -309,10 +311,11 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS18688](https://stat.ripe.net/AS18688) | Infinite Potential Group | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18688)
 [AS18705](https://stat.ripe.net/AS18705) | BlackBerry Limited | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18705)
 [AS18721](https://stat.ripe.net/AS18721) | ACD/Labs | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18721)
+[AS18887](https://stat.ripe.net/AS18887) | BlackBerry Limited | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18887)
 [AS18986](https://stat.ripe.net/AS18986) | Pacific Online Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18986)
 [AS18987](https://stat.ripe.net/AS18987) | Global MDM Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18987)
 [AS18997](https://stat.ripe.net/AS18997) | RU | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=18997)
-[AS19005](https://stat.ripe.net/AS19005) | SMTP, Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19005)
+[AS19005](https://stat.ripe.net/AS19005) | SMTP, Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19005)
 [AS19052](https://stat.ripe.net/AS19052) | Cobourg Networks Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19052)
 [AS19117](https://stat.ripe.net/AS19117) | Heavy Computing | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19117)
 [AS19167](https://stat.ripe.net/AS19167) | Muskoka.com | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=19167)
@@ -365,12 +368,14 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS21775](https://stat.ripe.net/AS21775) | Afilias Canada, Corp. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21775)
 [AS21813](https://stat.ripe.net/AS21813) | Trillium Health Partners | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21813)
 [AS21834](https://stat.ripe.net/AS21834) | Desire2Learn Incorporated | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21834)
+[AS21855](https://stat.ripe.net/AS21855) | BlackBerry Limited | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21855)
 [AS21867](https://stat.ripe.net/AS21867) | DealerTrack Canada Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21867)
 [AS21920](https://stat.ripe.net/AS21920) | Emergis Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21920)
 [AS21936](https://stat.ripe.net/AS21936) | DISTRIBUTEL COMMUNICATIONS LTD. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21936)
 [AS21949](https://stat.ripe.net/AS21949) | Beanfield Technologies Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21949)
 [AS21992](https://stat.ripe.net/AS21992) | eHealth Ontario | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=21992)
 [AS22060](https://stat.ripe.net/AS22060) | Netspectrum Wireless Internet Solutions | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22060)
+[AS22376](https://stat.ripe.net/AS22376) | BlackBerry Limited | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22376)
 [AS22491](https://stat.ripe.net/AS22491) | The Travel Corporation (Canada) Ltd. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22491)
 [AS22532](https://stat.ripe.net/AS22532) | SHORCAN BROKERS LIMITED | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22532)
 [AS22533](https://stat.ripe.net/AS22533) | Inquiry Management Systems | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=22533)
@@ -415,6 +420,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS26281](https://stat.ripe.net/AS26281) | BlackBerry Limited | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26281)
 [AS26288](https://stat.ripe.net/AS26288) | Keewaytinook Okimakanak | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26288)
 [AS26321](https://stat.ripe.net/AS26321) | The Toronto Stock Exchange | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26321)
+[AS26354](https://stat.ripe.net/AS26354) | BlackBerry Limited | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26354)
 [AS26416](https://stat.ripe.net/AS26416) | OCAS Application Services Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26416)
 [AS26499](https://stat.ripe.net/AS26499) | MOMENTOUS.CA Corporation | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26499)
 [AS26531](https://stat.ripe.net/AS26531) | NEXUSDS.COM | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=26531)
@@ -483,6 +489,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS31926](https://stat.ripe.net/AS31926) | Gold Line Telemanagement,  Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=31926)
 [AS31983](https://stat.ripe.net/AS31983) | Queen's University | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=31983)
 [AS32006](https://stat.ripe.net/AS32006) | Hudson's Bay Company | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32006)
+[AS32026](https://stat.ripe.net/AS32026) | BlackBerry Limited | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32026)
 [AS32095](https://stat.ripe.net/AS32095) | ETS.net Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32095)
 [AS32100](https://stat.ripe.net/AS32100) | Metro Loop | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32100)
 [AS32156](https://stat.ripe.net/AS32156) | Humber College | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=32156)
@@ -843,17 +850,17 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS396477](https://stat.ripe.net/AS396477) | DNSnetworks Corporation | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396477)
 [AS396486](https://stat.ripe.net/AS396486) | Conseil scolaire de district catholique du Centre-Est de l'Ontario | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396486)
 [AS396501](https://stat.ripe.net/AS396501) | CIRA Canadian Internet Registration Authority<br> Autorit Canadienne pour les enregistrements Internet | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396501)
-[AS396510](https://stat.ripe.net/AS396510) | Plextec Inc | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396510)
+[AS396510](https://stat.ripe.net/AS396510) | Plextec Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396510)
 [AS396521](https://stat.ripe.net/AS396521) | Digicloud Solutions Corporation | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=396521)
 
 ### Statistics
 
-* Total ASNS: 811
-* Active ASNs: 556 or 68.56%
-  * Dualstack IPv4+IPv6: 146 or 18.00%
-  * IPv6 Advertised: 150 or 18.50%
+* Total ASNS: 818
+* Active ASNs: 561 or 68.58%
+  * Dualstack IPv4+IPv6: 146 or 17.85%
+  * IPv6 Advertised: 150 or 18.34%
   * IPv6 only: 4 or 0.49%
-  * IPv4 only: 406 or 50.06%
+  * IPv4 only: 411 or 50.24%
 
 Graph showing the [growth of Ontario ASNs](/bgp/on/asns/), using chart.js.
 
