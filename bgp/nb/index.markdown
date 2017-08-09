@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in New Brunswick, or are New Brunswick Companies."
-lastmodified: 2017-07-05 23:35:01 +0000
+lastmodified: 2017-08-09 00:04:25 +0000
 categories:
 - IPv6
 - ISP
@@ -37,6 +37,7 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS855](https://stat.ripe.net/AS855) | Bell Aliant Regional Communications, Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=855)
 [AS856](https://stat.ripe.net/AS856) | University of New Brunswick | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=856)
 [AS3367](https://stat.ripe.net/AS3367) | F6 Networks Inc | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=3367)
+[AS5041](https://stat.ripe.net/AS5041) | cloudKleyer Canada Corp. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=5041)
 [AS6219](https://stat.ripe.net/AS6219) | University of New Brunswick | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=6219)
 [AS6608](https://stat.ripe.net/AS6608) | Bell Aliant Regional Communications, Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=6608)
 [AS8187](https://stat.ripe.net/AS8187) | Bell Aliant Regional Communications, Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=8187)
@@ -65,12 +66,12 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 ### Statistics
 
-* Total ASNS: 28
-* Active ASNs: 21 or 75.00%
-  * Dualstack IPv4+IPv6: 6 or 21.43%
-  * IPv6 Advertised: 7 or 25.00%
-  * IPv6 only: 1 or 3.57%
-  * IPv4 only: 14 or 50.00%
+* Total ASNS: 29
+* Active ASNs: 21 or 72.41%
+  * Dualstack IPv4+IPv6: 6 or 20.69%
+  * IPv6 Advertised: 7 or 24.14%
+  * IPv6 only: 1 or 3.45%
+  * IPv4 only: 14 or 48.28%
 
 Graph showing the [growth of New Brunswick ASNs](/bgp/nb/asns/), using chart.js.
 

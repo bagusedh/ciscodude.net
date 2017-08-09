@@ -5,7 +5,7 @@ comments: false
 sharing: true
 footer: false
 description: "Current status today for all ASNs I could find that operate in Alberta, or are Alberta Companies."
-lastmodified: 2017-07-14 15:39:47 +0000
+lastmodified: 2017-08-09 00:04:25 +0000
 categories:
 - IPv6
 - ISP
@@ -48,13 +48,14 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 [AS6327](https://stat.ripe.net/AS6327) | Shaw Communications Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=6327)
 [AS6638](https://stat.ripe.net/AS6638) | OA Internet Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=6638)
 [AS7826](https://stat.ripe.net/AS7826) | Canada Connect Corp. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=7826)
-[AS7878](https://stat.ripe.net/AS7878) | Telnet Canada Enterprises, Ltd. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=7878)
+[AS7878](https://stat.ripe.net/AS7878) | Telnet Canada Enterprises, Ltd. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=7878)
 [AS8165](https://stat.ripe.net/AS8165) | DataBoss Inc | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=8165)
 [AS10360](https://stat.ripe.net/AS10360) | Software Alberta Society | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=10360)
 [AS10482](https://stat.ripe.net/AS10482) | Shaw Communications Inc. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=10482)
 [AS11033](https://stat.ripe.net/AS11033) | LYNXNET.CA | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=11033)
 [AS11234](https://stat.ripe.net/AS11234) | Hyduke Energy Services Inc. | {% img /static/blog-img/v4.png %} {% img /static/blog-img/v6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=11234)
 [AS11257](https://stat.ripe.net/AS11257) | University of Lethbridge | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=11257)
+[AS11507](https://stat.ripe.net/AS11507) | Medicine Hat College | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=11507)
 [AS11510](https://stat.ripe.net/AS11510) | Tridon Communications | {% img /static/blog-img/v4.png %} {% img /static/blog-img/nov6.png %} | Active | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=11510)
 [AS11718](https://stat.ripe.net/AS11718) | DESIGN GROUP STAFFING INC. | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=11718)
 [AS13594](https://stat.ripe.net/AS13594) | Microtek Corporation | {% img /static/blog-img/nov4.png %} {% img /static/blog-img/nov6.png %} | Inactive | [LG](http://lg.hextet.net/cgi-bin/bgplg?cmd=show+ip+bgp+source-as&req=13594)
@@ -216,12 +217,12 @@ ASN | Name | v4 / v6 | BGP | BGP LG
 
 ### Statistics
 
-* Total ASNS: 179
-* Active ASNs: 128 or 71.51%
-  * Dualstack IPv4+IPv6: 19 or 10.61%
-  * IPv6 Advertised: 20 or 11.17%
-  * IPv6 only: 1 or 0.56%
-  * IPv4 only: 108 or 60.34%
+* Total ASNS: 180
+* Active ASNs: 129 or 71.67%
+  * Dualstack IPv4+IPv6: 19 or 10.56%
+  * IPv6 Advertised: 21 or 11.67%
+  * IPv6 only: 2 or 1.11%
+  * IPv4 only: 108 or 60.00%
 
 Graph showing the [growth of Alberta ASNs](/bgp/ab/asns/), using chart.js.
 
